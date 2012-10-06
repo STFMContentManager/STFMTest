@@ -1,0 +1,446 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B19F49A9-CD28-405F-88CE-11EDC4DB84E8}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>STFMPlatformTransition</RootNamespace>
+    <AssemblyName>STFMPlatformTransition</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="FreeTextBox, Version=3.3.1.16233, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\build\control\Framework-4-0\FreeTextBox.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Application\Advocacy\AdvocacyContact\Default.aspx" />
+    <Content Include="Application\Foundation\FoundationDonate\FoundationDonate1.aspx" />
+    <Content Include="Application\Foundation\FoundationDonate\FoundationDonate2.aspx" />
+    <Content Include="Application\Foundation\FoundationDonate\FoundationDonate3.aspx" />
+    <Content Include="Application\Foundation\FoundationDonate\FoundationDonate4.aspx" />
+    <Content Include="Application\Foundation\FoundationDonate\FoundationDonate5.aspx" />
+    <Content Include="Application\UserAccount\PasswordChange\PasswordChange.aspx" />
+    <Content Include="Application\UserAccount\PasswordFind\PasswordRecover.aspx" />
+    <Content Include="Application\UserAccount\UpdateAcct\AcctUpdateAddress.aspx" />
+    <Content Include="Application\UserAccount\UpdateAcct\AcctUpdatePersonal.aspx" />
+    <Content Include="Application\UserAccount\UpdateAcct\AcctUpdateStart.aspx" />
+    <Content Include="Controls\CustomTemplate.ascx" />
+    <Content Include="Controls\MemberDirectorySearch.ascx" />
+    <Content Include="MemberDirectorySearch.aspx" />
+    <Content Include="NewCreateAccount.aspx" />
+    <Content Include="Custom\CustomTemplate.aspx" />
+    <Content Include="Default.aspx" />
+    <Content Include="FacultyScholarshipApplication.aspx" />
+    <Content Include="Images\BlueDot.gif" />
+    <Content Include="NewSiteFiles\CreateAccount.html" />
+    <Content Include="PageUnavailable.aspx" />
+    <Content Include="Content\ftb.imagegallery.aspx" />
+    <Content Include="Images\WebSiteSections.jpg" />
+    <Content Include="Controls\OneColumnTemplate.ascx" />
+    <Content Include="ProcessFMCCApplication.aspx" />
+    <Content Include="STFMAccts\JoinPage3.aspx" />
+    <Content Include="STFMAccts\MainPage.aspx" />
+    <Content Include="STFMAccts\STFM Account Manager 3.csproj" />
+    <Content Include="STFMAccts\STFM Account Manager 3.csproj.user" />
+    <Content Include="STFMAccts\STFMAcct1.aspx" />
+    <Content Include="STFMAccts\STFMAcct2.aspx" />
+    <Content Include="STFMAccts\STFMAcct3.aspx" />
+    <Content Include="STFMAccts\STFMAcct4.aspx" />
+    <Content Include="STFMAccts\STFMJoin1.aspx" />
+    <Content Include="STFMAccts\STFMJoin2.aspx" />
+    <Content Include="STFMAccts\Styles\AcctCreate.css" />
+    <Content Include="Templates\OneColumnTemplate.aspx" />
+    <Content Include="SearchResults.aspx" />
+    <Content Include="Site.Master" />
+    <Content Include="Controls\TwoColumnTemplate.ascx" />
+    <Content Include="Templates\TwoColumnTemplate.aspx" />
+    <Content Include="Vulcan\Forge.aspx" />
+    <Content Include="Images\Blue_gradient.gif" />
+    <Content Include="Images\Blue_gradientgreybar.gif" />
+    <Content Include="Images\grey_gradient.gif" />
+    <Content Include="Images\Hephaestus.jpg" />
+    <Content Include="Images\HephaestusForge.jpg" />
+    <Content Include="Images\middleimage1.jpg" />
+    <Content Include="Images\middleimage2.jpg" />
+    <Content Include="Images\middleimage3.jpg" />
+    <Content Include="Images\middleimage4.jpg" />
+    <Content Include="Images\STFM_weblogo2012.jpg" />
+    <Content Include="Images\StockPhoto1.jpg" />
+    <Content Include="Images\StockPhoto2.jpg" />
+    <Content Include="Images\StockPhoto3.jpg" />
+    <Content Include="Images\StockPhoto4.jpg" />
+    <Content Include="Images\StockPhoto5.jpg" />
+    <Content Include="Global.asax" />
+    <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.4.1.js" />
+    <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="Controls\ThreeColumnTemplate.ascx" />
+    <Content Include="Templates\ThreeColumnTemplate.aspx" />
+    <Content Include="Vulcan\Default.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AccountValidator.cs" />
+    <Compile Include="Application\Advocacy\AdvocacyContact\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Application\Advocacy\AdvocacyContact\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Application\Foundation\FoundationDonate\FoundationDonate1.aspx.cs">
+      <DependentUpon>FoundationDonate1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Application\Foundation\FoundationDonate\FoundationDonate1.aspx.designer.cs">
+      <DependentUpon>FoundationDonate1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Application\Foundation\FoundationDonate\FoundationDonate2.aspx.cs">
+      <DependentUpon>FoundationDonate2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Application\Foundation\FoundationDonate\FoundationDonate2.aspx.designer.cs">
+      <DependentUpon>FoundationDonate2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Application\Foundation\FoundationDonate\FoundationDonate3.aspx.cs">
+      <DependentUpon>FoundationDonate3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Application\Foundation\FoundationDonate\FoundationDonate3.aspx.designer.cs">
+      <DependentUpon>FoundationDonate3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Application\Foundation\FoundationDonate\FoundationDonate4.aspx.cs">
+      <DependentUpon>FoundationDonate4.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Application\Foundation\FoundationDonate\FoundationDonate4.aspx.designer.cs">
+      <DependentUpon>FoundationDonate4.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Application\Foundation\FoundationDonate\FoundationDonate5.aspx.cs">
+      <DependentUpon>FoundationDonate5.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Application\Foundation\FoundationDonate\FoundationDonate5.aspx.designer.cs">
+      <DependentUpon>FoundationDonate5.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Application\Foundation\FoundationDonate\FoundationProduct.cs" />
+    <Compile Include="Application\Foundation\FoundationDonate\meminfo.cs" />
+    <Compile Include="Application\Foundation\FoundationDonate\Navigate.cs" />
+    <Compile Include="Application\Foundation\FoundationDonate\STFMAcctData.cs" />
+    <Compile Include="Application\Foundation\FoundationDonate\STFMAcctValidator.cs" />
+    <Compile Include="Application\UserAccount\PasswordChange\PasswordChange.aspx.cs">
+      <DependentUpon>PasswordChange.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Application\UserAccount\PasswordChange\PasswordChange.aspx.designer.cs">
+      <DependentUpon>PasswordChange.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Application\UserAccount\PasswordFind\PasswordRecover.aspx.cs">
+      <DependentUpon>PasswordRecover.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Application\UserAccount\PasswordFind\PasswordRecover.aspx.designer.cs">
+      <DependentUpon>PasswordRecover.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Application\UserAccount\UpdateAcct\AcctUpdateAddress.aspx.cs">
+      <DependentUpon>AcctUpdateAddress.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Application\UserAccount\UpdateAcct\AcctUpdateAddress.aspx.designer.cs">
+      <DependentUpon>AcctUpdateAddress.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Application\UserAccount\UpdateAcct\AcctUpdatePersonal.aspx.cs">
+      <DependentUpon>AcctUpdatePersonal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Application\UserAccount\UpdateAcct\AcctUpdatePersonal.aspx.designer.cs">
+      <DependentUpon>AcctUpdatePersonal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Application\UserAccount\UpdateAcct\AcctUpdateStart.aspx.cs">
+      <DependentUpon>AcctUpdateStart.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Application\UserAccount\UpdateAcct\AcctUpdateStart.aspx.designer.cs">
+      <DependentUpon>AcctUpdateStart.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Application\UserAccount\UpdateAcct\meminfo.cs" />
+    <Compile Include="Application\UserAccount\UpdateAcct\STFMAcctData.cs" />
+    <Compile Include="Application\UserAccount\UpdateAcct\STFMAcctValidator.cs" />
+    <Compile Include="Controls\CustomTemplate.ascx.cs">
+      <DependentUpon>CustomTemplate.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\CustomTemplate.ascx.designer.cs">
+      <DependentUpon>CustomTemplate.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\MemberDirectorySearch.ascx.cs">
+      <DependentUpon>MemberDirectorySearch.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\MemberDirectorySearch.ascx.designer.cs">
+      <DependentUpon>MemberDirectorySearch.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\OneColumnTemplate.ascx.cs">
+      <DependentUpon>OneColumnTemplate.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\OneColumnTemplate.ascx.designer.cs">
+      <DependentUpon>OneColumnTemplate.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="MemberDirectorySearch.aspx.cs">
+      <DependentUpon>MemberDirectorySearch.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MemberDirectorySearch.aspx.designer.cs">
+      <DependentUpon>MemberDirectorySearch.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NewCreateAccount.aspx.cs">
+      <DependentUpon>NewCreateAccount.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NewCreateAccount.aspx.designer.cs">
+      <DependentUpon>NewCreateAccount.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Custom\CustomTemplate.aspx.cs">
+      <DependentUpon>CustomTemplate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Custom\CustomTemplate.aspx.designer.cs">
+      <DependentUpon>CustomTemplate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FacultyScholarshipApplication.aspx.cs">
+      <DependentUpon>FacultyScholarshipApplication.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FacultyScholarshipApplication.aspx.designer.cs">
+      <DependentUpon>FacultyScholarshipApplication.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="memberinfo.cs" />
+    <Compile Include="PageUnavailable.aspx.cs">
+      <DependentUpon>PageUnavailable.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PageUnavailable.aspx.designer.cs">
+      <DependentUpon>PageUnavailable.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ProcessFMCCApplication.aspx.cs">
+      <DependentUpon>ProcessFMCCApplication.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ProcessFMCCApplication.aspx.designer.cs">
+      <DependentUpon>ProcessFMCCApplication.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="STFMAccts\JoinPage3.aspx.cs">
+      <DependentUpon>JoinPage3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="STFMAccts\JoinPage3.aspx.designer.cs">
+      <DependentUpon>JoinPage3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="STFMAccts\MainPage.aspx.cs">
+      <DependentUpon>MainPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="STFMAccts\MainPage.aspx.designer.cs">
+      <DependentUpon>MainPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="STFMAccts\meminfo.cs" />
+    <Compile Include="STFMAccts\Navigate.cs" />
+    <Compile Include="STFMAccts\STFMAcct1.aspx.cs">
+      <DependentUpon>STFMAcct1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="STFMAccts\STFMAcct1.aspx.designer.cs">
+      <DependentUpon>STFMAcct1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="STFMAccts\STFMAcct2.aspx.cs">
+      <DependentUpon>STFMAcct2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="STFMAccts\STFMAcct2.aspx.designer.cs">
+      <DependentUpon>STFMAcct2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="STFMAccts\STFMAcct3.aspx.cs">
+      <DependentUpon>STFMAcct3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="STFMAccts\STFMAcct3.aspx.designer.cs">
+      <DependentUpon>STFMAcct3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="STFMAccts\STFMAcct4.aspx.cs">
+      <DependentUpon>STFMAcct4.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="STFMAccts\STFMAcct4.aspx.designer.cs">
+      <DependentUpon>STFMAcct4.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="STFMAccts\STFMAcctData.cs" />
+    <Compile Include="STFMAccts\STFMAcctValidator.cs" />
+    <Compile Include="STFMAccts\STFMJoin1.aspx.cs">
+      <DependentUpon>STFMJoin1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="STFMAccts\STFMJoin1.aspx.designer.cs">
+      <DependentUpon>STFMJoin1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="STFMAccts\STFMJoin2.aspx.cs">
+      <DependentUpon>STFMJoin2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="STFMAccts\STFMJoin2.aspx.designer.cs">
+      <DependentUpon>STFMJoin2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Templates\OneColumnTemplate.aspx.cs">
+      <DependentUpon>OneColumnTemplate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Templates\OneColumnTemplate.aspx.designer.cs">
+      <DependentUpon>OneColumnTemplate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SearchResults.aspx.cs">
+      <DependentUpon>SearchResults.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SearchResults.aspx.designer.cs">
+      <DependentUpon>SearchResults.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site.Master.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.Master.designer.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\TwoColumnTemplate.ascx.cs">
+      <DependentUpon>TwoColumnTemplate.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\TwoColumnTemplate.ascx.designer.cs">
+      <DependentUpon>TwoColumnTemplate.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Templates\TwoColumnTemplate.aspx.cs">
+      <DependentUpon>TwoColumnTemplate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Templates\TwoColumnTemplate.aspx.designer.cs">
+      <DependentUpon>TwoColumnTemplate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App_Data\CMSWork.cs" />
+    <Compile Include="Vulcan\Forge.aspx.cs">
+      <DependentUpon>Forge.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Vulcan\Forge.aspx.designer.cs">
+      <DependentUpon>Forge.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Controls\ThreeColumnTemplate.ascx.cs">
+      <DependentUpon>ThreeColumnTemplate.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\ThreeColumnTemplate.ascx.designer.cs">
+      <DependentUpon>ThreeColumnTemplate.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Templates\ThreeColumnTemplate.aspx.cs">
+      <DependentUpon>ThreeColumnTemplate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Templates\ThreeColumnTemplate.aspx.designer.cs">
+      <DependentUpon>ThreeColumnTemplate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Vulcan\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Vulcan\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Application\UserAccount\Login\" />
+    <Folder Include="Content\About Us\" />
+    <Folder Include="LogFiles\" />
+    <Folder Include="NewSiteImages\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>63559</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

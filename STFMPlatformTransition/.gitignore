@@ -1,0 +1,11 @@
+/bin/
+/Content/
+/Documents/
+/FMCCApplicationDocuments/
+/Images/
+/LogFiles/
+/NewSiteImages/
+/obj/
+/Properties/
+/*.log
+/*.config
