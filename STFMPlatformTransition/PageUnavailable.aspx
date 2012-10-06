@@ -9,7 +9,7 @@
 <body>
     <form id="form1" runat="server">
     <div style="color:Red; font-size:18px">
-    Sorry - the page you are looking for is not available or is not in the CMS.
+    Sorry - the page you are looking for is not available.
     </div>
     </form>
 </body>
