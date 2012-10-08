@@ -155,7 +155,7 @@
 
     <br />
 
-    <asp:LinkButton runat="server" ID="lbackbutton" Text="Back" OnClick="clkbackbtn"/>
+    <asp:LinkButton runat="server" ID="lbackbutton" Text="Back" OnClick="clkbackbtn"/>&nbsp;
     
     <asp:LinkButton runat="server" ID="lnextbutton" Text="Next" OnClick="clknextbtn"/>
 
