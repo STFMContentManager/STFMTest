@@ -77,7 +77,7 @@ ul
     margin-top : 0px;
 }
 .SectionBackground {
-    background-image:url('../images/Blue_gradientgreybar_cropped.gif'); 
+    background-image:url('http://deepcleansing.ionpg.com/images/Blue_gradientgreybar_cropped.gif'); 
     height:35px;
  }	
 .CenterTextAlignTop {
