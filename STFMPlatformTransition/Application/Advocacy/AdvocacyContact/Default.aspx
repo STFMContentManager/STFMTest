@@ -133,6 +133,7 @@ Information marked with a red * is required. After completing the form click on 
 
     <br />
 
+    <!--What happens when the submit button is clicked?-->
     <asp:LinkButton runat="server" ID="btnsubmit" Text="Submit" OnClick="SubmitForm"></asp:LinkButton>
     
     </div>
