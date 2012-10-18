@@ -65,23 +65,47 @@ namespace STFMPlatformTransition.Controls
 
 
                 DateTime pubdate = new DateTime(Convert.ToInt16(tbyear.Text), Convert.ToInt16(MonthDDL.SelectedValue), 1);
+
+                string pdfdir = pubdate.Year + "v" + tbvolume.Text + "no" + tbissue.Text;                
+                string IssDir = Server.MapPath("") + "\\FMPDFs\\" + pdfdir;
+
+                Session["PDFDirectory"] = pdfdir;
+
+                Directory.CreateDirectory(IssDir);
+
                 PassDB Issue = new PassDB();
                 SqlParameter[] IssueParams =
                 {
                     new SqlParameter("PubDate", pubdate),
                     new SqlParameter("Vol", Convert.ToInt16(tbvolume.Text)),
-                    new SqlParameter("Num", Convert.ToInt16(tbissue.Text))
+                    new SqlParameter("Num", Convert.ToInt16(tbissue.Text)),
+                    new SqlParameter("PDF", pdfdir)
                 };
                                
                 return "?Step=2" + "&IssueID=" + Issue.SQLReturnData(IssueParams, "FMAddIssue").ToString();
             }
 
-            if (Request.QueryString["Step"] == "3")
+            if (x == "2")
+            {
+                PassDB PublishIssue = new PassDB();
+
+                SqlParameter[] PublishParams = 
+                {
+                    new SqlParameter("ID", Request.QueryString["IssueID"])
+                };
+
+                PublishIssue.SQLReturnVoid(PublishParams, "FMPublishIssue");
+
+                Response.Redirect("../FMHub/FMHubAdminMain.aspx");
+                
+            }
+
+            if (x == "3")
             {
                 x = "2";                
             }
 
-            if (Request.QueryString["Step"] == "4")
+            if (x == "4")
             {
                 PassDB GetIssue = new PassDB();
                 string qstring = "Select IssueID FROM FMArticle WHERE ID =";
@@ -165,22 +189,8 @@ namespace STFMPlatformTransition.Controls
 
         private void ArticleToDB()
         {
-            PassDB Article = new PassDB();
-            SqlParameter[] ArticleParams = 
-                {
-                    new SqlParameter("IssueID", Convert.ToInt16(Request.QueryString["IssueID"])),
-                    new SqlParameter("Title", tbTitle.Text),
-                    new SqlParameter("Subject", tbsubject.Text),
-                    new SqlParameter("Start", Convert.ToInt16(tbStart.Text)),
-                    new SqlParameter("End", Convert.ToInt16(tbEnd.Text)),
-                    new SqlParameter("Abstract", tbAbstract.Text)
-                };
-
-            Article.SQLReturnVoid(ArticleParams, "FMAddArticle");
-
             int length = 0;
-            //FileStream ArticleFile;
-
+            
             length = inptArticle.PostedFile.ContentLength;
             byte[] ArticleDoc = new byte[length];
             inptArticle.PostedFile.InputStream.Read(ArticleDoc, 0, length);
@@ -192,15 +202,32 @@ namespace STFMPlatformTransition.Controls
             if (inptArticle.Value.ToString().Trim() != "")
             {
                 ArticlePDF = inptArticle.PostedFile;
-                ArticlePDF.SaveAs(Server.MapPath("~/" + ArticlePDF));
+                string var = Server.MapPath("") + "\\FMPDFs\\" + (string)Session["PDFDirectory"] + "\\" + ArticleFileName;
+                ArticlePDF.SaveAs(var);
             }
+
+            PassDB Article = new PassDB();
+            SqlParameter[] ArticleParams = 
+                {
+                    new SqlParameter("IssueID", Convert.ToInt16(Request.QueryString["IssueID"])),
+                    new SqlParameter("Title", tbTitle.Text),
+                    new SqlParameter("Subject", tbsubject.Text),
+                    new SqlParameter("Start", Convert.ToInt16(tbStart.Text)),
+                    new SqlParameter("End", Convert.ToInt16(tbEnd.Text)),
+                    new SqlParameter("Abstract", tbAbstract.Text),
+                    new SqlParameter("FilePDF", ArticleFileName)
+                };
+
+            Article.SQLReturnVoid(ArticleParams, "FMAddArticle");
+
+
 
             tbTitle.Text = "";
             tbsubject.Text = "";
             tbStart.Text = "";
             tbEnd.Text = "";
             tbAbstract.Text = "";
-            inptArticle.Value = "";
+            //inptArticle.Value = "";
         }
 
         private void AuthorToDB()
@@ -209,10 +236,10 @@ namespace STFMPlatformTransition.Controls
             SqlParameter[] AuthorParams = 
             {
                 new SqlParameter("ArticleID", Convert.ToInt16(Request.QueryString["ArticleID"])),
-                new SqlParameter("Fname", tbfname.Text),
-                new SqlParameter("MName", tbmname.Text),
-                new SqlParameter("Lname", tblname.Text),
-                new SqlParameter("Org", tborganization.Text)
+                new SqlParameter("Fname", tbfname.Text),                
+                (tbmname.Text == "" ? new SqlParameter("Mname", DBNull.Value) : new SqlParameter("MName", tbmname.Text)),
+                new SqlParameter("Lname", tblname.Text),                
+                (tborganization.Text == "" ? new SqlParameter("Org", DBNull.Value) : new SqlParameter("Org", tborganization.Text))
             };
 
             Author.SQLReturnVoid(AuthorParams, "FMAddAuthor");

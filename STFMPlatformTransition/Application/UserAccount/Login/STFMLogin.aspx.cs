@@ -7,8 +7,9 @@ using System.Web.UI.WebControls;
 using System.Data.SqlClient;
 using System.Configuration;
 using STFMAcctNavigate;
+using STFMAccounts;
 
-namespace STFM_Account_Manager_3
+namespace STFM_Account_Login
 {
     public partial class WebForm1 : System.Web.UI.Page
     {
@@ -37,28 +38,28 @@ namespace STFM_Account_Manager_3
         {
            InfoVal ChkPWord = new InfoVal();
 
-            if (ChkPWord.ValidateString(tbusername.Text) != 0 || ChkPWord.ValidateString(tbpassword.Text) != 0 || ChkPWord.ValidateString(tbpasswordconf.Text) != 0)
+            if (ChkPWord.ValidateString(tbusername.Text) != 0 || ChkPWord.ValidateString(tbpassword.Text) != 0)
             {
                 PWerror.Visible = true;
                 PWerror.Text = "Please complete all fields";
             }
-            else
-            {
-                string z;
-                string y;
+            //else
+            //{
+            //    string z;
+            //    string y;
 
-                SQLParamSet();
+            //    SQLParamSet();
 
-                if (Request.QueryString["Edit"] == "1")
-                {
-                    Response.Redirect("../STFMAccts/STFMAcct2.aspx?Src=" + Request.QueryString["Src"] + "&Loc=" + Request.QueryString["Loc"]);
-                }
-                z = Request.QueryString["Src"];
-                y = Request.QueryString["Loc"];
-                Navigate Test = new Navigate();
-                Session.Abandon();
-                Response.Redirect(Test.ForwardNavString(z, y), false);
-            }
+            //    if (Request.QueryString["Edit"] == "1")
+            //    {
+            //        Response.Redirect("../STFMAccts/STFMAcct2.aspx?Src=" + Request.QueryString["Src"] + "&Loc=" + Request.QueryString["Loc"]);
+            //    }
+            //    z = Request.QueryString["Src"];
+            //    y = Request.QueryString["Loc"];
+            //    Navigate Test = new Navigate();
+            //    Session.Abandon();
+            //    Response.Redirect(Test.ForwardNavString(z, y), false);
+            //}
  
         }
 

@@ -7,28 +7,28 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace STFM_Account_Manager_3 {
+namespace STFM_Account_Login {
     
     
     public partial class WebForm1 {
         
         /// <summary>
-        /// bodypanel control.
+        /// LoginTableMain control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel bodypanel;
+        protected global::System.Web.UI.WebControls.Table LoginTableMain;
         
         /// <summary>
-        /// Table1 control.
+        /// LoginTable control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Table Table1;
+        protected global::System.Web.UI.WebControls.Table LoginTable;
         
         /// <summary>
         /// PWerror control.

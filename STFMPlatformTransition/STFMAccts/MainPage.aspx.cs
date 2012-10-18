@@ -14,6 +14,11 @@ namespace STFM_Account_Manager_3
 
         }
 
+        public void FMHub(object sender, EventArgs e)
+        {
+            Response.Redirect("/Application/FMHub/FMHubAdmin.aspx");
+        }
+
         public void CreateAcct(object sender, EventArgs e)
         {
             Response.Redirect("STFMAcct1.aspx?" + "Src=" + Server.UrlEncode("Create") +"&"+ "Loc=" + Server.UrlEncode("Step1"));

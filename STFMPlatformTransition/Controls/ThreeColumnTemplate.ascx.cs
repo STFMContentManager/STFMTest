@@ -129,28 +129,179 @@ namespace STFMPlatformTransition
                                     lbRevertMiddleColumn.CommandArgument = c.ID.ToString() + "," + c.Placement.ToString(); // + "," + 2 + "," + c.Page.ToString() + "," + c.Section.ToString();
 
                                     List<SectionNavigation> lstSN = Session["SectionNavigation"] as List<SectionNavigation>;
-                                    string sBreadCrumbs = "";
+                                    
+                                    /*CREATE BREADCRUMB VARIABLES*/
+                                    List<string> Bcrumbs = new List<string>();
+                                    string sBreadCrumbs = "<p>";
 
-                                    foreach (SectionNavigation sn in lstSN)
+                                    //check to see if the breadcrumb session exists, and sets the bcrumb list to it if it exists
+                                    if (Session["BreadCrumbs"] != null)
                                     {
-                                        if (sn.LinkURL == sCallingPage)
-                                        {
-                                            sBreadCrumbs = sn.LinkURL;
-                                        }
-                                    }
-
-                                    if (sBreadCrumbs == "" && (c.Section.Replace(" ", "") != sCallingPage))
-                                    {
-                                        sBreadCrumbs = Session["BreadCrumbs"].ToString().Replace("</p>", " : ") + sCallingPage;
+                                        Bcrumbs = Session["BreadCrumbs"] as List<string>;
                                     }
                                     else
                                     {
-                                        sBreadCrumbs = "<p>" + c.Section + " : " + sBreadCrumbs;
+                                        //If there is no breadcrumb session information, the apply the current section to the first item of the 
+                                        //bcrumb list
+                                        Bcrumbs.Add(c.Section);
                                     }
 
-                                    sBreadCrumbs = sBreadCrumbs + "</p>";
+                                    //Check current section stored in breadcrumbs against the current section of the content page
+                                    if (Bcrumbs[0].ToLower().Replace(" ", "") != c.Section.ToLower().Replace(" ", ""))
+                                    { 
+                                        //If they differ, set bcrumbs at index 0 to the current section, clear the rest of the list
+                                        Bcrumbs[0]=(c.Section);
+                                        for (int i = 1; i < Bcrumbs.Count; )
+                                        {
+                                            Bcrumbs.RemoveAt(i);
+                                        }
+                                    }
 
-                                    Session["BreadCrumbs"] = sBreadCrumbs;
+                                    //Checks to see if the calling page is the section head
+                                    if (sCallingPage.ToLower().Replace(" ", "") != Bcrumbs[0].ToLower().Replace(" ", ""))
+                                    {
+                                        //Is there more in bcrumbs than just the section name?
+                                        if (Bcrumbs.Count > 1)
+                                        {
+                                            //Loops through all the page names in the current section's navigation
+                                            foreach (SectionNavigation sn in lstSN)
+                                            {
+                                                //If the navigation page and the calling page are the same continue
+                                                if (sn.LinkURL.ToLower() == sCallingPage.ToLower())
+                                                {
+                                                    //Checks the calling page(which is our current navigation page) against the 
+                                                    //value at index 1 of bcrumbs
+                                                    if (sCallingPage.ToLower().Replace(" ", "") != Bcrumbs[1].ToLower().Replace(" ", ""))
+                                                    {
+                                                        //If they differ, the navigation page has been changed, the value at index 1 of bcrumbs is replaced,
+                                                        //bcrumbs is emptied after that value
+                                                        Bcrumbs[1] = sCallingPage;
+                                                        for (int i = 2; i < Bcrumbs.Count; )
+                                                        {
+                                                            Bcrumbs.RemoveAt(i);
+                                                        }
+                                                    }
+                                                    else
+                                                    {
+                                                        //If the calling page matches a navigation page, the assumption is made that 
+                                                        //the user has navigated to a navigation page in the section.  The rest of the breadcrumbs
+                                                        //are eliminated
+                                                        for (int i = 2; i < Bcrumbs.Count; )
+                                                        {
+                                                            Bcrumbs.RemoveAt(i);
+                                                        }
+                                                    }
+                                                }
+                                            }
+
+                                            //If the breadcrumb doesn't match the value at bcrumb[1] (if it were the navigation page, it will have
+                                            //already been set to match), the calling page is appended to the end of the bcrumb list
+                                            if (sCallingPage.ToLower().Replace(" ", "") != Bcrumbs[1].ToLower().Replace(" ",""))
+                                            {
+                                                Bcrumbs.Add(sCallingPage);
+                                            }
+                                        }
+                                        else
+                                        {
+                                            //This occurs if the total number of breadcrumbs is one or fewer and the calling page is not the section page.                                                                                      
+                                            Bcrumbs.Add(sCallingPage);
+                                        }
+
+                                    }
+                                    //if the calling page is the section page.  breadcrumbs at 0 is made the calling page, the breadcrumbs are cleared.
+                                    else
+                                    {
+                                        Bcrumbs[0] = c.Section;
+                                        for (int i = 1; i < Bcrumbs.Count; )
+                                        {
+                                            Bcrumbs.RemoveAt(i);
+                                        }
+                                        
+                                    }
+
+                                    //Writes whatever is in bcrumbs into sBreadCrumbs for display on the content page
+                                    for (int i = 0; i <= (Bcrumbs.Count - 1); i++)
+                                    {
+                                        sBreadCrumbs += Bcrumbs[i] + " : ";
+                                    }
+
+                                    sBreadCrumbs += "</p>";
+                                    Session["BreadCrumbs"] = Bcrumbs;
+
+                                    //NEWER CODE DELETE AS NEEDED
+
+                                    //if(Session["BreadCrumbs"] != null)
+                                    //{
+                                    //    Bcrumbs = Session["BreadCrumbs"] as List<string>;
+
+                                    //    if(Bcrumbs[0].ToLower().Replace(" ", "") != c.Section.ToLower().Replace(" ", ""))
+                                    //    {
+                                    //        Bcrumbs = null;
+                                    //        Bcrumbs.Add(c.Section);
+                                    //    }
+
+                                    //}
+                                    //else
+                                    //{
+                                    //    Bcrumbs.Add(c.Section);
+                                    //}
+
+                                    //Bcrumbs.Add(sCallingPage);
+                                    
+                                    //for(int i = 0; i <= (Bcrumbs.Count-1); i++)
+                                    //{
+                                    //    if(Bcrumbs[i].ToLower().Replace(" ", "") == sCallingPage.ToLower())
+                                    //    {
+                                    //        for(int x = (i+1); x <= (Bcrumbs.Count -1); x++)
+                                    //        {
+                                    //            Bcrumbs.RemoveAt(x);
+                                    //        }
+                                    //    }
+
+                                    //    sBreadCrumbs += " " + Bcrumbs[i] + " :";
+
+                                    //}
+
+                                    //sBreadCrumbs += "</p>";
+
+                                    //Session["BreadCrumbs"] = Bcrumbs;
+
+                                    //ORIGINAL CODE BELOW
+
+                                    //foreach (SectionNavigation sn in lstSN)
+                                    //{
+                                    //    //CHANGED TO MAKE THIS COMPARISON NOT CASE SENSITIVE
+                                    //    if (sn.LinkURL.ToLower() == sCallingPage.ToLower())
+                                    //    {
+                                    //        sBreadCrumbs = sn.LinkURL;
+                                    //    }
+                                    //}
+
+                                    //if (sBreadCrumbs == "" && (c.Section.Replace(" ", "") != sCallingPage))
+                                    //{
+                                    //    sBreadCrumbs = sCallingPage;
+                                    //}
+                                    //OLD VERSION OF THIS JP
+                                    //if (sBreadCrumbs == "" && (c.Section.Replace(" ", "") != sCallingPage))
+                                    //{
+                                    //    if (Session["BreadCrumbs"] != null)
+                                    //    {
+                                    //        sBreadCrumbs = (string)Session["BreadCrumbs"];
+                                    //        sBreadCrumbs = Session["BreadCrumbs"].ToString().Replace("</p>", " : ") + sCallingPage;
+                                    //    }
+                                    //    else
+                                    //    {
+                                    //        sBreadCrumbs = sCallingPage;
+                                    //    }
+                                    //}
+                                    //else
+                                    //{
+                                    //    sBreadCrumbs = "<p>" + c.Section + " : " + sBreadCrumbs;
+                                    ////}
+
+                                    //sBreadCrumbs = sBreadCrumbs + "</p>";
+
+                                    //Session["BreadCrumbs"] = 
 
                                     if ((Session["IsLoggedIn"] != null && Session["IsLoggedIn"].ToString() != "") && Session["IsLoggedIn"].ToString() == "true")
                                     {
