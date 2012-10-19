@@ -215,7 +215,7 @@ namespace STFMPlatformTransition.Controls
                     new SqlParameter("Start", Convert.ToInt16(tbStart.Text)),
                     new SqlParameter("End", Convert.ToInt16(tbEnd.Text)),
                     new SqlParameter("Abstract", tbAbstract.Text),
-                    new SqlParameter("FilePDF", ArticleFileName)
+                    new SqlParameter("PDFDirectory", ArticleFileName)
                 };
 
             Article.SQLReturnVoid(ArticleParams, "FMAddArticle");

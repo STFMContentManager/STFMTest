@@ -15,9 +15,7 @@ namespace STFMPlatformTransition.Controls
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            RetrieveFM PublishedDisplay = new RetrieveFM();
-            FM_Published.DataSource = PublishedDisplay.Main_DisplayIssue().Tables[0];
-            FM_Published.DataBind();
+            LoadRepeater();
         }
         protected void Delete_FM(object sender, EventArgs e)
         {
@@ -33,7 +31,25 @@ namespace STFMPlatformTransition.Controls
                 new SqlParameter("IssueID", DeleteButton.CssClass)
             };
 
-            DeleteIssue.SQLReturnVoid(DeleteCommand, "FMDeleteIssue");           
+            DeleteIssue.SQLReturnVoid(DeleteCommand, "FMDeleteIssue");
+            LoadRepeater();
+            
+        }
+        protected void View_FM(object sender, EventArgs e)
+        {
+            LinkButton ViewFMIssue = new LinkButton();
+            ViewFMIssue = (LinkButton)sender;
+
+            Response.Redirect("FMJournal.aspx?IssueID=" + ViewFMIssue.CssClass.ToString());
+
+            ViewFMIssue.Dispose();
+        }
+
+        protected void LoadRepeater()
+        {
+            RetrieveFM PublishedDisplay = new RetrieveFM();
+            FM_Published.DataSource = PublishedDisplay.Main_DisplayIssue().Tables[0];
+            FM_Published.DataBind();
         }
         //private string DeleteItem(string x, LinkButton y)
         //{

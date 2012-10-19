@@ -11,7 +11,8 @@
 
         <asp:Label ID="FM_PubTitle" runat="server" Text='<%# Eval("Title").ToString() %>'></asp:Label>
         <asp:Label ID="FM_PubMonth" runat="server" Text='<%# Eval("PublishDate").ToString() %>'></asp:Label>
-        <asp:LinkButton runat="server" CssClass='<%# Eval("ID").ToString() %>'  Text="Delete Issue" OnClick="Delete_FM"></asp:LinkButton>
+        <asp:LinkButton runat="server" CssClass='<%# Eval("ID").ToString() %>'  Text="Delete Issue" OnClick="Delete_FM"></asp:LinkButton>&nbsp;|&nbsp;
+        <asp:LinkButton runat="server" CssClass='<%# Eval("ID").ToString() %>' Text = "View Issue" OnClick="View_FM"></asp:LinkButton>
         <br />
     </ItemTemplate>    
 </asp:Repeater>
