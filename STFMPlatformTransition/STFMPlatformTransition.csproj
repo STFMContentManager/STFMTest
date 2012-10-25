@@ -56,18 +56,40 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Application\Advocacy\AdvocacyContact\Default.aspx" />
+    <Content Include="Application\FMHub\FMHubAdmin.aspx" />
+    <Content Include="Application\FMHub\FMHubAdminMain.aspx" />
+    <Content Include="Application\FMHub\FMHubTestManage.aspx" />
+    <Content Include="Application\FMHub\FMJournal.aspx" />
     <Content Include="Application\Foundation\FoundationDonate\FoundationDonate1.aspx" />
     <Content Include="Application\Foundation\FoundationDonate\FoundationDonate2.aspx" />
     <Content Include="Application\Foundation\FoundationDonate\FoundationDonate3.aspx" />
     <Content Include="Application\Foundation\FoundationDonate\FoundationDonate4.aspx" />
     <Content Include="Application\Foundation\FoundationDonate\FoundationDonate5.aspx" />
+    <Content Include="Application\ISIS Admin\ViewRecord_Person.aspx" />
+    <Content Include="Application\Styles\STFM_UserAcct.css" />
+    <Content Include="Application\UserAccount\CreateAccount\STFMAcctCreate1.aspx" />
+    <Content Include="Application\UserAccount\CreateAccount\STFMAcctCreate2.aspx" />
+    <Content Include="Application\UserAccount\CreateAccount\STFM_CreateAccount.aspx" />
+    <Content Include="Application\UserAccount\Login\STFMLogin.aspx" />
     <Content Include="Application\UserAccount\PasswordChange\PasswordChange.aspx" />
     <Content Include="Application\UserAccount\PasswordFind\PasswordRecover.aspx" />
     <Content Include="Application\UserAccount\UpdateAcct\AcctUpdateAddress.aspx" />
     <Content Include="Application\UserAccount\UpdateAcct\AcctUpdatePersonal.aspx" />
     <Content Include="Application\UserAccount\UpdateAcct\AcctUpdateStart.aspx" />
+    <Content Include="bin\FreeTextBox.dll" />
+    <Content Include="bin\STFMPlatformTransition.dll" />
+    <Content Include="bin\STFMPlatformTransition.pdb" />
+    <Content Include="Content\Addictions.aspx" />
+    <Content Include="Content\TestPage1.aspx" />
     <Content Include="Controls\CustomTemplate.ascx" />
+    <Content Include="Controls\FMHubAdmin1.ascx" />
+    <Content Include="Controls\FMHubAdminMain.ascx" />
+    <Content Include="Controls\FMJournal.ascx" />
+    <Content Include="Controls\ISIS_ViewPerson.ascx" />
     <Content Include="Controls\MemberDirectorySearch.ascx" />
+    <Content Include="Controls\STFMAcctCreate1.ascx" />
+    <Content Include="Controls\STFMAcctCreate2.ascx" />
+    <Content Include="Images\FM_Nameplate_Blackweb.jpg" />
     <Content Include="MemberDirectorySearch.aspx" />
     <Content Include="NewCreateAccount.aspx" />
     <Content Include="Custom\CustomTemplate.aspx" />
@@ -138,6 +160,41 @@
     <Compile Include="Application\Advocacy\AdvocacyContact\Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Application\Class\DBInsert.cs" />
+    <Compile Include="Application\Class\meminfo.cs" />
+    <Compile Include="Application\Class\STFMAcctData.cs" />
+    <Compile Include="Application\Class\STFMDataValidator.cs" />
+    <Compile Include="Application\Class\STFM_Logic.cs" />
+    <Compile Include="Application\Class\STFM_Objects.cs" />
+    <Compile Include="Application\FMHub\FMHubAdmin.aspx.cs">
+      <DependentUpon>FMHubAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Application\FMHub\FMHubAdmin.aspx.designer.cs">
+      <DependentUpon>FMHubAdmin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Application\FMHub\FMHubAdminMain.aspx.cs">
+      <DependentUpon>FMHubAdminMain.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Application\FMHub\FMHubAdminMain.aspx.designer.cs">
+      <DependentUpon>FMHubAdminMain.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Application\FMHub\FMHubTestManage.aspx.cs">
+      <DependentUpon>FMHubTestManage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Application\FMHub\FMHubTestManage.aspx.designer.cs">
+      <DependentUpon>FMHubTestManage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Application\FMHub\FMJournal.aspx.cs">
+      <DependentUpon>FMJournal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Application\FMHub\FMJournal.aspx.designer.cs">
+      <DependentUpon>FMJournal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Application\FMHub\RetrieveFM.cs" />
     <Compile Include="Application\Foundation\FoundationDonate\FoundationDonate1.aspx.cs">
       <DependentUpon>FoundationDonate1.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -178,6 +235,41 @@
     <Compile Include="Application\Foundation\FoundationDonate\Navigate.cs" />
     <Compile Include="Application\Foundation\FoundationDonate\STFMAcctData.cs" />
     <Compile Include="Application\Foundation\FoundationDonate\STFMAcctValidator.cs" />
+    <Compile Include="Application\ISIS Admin\ViewRecord_Person.aspx.cs">
+      <DependentUpon>ViewRecord_Person.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Application\ISIS Admin\ViewRecord_Person.aspx.designer.cs">
+      <DependentUpon>ViewRecord_Person.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Application\UserAccount\CreateAccount\STFMAcctCreate1.aspx.cs">
+      <DependentUpon>STFMAcctCreate1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Application\UserAccount\CreateAccount\STFMAcctCreate1.aspx.designer.cs">
+      <DependentUpon>STFMAcctCreate1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Application\UserAccount\CreateAccount\STFMAcctCreate2.aspx.cs">
+      <DependentUpon>STFMAcctCreate2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Application\UserAccount\CreateAccount\STFMAcctCreate2.aspx.designer.cs">
+      <DependentUpon>STFMAcctCreate2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Application\UserAccount\CreateAccount\STFM_CreateAccount.aspx.cs">
+      <DependentUpon>STFM_CreateAccount.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Application\UserAccount\CreateAccount\STFM_CreateAccount.aspx.designer.cs">
+      <DependentUpon>STFM_CreateAccount.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Application\UserAccount\Login\STFMLogin.aspx.cs">
+      <DependentUpon>STFMLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Application\UserAccount\Login\STFMLogin.aspx.designer.cs">
+      <DependentUpon>STFMLogin.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Application\UserAccount\PasswordChange\PasswordChange.aspx.cs">
       <DependentUpon>PasswordChange.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -223,6 +315,34 @@
     <Compile Include="Controls\CustomTemplate.ascx.designer.cs">
       <DependentUpon>CustomTemplate.ascx</DependentUpon>
     </Compile>
+    <Compile Include="Controls\FMHubAdmin1.ascx.cs">
+      <DependentUpon>FMHubAdmin1.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\FMHubAdmin1.ascx.designer.cs">
+      <DependentUpon>FMHubAdmin1.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\FMHubAdminMain.ascx.cs">
+      <DependentUpon>FMHubAdminMain.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\FMHubAdminMain.ascx.designer.cs">
+      <DependentUpon>FMHubAdminMain.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\FMJournal.ascx.cs">
+      <DependentUpon>FMJournal.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\FMJournal.ascx.designer.cs">
+      <DependentUpon>FMJournal.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ISIS_ViewPerson.ascx.cs">
+      <DependentUpon>ISIS_ViewPerson.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\ISIS_ViewPerson.ascx.designer.cs">
+      <DependentUpon>ISIS_ViewPerson.ascx</DependentUpon>
+    </Compile>
     <Compile Include="Controls\MemberDirectorySearch.ascx.cs">
       <DependentUpon>MemberDirectorySearch.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -236,6 +356,20 @@
     </Compile>
     <Compile Include="Controls\OneColumnTemplate.ascx.designer.cs">
       <DependentUpon>OneColumnTemplate.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\STFMAcctCreate1.ascx.cs">
+      <DependentUpon>STFMAcctCreate1.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\STFMAcctCreate1.ascx.designer.cs">
+      <DependentUpon>STFMAcctCreate1.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\STFMAcctCreate2.ascx.cs">
+      <DependentUpon>STFMAcctCreate2.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\STFMAcctCreate2.ascx.designer.cs">
+      <DependentUpon>STFMAcctCreate2.ascx</DependentUpon>
     </Compile>
     <Compile Include="MemberDirectorySearch.aspx.cs">
       <DependentUpon>MemberDirectorySearch.aspx</DependentUpon>
@@ -386,7 +520,6 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Controls\ThreeColumnTemplate.ascx.cs">
       <DependentUpon>ThreeColumnTemplate.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -410,10 +543,15 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Application\UserAccount\Login\" />
+    <Folder Include="Application\FMHub\2013v4no12\" />
+    <Folder Include="Application\FMHub\FMPDFs\" />
     <Folder Include="Content\About Us\" />
     <Folder Include="LogFiles\" />
     <Folder Include="NewSiteImages\" />
+    <Folder Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\FreeTextBox.lic" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
@@ -423,7 +561,7 @@
         <WebProjectProperties>
           <UseIIS>False</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>63559</DevelopmentServerPort>
+          <DevelopmentServerPort>4938</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
           <IISUrl>
           </IISUrl>

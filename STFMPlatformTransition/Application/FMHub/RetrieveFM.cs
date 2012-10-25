@@ -117,12 +117,12 @@ namespace FMHubAdmin
                         
             return Get_DisplayIssue;
         }
-        public DataSet Main_DisplayIssue()
+        public DataSet Main_DisplayIssue(int x)
         {
             GetFM.Open();
             string qstring = "Select Top 10 ID,'Vol. ' + Cast(Vol as varchar) + ' No. ' + Cast(Num as varchar) as Title, ";
             qstring += "DATENAME(month, PublishDate) + ' ' + cast(datepart(yy, PublishDate) as varchar) as PublishDate";
-            qstring += " FROM FMIssue WHERE Published = 1 Order By PublishDate";
+            qstring += " FROM FMIssue WHERE Published =" + x + " Order By PublishDate";
             SqlDataAdapter IssueQry = new SqlDataAdapter(qstring, GetFM);
             DataSet FMIssue = new DataSet("This_Issue");
             IssueQry.Fill(FMIssue, "This_Issue");

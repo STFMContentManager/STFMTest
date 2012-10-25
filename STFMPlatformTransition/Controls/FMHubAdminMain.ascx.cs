@@ -48,8 +48,22 @@ namespace STFMPlatformTransition.Controls
         protected void LoadRepeater()
         {
             RetrieveFM PublishedDisplay = new RetrieveFM();
-            FM_Published.DataSource = PublishedDisplay.Main_DisplayIssue().Tables[0];
+            FM_Published.DataSource = PublishedDisplay.Main_DisplayIssue(1).Tables[0];
             FM_Published.DataBind();
+
+            PublishedDisplay = null;
+
+            RetrieveFM Not_PublishedDisplay = new RetrieveFM();
+            FM_Unpublished.DataSource = Not_PublishedDisplay.Main_DisplayIssue(0).Tables[0];
+            FM_Unpublished.DataBind();
+        }
+
+        protected void Edit_FM(object sender, EventArgs e)
+        {
+            LinkButton EditFMIssue = new LinkButton();
+            EditFMIssue = (LinkButton)sender;
+
+            Response.Redirect("FMHubAdmin.aspx?Step=2&IssueID=" + EditFMIssue.CssClass.ToString());
         }
         //private string DeleteItem(string x, LinkButton y)
         //{

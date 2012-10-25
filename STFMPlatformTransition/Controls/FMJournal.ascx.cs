@@ -51,9 +51,12 @@ namespace STFMPlatformTransition.Controls
                     }
                 }
 
+                WriteTOC += "<p><a id='Abstract-" + FM_Issue.Tables[1].Rows[i][0] + "' href='#'>Show Abstract</a> | ";
+
                 string filepath = Server.MapPath("") + "\\FMPDFS\\";
                 filepath += FM_Issue.Tables[1].Rows[i][6].ToString();
-                WriteTOC += "<p><a href='"+"FMPDFS/" + FM_Issue.Tables[1].Rows[i][6].ToString()+"'>PDF</a></p>";
+                WriteTOC += "<a href='"+"FMPDFS/" + FM_Issue.Tables[1].Rows[i][6].ToString()+"'>PDF</a></p>";
+                WriteTOC += "<div id='div-" + FM_Issue.Tables[1].Rows[i][0] + "' style='display:none;'>" + FM_Issue.Tables[1].Rows[i][5] + "</div>";
             }
 
             FM_TOC_Display.Text = WriteTOC;
