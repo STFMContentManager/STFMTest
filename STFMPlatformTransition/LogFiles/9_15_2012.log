@@ -1,4 +1,0 @@
-SUCCESS - 9/15/2012 3:27:36 PM Method: CheckLoginCredentials. System.Security.Principal.WindowsPrincipal successfully authenticated: 9/15/2012 3:27:36 PM
-Oh Yes!  SUCCESS - 9/15/2012 3:28:17 PM Method: SavePageContent. AboutUs.aspx content was successfully saved: 9/15/2012 3:28:17 PM SQL: insert into ContentMeta (ContentID, DateCreated, CreatedBy, MetaDescriptorID) Values (42, '9/15/2012 3:28:17 PM', 'admin', '1')
-SUCCESS - 9/15/2012 3:30:43 PM Method: CheckLoginCredentials. System.Security.Principal.WindowsPrincipal successfully authenticated: 9/15/2012 3:30:43 PM
-SUCCESS - 9/15/2012 3:30:51 PM Method: PublishContent. 42 successfully published: 9/15/2012 3:30:51 PM
