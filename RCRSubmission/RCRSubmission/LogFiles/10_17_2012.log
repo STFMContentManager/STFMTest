@@ -1,0 +1,14 @@
+Thread was being aborted.
+Thread was being aborted.
+Cannot insert the value NULL into column 'DateCreated', table 'RCR.dbo.Submissions'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+Procedure or function 'spInsertSubmission' expects parameter '@DateCreated', which was not supplied.
+Thread was being aborted.
+Input string was not in a correct format.
+Procedure or function 'spInsertSubmission' expects parameter '@LearningObjectives', which was not supplied.
+Procedure or function 'spInsertSubmission' expects parameter '@LearningObjectives', which was not supplied.
+Procedure or function 'spInsertSubmission' expects parameter '@LearningObjectives', which was not supplied.
+Input string was not in a correct format.
+Procedure or function 'spInsertSubmission' expects parameter '@LearningObjectives', which was not supplied.
+Procedure or function 'spInsertSubmission' expects parameter '@LearningObjectives', which was not supplied.
+10/17/2012 3:14:45 PM : SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.

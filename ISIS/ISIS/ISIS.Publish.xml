@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="C:\Users\Gil\Documents\Visual Studio 2010\Projects\ISISPublished" deleteExistingFiles="True" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="Profile1" publishMethod="FileSystem" replaceMatchingFiles="False" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
+    <file relUrl="bin/ISIS.pdb" publishTime="10/23/2012 14:29:30" />
+    <file relUrl="ISIS.htm" publishTime="10/23/2012 14:11:33" />
+    <file relUrl="Inventory.css" publishTime="09/13/2012 09:28:45" />
+    <file relUrl="PrintableReport.aspx" publishTime="10/23/2012 11:22:09" />
+    <file relUrl="Web.config" publishTime="10/23/2012 14:29:30" />
+    <file relUrl="Report.aspx" publishTime="10/23/2012 11:22:07" />
+    <file relUrl="ManageProjects.aspx" publishTime="10/23/2012 10:58:05" />
+    <file relUrl="Default.aspx" publishTime="10/23/2012 11:30:29" />
+    <file relUrl="bin/ISIS.dll" publishTime="10/23/2012 14:29:30" />
+    <file relUrl="Controls/FullInventoryReport.ascx" publishTime="10/23/2012 11:40:18" />
+  </publishProfile>
+</publishData>

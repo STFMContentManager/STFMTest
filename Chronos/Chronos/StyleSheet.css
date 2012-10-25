@@ -1,0 +1,244 @@
+body
+{
+	text-align: center;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: x-small;
+}
+
+A:link		{	color: #C4102F;	background-color: transparent;	text-decoration: none;	font-weight: bold;	}
+A:visited	{	color: #C4102F;	background-color: transparent;	text-decoration: none;	}
+A:hover		{	color: #C4102F;	background-color:	White;	text-decoration: none;	}
+
+.Button
+{
+	background-color: Silver;
+	width: 300px;
+}
+
+.ErrorMsg
+{
+	background-color: Red;
+	color: Yellow;
+	font-weight: bold;
+}
+
+TABLE
+{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+TD.HeaderCenter
+{
+	background-color: Orange;
+	font-weight: bold;
+	text-align: center;
+	border-color: Black;
+	border-style: solid;
+	border-width: thin;
+}
+
+TD.HeaderLeft
+{
+	background-color: Orange;
+	font-weight: bold;
+	text-align: left;
+	border-color: Black;
+	border-style: solid;
+	border-width: thin;
+}
+
+TD.HeaderRight
+{
+	background-color: Orange;
+	font-weight: bold;
+	text-align: right;
+	border-color: Black;
+	border-style: solid;
+	border-width: thin;
+}
+
+TH.Header
+{
+	text-align: center;
+	font-size: small;
+	font-weight: bold;
+	background-color: Blue;
+	color: Yellow;
+	border-color: Black;
+	border-style: solid;
+	border-width: thin;
+}
+
+TH.HeaderCenter
+{
+	background-color: Orange;
+	font-weight: bold;
+	text-align: center;
+	border-color: Black;
+	border-style: solid;
+	border-width: thin;
+}
+
+TH.HeaderLeft
+{
+	background-color: Orange;
+	font-weight: bold;
+	text-align: left;
+	border-color: Black;
+	border-style: solid;
+	border-width: thin;
+}
+
+TH.HeaderRight
+{
+	background-color: Orange;
+	font-weight: bold;
+	text-align: right;
+	border-color: Black;
+	border-style: solid;
+	border-width: thin;
+}
+
+TH.Warning
+{
+	font-weight: bold;
+	background-color: red;
+	color: Yellow;
+	border-color: Black;
+	border-style: solid;
+	border-width: thick;
+}
+
+TH.ParagraphHeader
+{
+	font-weight: bold;
+	font-size: medium;
+	color: Navy;
+	text-align: left;
+}
+
+DIV.DivFooter
+{
+	font-size: xx-small;
+}
+
+TD.PageHeader
+{
+	font-size: large;
+	font-weight: bold;
+	color: Blue;
+}
+
+TD.Warning
+{
+	text-align: center;
+	font-size: small;
+	font-weight: bold;
+	color: Red;
+}
+
+TD.FormCenter
+{
+	text-align: center;
+}
+
+TD.FormLeft
+{
+	text-align: left;
+}
+
+TD.FormRight
+{
+	text-align: right;
+}
+
+TD.DateSelection
+{
+	border-color: Black;
+	border-style: solid;
+	border-width: thin;
+	background-color: Teal;
+}
+
+TD.TimeEntry
+{
+	border-color: Black;
+	border-style: solid;
+	border-width: thin;
+	background-color: Red;
+}
+
+.Calendar
+{
+	font-size: large;
+	font-weight: bold;
+}
+
+.DayHeaderStyle
+{
+	font-size: x-small;
+	font-weight: bold;
+}
+
+.DayStyle
+{
+	font-size: small;
+	font-weight: bold;
+	border-color: Black;
+	border-style: solid;
+	border-width: thin;
+}
+
+.NextPrevStyle
+{
+	font-size: small;
+	font-weight: bold;
+}
+
+.OtherMonthDayStyle
+{
+	background-color: Silver;
+	color: Gray;
+	font-weight: normal;
+	border-color: Black;
+	border-style: solid;
+	border-width: thin;
+}
+
+.SelectedDayStyle
+{
+	font-size: small;
+	font-weight: bold;
+	background-color: Red;
+	color: Yellow;
+	border-color: Black;
+	border-style: solid;
+	border-width: thin;
+}
+
+.TitleStyle
+{
+	font-size: small;
+	font-weight: bold;
+	background-color: Teal;
+}
+
+.TodayDayStyle
+{
+	font-size: small;
+	font-weight: bold;
+	background-color: Red;
+	color: Yellow;
+	border-color: Black;
+	border-style: solid;
+	border-width: thin;
+}
+
+.WeekendDayStyle
+{
+	background-color: Green;
+	border-color: Black;
+	border-style: solid;
+	border-width: thin;
+}

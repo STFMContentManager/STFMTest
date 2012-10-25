@@ -1,0 +1,4 @@
+C:\Users\Gil\Documents\Visual Studio 2010\Projects\ADFMNew\ADFMNew\bin\ADFMNew.dll
+C:\Users\Gil\Documents\Visual Studio 2010\Projects\ADFMNew\ADFMNew\bin\ADFMNew.pdb
+C:\Users\Gil\Documents\Visual Studio 2010\Projects\ADFMNew\ADFMNew\obj\Debug\ADFMNew.dll
+C:\Users\Gil\Documents\Visual Studio 2010\Projects\ADFMNew\ADFMNew\obj\Debug\ADFMNew.pdb

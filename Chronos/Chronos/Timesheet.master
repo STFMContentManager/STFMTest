@@ -1,0 +1,24 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Timesheet.master.cs" Inherits="Timesheet" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+	<!-- $Filename: D:\Inetpub\wwwroot\TimeRep\Timesheet.master $ $Revision: 1.3 $ -->
+    <title>Timesheet.master</title>
+	<link href="StyleSheet.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+	<div style="text-align:center;">
+	</div>
+    <form id="form1" runat="server">
+    <div style="width:777px; text-align:center; margin-left:auto; margin-right:auto;">
+        <asp:contentplaceholder id="ContentPlaceHolder1" runat="server">
+        </asp:contentplaceholder>
+    </div>
+    </form>
+    <div style="text-align:center;" class="DivFooter">
+		<hr style="width:777px" />
+    </div>
+</body>
+</html>

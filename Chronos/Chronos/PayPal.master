@@ -1,0 +1,27 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="PayPal.master.cs" Inherits="PayPal" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head id="Head1" runat="server">
+	<!-- $Filename: D:\Inetpub\wwwroot\TimeRep\Timesheet.master $ $Revision: 1.2 $ -->
+    <title>Timesheet.master</title>
+	<link href="StyleSheet.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+	<div style="text-align:center;">
+		<img src="Images/Header.gif" alt="" />
+	</div>
+	<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+    <div style="width:777px; text-align:center; margin-left:auto; margin-right:auto;">
+        <asp:contentplaceholder id="ContentPlaceHolder1" runat="server">
+        </asp:contentplaceholder>
+    </div>
+    </form>
+    <div style="text-align:center;" class="DivFooter">
+		<hr style="width:777px" />
+		Copyright&copy;2007 - <a href="http://www.kazmax.co.uk">KazMax Ltd</a> - All Rights Reserved<br />
+		Released via the <a href="http://www.gnu.org/copyleft/gpl.html">GNU General Public License</a>
+    </div>
+</body>
+</html>

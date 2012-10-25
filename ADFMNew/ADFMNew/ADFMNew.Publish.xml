@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="C:\Users\Gil\Documents\Visual Studio 2010\Projects\ADFMNewPublished" deleteExistingFiles="True" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="Profile1" publishMethod="FileSystem" replaceMatchingFiles="False" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
+    <file relUrl="Web.config" publishTime="10/19/2012 15:27:34" />
+    <file relUrl="images/vision_voice_lead.jpg" publishTime="10/17/2012 16:17:09" />
+    <file relUrl="bin/ADFMNew.dll" publishTime="10/19/2012 15:26:18" />
+    <file relUrl="SpryAssets/SpryMenuBar.js" publishTime="10/17/2012 16:17:21" />
+    <file relUrl="images/pcpcc.jpg" publishTime="10/17/2012 16:17:13" />
+    <file relUrl="css/textformatting.css" publishTime="10/17/2012 16:17:06" />
+    <file relUrl="Contact.aspx" publishTime="10/19/2012 15:33:32" />
+    <file relUrl="controls/Contact.ascx" publishTime="10/19/2012 15:24:50" />
+    <file relUrl="css/adfmlayout.css" publishTime="10/19/2012 08:23:55" />
+    <file relUrl="siteimages/headerbackground.jpg" publishTime="10/17/2012 16:17:15" />
+    <file relUrl="SpryAssets/SpryMenuBarRightHover.gif" publishTime="10/17/2012 16:17:21" />
+    <file relUrl="siteimages/navbackgroundover.gif" publishTime="10/17/2012 16:17:15" />
+    <file relUrl="images/tryptich.jpg" publishTime="10/17/2012 16:17:09" />
+    <file relUrl="bin/ADFMNew.pdb" publishTime="10/19/2012 15:26:18" />
+    <file relUrl="siteimages/navbackground.gif" publishTime="10/17/2012 16:17:15" />
+    <file relUrl="controls/Default.ascx" publishTime="10/19/2012 15:36:50" />
+    <file relUrl="Site1.Master" publishTime="10/19/2012 15:19:57" />
+    <file relUrl="SpryAssets/SpryMenuBarVertical.css" publishTime="10/17/2012 16:17:21" />
+    <file relUrl="Default.aspx" publishTime="10/19/2012 15:33:49" />
+    <file relUrl="siteimages/search.gif" publishTime="10/17/2012 16:17:15" />
+  </publishProfile>
+</publishData>

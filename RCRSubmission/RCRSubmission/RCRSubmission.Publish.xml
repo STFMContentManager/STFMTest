@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="C:\Users\Gil\Documents\Visual Studio 2010\Projects\RCRSubmissionPublish" deleteExistingFiles="True" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="Profile1" publishMethod="FileSystem" replaceMatchingFiles="False" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
+    <file relUrl="SampleCurriculum.aspx" publishTime="10/12/2012 16:02:06" />
+    <file relUrl="Retrieve.aspx" publishTime="09/22/2012 11:15:16" />
+    <file relUrl="SubmissionErrorMessage.aspx" publishTime="10/17/2012 14:20:29" />
+    <file relUrl="Submission.aspx" publishTime="10/18/2012 11:50:52" />
+    <file relUrl="Submit.aspx" publishTime="10/06/2012 14:52:09" />
+    <file relUrl="Web.config" publishTime="10/18/2012 13:52:05" />
+    <file relUrl="Images/Header.jpg" publishTime="10/12/2012 10:09:18" />
+    <file relUrl="Instructions.aspx" publishTime="10/18/2012 13:50:17" />
+    <file relUrl="Default.aspx" publishTime="10/23/2012 15:01:40" />
+    <file relUrl="SubmissionMessage.aspx" publishTime="10/17/2012 14:20:50" />
+    <file relUrl="bin/RCRSubmission.dll" publishTime="10/23/2012 15:01:40" />
+    <file relUrl="bin/RCRSubmission.pdb" publishTime="10/23/2012 15:01:40" />
+  </publishProfile>
+</publishData>

@@ -1,0 +1,5 @@
+C:\Users\Gil\Documents\Visual Studio 2010\Projects\RCRSubmission\RCRSubmission\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Gil\Documents\Visual Studio 2010\Projects\RCRSubmission\RCRSubmission\bin\RCRSubmission.dll
+C:\Users\Gil\Documents\Visual Studio 2010\Projects\RCRSubmission\RCRSubmission\bin\RCRSubmission.pdb
+C:\Users\Gil\Documents\Visual Studio 2010\Projects\RCRSubmission\RCRSubmission\obj\Debug\RCRSubmission.dll
+C:\Users\Gil\Documents\Visual Studio 2010\Projects\RCRSubmission\RCRSubmission\obj\Debug\RCRSubmission.pdb

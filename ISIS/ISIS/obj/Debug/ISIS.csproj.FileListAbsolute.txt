@@ -1,0 +1,4 @@
+c:\users\gil\documents\visual studio 2010\Projects\ISIS\ISIS\bin\ISIS.dll
+c:\users\gil\documents\visual studio 2010\Projects\ISIS\ISIS\bin\ISIS.pdb
+c:\users\gil\documents\visual studio 2010\Projects\ISIS\ISIS\obj\Debug\ISIS.dll
+c:\users\gil\documents\visual studio 2010\Projects\ISIS\ISIS\obj\Debug\ISIS.pdb
