@@ -1,0 +1,29 @@
+SUCCESS - 8/30/2012 9:39:06 AM Method: CheckLoginCredentials. System.Security.Principal.WindowsPrincipal successfully authenticated: 8/30/2012 9:39:06 AM
+SUCCESS - 8/30/2012 9:39:26 AM Method: PublishContent. 37 successfully published: 8/30/2012 9:39:26 AM
+Oh Yes!  SUCCESS - 8/30/2012 9:39:27 AM Method: SavePageContent. Conferences.aspx content was successfully saved: 8/30/2012 9:39:27 AM SQL: insert into STFMContentHistory (ContentMetaID, Section, Page, Placement, Content, UserID, DateCreated) Values (250, 'NewsJournals', 'Conferences', '2', '', '', '8/30/2012 9:39:27 AM')
+SUCCESS - 8/30/2012 9:39:30 AM Method: PublishContent. 37 successfully published: 8/30/2012 9:39:30 AM
+SUCCESS - 8/30/2012 11:00:49 AM Method: CheckLoginCredentials. System.Security.Principal.WindowsPrincipal successfully authenticated: 8/30/2012 11:00:49 AM
+SUCCESS - 8/30/2012 11:01:00 AM Method: CreateContentPageMeta. C:\Users\Gil\Documents\Visual Studio 2010\Projects\STFMPlatformTransition\STFMPlatformTransition\Content\AboutUs.aspx successfully created: 8/30/2012 11:01:00 AM
+SUCCESS - 8/30/2012 11:01:00 AM Method: CreateContentPage. AboutUs.aspx successfully created: 8/30/2012 11:01:00 AM
+SUCCESS - 8/30/2012 11:01:00 AM Method: FillContentObject. System.Security.Principal.WindowsPrincipal successfully completed: 8/30/2012 11:01:00 AM
+Oh Yes!  SUCCESS - 8/30/2012 11:01:25 AM Method: SavePageContent. AboutUs.aspx content was successfully saved: 8/30/2012 11:01:25 AM SQL: insert into ContentMeta (ContentID, DateCreated, CreatedBy, MetaDescriptorID) Values (38, '8/30/2012 11:01:25 AM', 'admin', '1')
+Oh Yes!  SUCCESS - 8/30/2012 11:01:40 AM Method: SavePageContent. AboutUs.aspx content was successfully saved: 8/30/2012 11:01:40 AM SQL: insert into ContentMeta (ContentID, DateCreated, CreatedBy, MetaDescriptorID) Values (39, '8/30/2012 11:01:40 AM', 'admin', '1')
+SUCCESS - 8/30/2012 11:06:05 AM Method: CreateContentPageMeta. C:\Users\Gil\Documents\Visual Studio 2010\Projects\STFMPlatformTransition\STFMPlatformTransition\Content\Join.aspx successfully created: 8/30/2012 11:06:05 AM
+SUCCESS - 8/30/2012 11:06:05 AM Method: CreateContentPage. Join.aspx successfully created: 8/30/2012 11:06:05 AM
+SUCCESS - 8/30/2012 11:06:05 AM Method: FillContentObject. System.Security.Principal.WindowsPrincipal successfully completed: 8/30/2012 11:06:05 AM
+SUCCESS - 8/30/2012 11:11:45 AM Method: CheckLoginCredentials. System.Security.Principal.WindowsPrincipal successfully authenticated: 8/30/2012 11:11:45 AM
+SUCCESS - 8/30/2012 11:18:45 AM Method: CheckLoginCredentials. System.Security.Principal.WindowsPrincipal successfully authenticated: 8/30/2012 11:18:45 AM
+SUCCESS - 8/30/2012 1:07:29 PM Method: CheckLoginCredentials. System.Security.Principal.WindowsPrincipal successfully authenticated: 8/30/2012 1:07:29 PM
+SUCCESS - 8/30/2012 1:07:42 PM Method: FindPage. Successfully completed: 8/30/2012 1:07:42 PM
+SUCCESS - 8/30/2012 1:10:00 PM Method: FindPage. Successfully completed: 8/30/2012 1:10:00 PM
+SUCCESS - 8/30/2012 1:14:04 PM Method: FindPage. Successfully completed: 8/30/2012 1:14:04 PM
+SUCCESS - 8/30/2012 1:14:18 PM Method: FindPage. Successfully completed: 8/30/2012 1:14:18 PM
+SUCCESS - 8/30/2012 1:38:11 PM Method: CheckLoginCredentials. System.Security.Principal.WindowsPrincipal successfully authenticated: 8/30/2012 1:38:11 PM
+ERROR - 8/30/2012 1:38:20 PM Method: FindPage. Failed: 8/30/2012 1:38:20 PM Error: String was not recognized as a valid DateTime.
+ERROR - 8/30/2012 1:41:15 PM Method: FindPage. Failed: 8/30/2012 1:41:15 PM Error: String was not recognized as a valid DateTime.
+SUCCESS - 8/30/2012 1:43:06 PM Method: FindPage. Successfully completed: 8/30/2012 1:43:06 PM
+SUCCESS - 8/30/2012 1:52:13 PM Method: CheckLoginCredentials. System.Security.Principal.WindowsPrincipal successfully authenticated: 8/30/2012 1:52:13 PM
+SUCCESS - 8/30/2012 2:01:13 PM Method: FindPage. Successfully completed: 8/30/2012 2:01:13 PM
+ERROR - 8/30/2012 2:01:18 PM Method: FindPage. Failed: 8/30/2012 2:01:18 PM Error: Input string was not in a correct format.
+ERROR - 8/30/2012 2:01:21 PM Method: FindPage. Failed: 8/30/2012 2:01:21 PM Error: Input string was not in a correct format.
+ERROR - 8/30/2012 2:02:15 PM Method: FindPage. Failed: 8/30/2012 2:02:15 PM Error: Input string was not in a correct format.

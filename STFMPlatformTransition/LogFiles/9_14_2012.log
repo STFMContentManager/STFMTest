@@ -1,0 +1,508 @@
+SUCCESS - 9/14/2012 2:16:40 PM Method: CheckLoginCredentials. System.Security.Principal.WindowsPrincipal successfully authenticated: 9/14/2012 2:16:40 PM
+SUCCESS - 9/14/2012 2:16:54 PM Method: PublishContent. 38 successfully published: 9/14/2012 2:16:54 PM
+Oh Yes!  SUCCESS - 9/14/2012 2:16:55 PM Method: SavePageContent. AboutUs.aspx content was successfully saved: 9/14/2012 2:16:55 PM SQL: insert into STFMContentHistory (ContentMetaID, Section, Page, Placement, Content, UserID, DateCreated) Values (256, 'About Us', 'AboutUs', '2', '<p>The Society was founded in 1967 to respond to the needs of family medicine educators. From a small beginning of 105 founding members, we have grown to a membership of nearly 5,000 teachers of family medicine. These teachers include medical school professors, preceptors, residency program faculty, residency program directors and all involved in family medicine education.</p>
+		<p>The administrative offices are housed with the American Academy of Family Physicians in Leawood, Kansas, enhancing the close relationship between the two organizations. The Society has a 16-person staff in Leawood, Kansas, and two part-time staff members in Washington, DC.<br /></p>
+		<h3 align="left">Mission</h3>
+		<p align="left">Advancing Family Medicine to Improve Health Through a Community of Teachers and Scholars.</p>
+		<h3 align="left">Core Values</h3>
+		<ul>
+				<li>
+						<font color="#000000">Diversity</font>
+				</li>
+				<li>
+						<font color="#000000">Excellence</font>
+				</li>
+				<li>
+						<font color="#000000">Integrity</font>
+				</li>
+				<li>
+						<font color="#000000">Learning</font>
+				</li>
+				<li>
+						<font color="#000000">Nurturing</font>
+				</li>
+				<li>
+						<font color="#000000">Openness</font>
+				</li>
+				<li>
+						<font color="#000000">Relationship-centered </font>
+				</li>
+		</ul>
+		<h3 align="left">Vision</h3>
+		<p align="left">To become the indispensable academic home for every family medicine educator</p>
+		<h3>
+				<a name="StrategicPlan">
+				</a>Strategic Plan<br /></h3>
+		<p>
+		</p>
+		<style><![CDATA[
+&amp;amp;amp;amp;amp;amp;amp;lt;!--
+ /* Font Definitions */
+@font-face
+	{font-family:Arial;
+	panose-1:2 11 6 4 2 2 2 2 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 0 0 0 1 0;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 0 0 0 1 0;}
+ /* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:&amp;amp;amp;amp;amp;amp;amp;quot;&amp;amp;amp;amp;amp;amp;amp;quot;;
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:&amp;amp;amp;amp;amp;amp;amp;quot;Times New Roman&amp;amp;amp;amp;amp;amp;amp;quot;;
+	mso-ascii-font-family:Calibri;
+	mso-fareast-font-family:Calibri;
+	mso-hansi-font-family:Calibri;
+	mso-bidi-font-family:&amp;amp;amp;amp;amp;amp;amp;quot;Times New Roman&amp;amp;amp;amp;amp;amp;amp;quot;;}
+@page Section1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.25in 1.0in 1.25in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+--&amp;amp;amp;amp;amp;amp;amp;gt;
+]]></style>
+		<p>
+		</p>
+		<style><![CDATA[
+&lt;!--
+ /* Font Definitions */
+@font-face
+	{font-family:Arial;
+	panose-1:2 11 6 4 2 2 2 2 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 0 0 0 1 0;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 0 0 0 1 0;}
+ /* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:&quot;&quot;;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:10.0pt;
+	margin-left:0in;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:&quot;Times New Roman&quot;;
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:&quot;Times New Roman&quot;;
+	mso-bidi-theme-font:minor-bidi;}
+@page Section1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.25in 1.0in 1.25in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+--&gt;]]></style>
+The STFM Board of Directors implemented a strategic planning process in 2011 to develop a 3-year plan and a process for utilization, measurement, updating, adding new and sun setting old programs. This was developed through extensive discussions by the Strategic Planning Committee, interviews of the Committee members, non-members and members-at-large; focus groups conducted at the annual meeting; and a member needs survey.<p>This research resulted in five key priority areas for the STFM over the next 3 years. The plan should not and will not outline every tactic but will provide broad goals and strategies in which the programs of the organization will be considered. It is essential to the success of this plan that the organization has a strong infrastructure – governance, staff, communications plan, and facilities – in place to implement the plan. Also inherent in this plan is the belief that the Society supports diversity of faculty, including discipline, race, gender, and sexual orientation in the strategies we will use to address these priorities. While infrastructure and diversity are not listed as separate goals, it is recognized that they are major components for operationalizing this plan. </p><h4><a href="http://www.stfm.org/about/StrategicPlan.cfm">View the Strategic Plan</a></h4>', '', '9/14/2012 2:16:55 PM')
+SUCCESS - 9/14/2012 2:16:56 PM Method: PublishContent. 39 successfully published: 9/14/2012 2:16:56 PM
+Oh Yes!  SUCCESS - 9/14/2012 2:17:04 PM Method: SavePageContent. AboutUs.aspx content was successfully saved: 9/14/2012 2:17:04 PM SQL: insert into STFMContentHistory (ContentMetaID, Section, Page, Placement, Content, UserID, DateCreated) Values (258, 'About Us', 'AboutUs', '1', '<p>Become A Member</p>
+		<p>About Family Medicine Education</p>
+		<p>Governance</p>', '', '9/14/2012 2:17:04 PM')
+Oh Yes!  SUCCESS - 9/14/2012 2:17:18 PM Method: SavePageContent. AboutUs.aspx content was successfully saved: 9/14/2012 2:17:18 PM SQL: insert into STFMContentHistory (ContentMetaID, Section, Page, Placement, Content, UserID, DateCreated) Values (259, 'About Us', 'AboutUs', '1', '<p>Become A Member</p>
+		<p>About Family Medicine Education</p>
+		<p>Governance</p>
+		<p>History</p>', '', '9/14/2012 2:17:18 PM')
+SUCCESS - 9/14/2012 2:17:33 PM Method: CreateContentPageMeta. C:\Users\Gil\Documents\Visual Studio 2010\Projects\STFMPlatformTransition\STFMPlatformTransition\Content\History.aspx successfully created: 9/14/2012 2:17:33 PM
+SUCCESS - 9/14/2012 2:17:33 PM Method: CreateContentPage. History.aspx successfully created: 9/14/2012 2:17:33 PM
+SUCCESS - 9/14/2012 2:17:33 PM Method: FillContentObject. System.Security.Principal.WindowsPrincipal successfully completed: 9/14/2012 2:17:33 PM
+Oh Yes!  SUCCESS - 9/14/2012 2:18:25 PM Method: SavePageContent. History.aspx content was successfully saved: 9/14/2012 2:18:25 PM SQL: insert into ContentMeta (ContentID, DateCreated, CreatedBy, MetaDescriptorID) Values (41, '9/14/2012 2:18:25 PM', 'admin', '1')
+SUCCESS - 9/14/2012 2:18:28 PM Method: PublishContent. 41 successfully published: 9/14/2012 2:18:28 PM
+SUCCESS - 9/14/2012 2:18:30 PM Method: PublishPage. History.aspx successfully published: 9/14/2012 2:18:30 PM
+SUCCESS - 9/14/2012 2:21:22 PM Method: CheckLoginCredentials. System.Security.Principal.WindowsPrincipal successfully authenticated: 9/14/2012 2:21:22 PM
+Oh Yes!  SUCCESS - 9/14/2012 2:22:42 PM Method: SavePageContent. History.aspx content was successfully saved: 9/14/2012 2:22:42 PM SQL: insert into STFMContentHistory (ContentMetaID, Section, Page, Placement, Content, UserID, DateCreated) Values (262, 'About Us', 'History', '2', '<h2>STFM History</h2>
+		<p>
+				<span class="currency_converter_text">This section recounts how STFM started, major activities, and accomplishments over the years, and the names of the individuals who have led the society since its inception in </span>
+				<span class="currency_converter_link" title="Convert this amount">1967</span>
+				<span class="currency_converter_text">. As this is an historical account, this section is always being updated, be sure to visit often to learn more about the history of the Society and those that came before.</span>
+		</p>
+		<h3>STFM</h3>
+		<ul>
+				<li>
+						<a href="http://www.stfm.org/about/history/adminofficers.cfm#admin">Administrative Officers</a>
+				</li>
+				<li>
+						<a href="http://www.stfm.org/about/history/awardrecipients.cfm">Award Recipients</a>
+				</li>
+				<li>
+						<a href="http://www.stfm.org/about/history/pastpresidents.cfm">Past STFM Presidents</a>
+				</li>
+				<li>
+						<a href="http://www.stfm.org/about/history/BOD.cfm">Past Board of Directors<br /></a>
+				</li>
+				<li>
+						<a href="http://www.stfm.org/about/History/pastconferences.cfm">Past Conferences</a>
+				</li>
+				<li>
+						<a href="http://www.stfm.org/conferences/pastbrochures.cfm">Conference Brochures, Handouts, and Proceedings (prior 4 years)<br /></a>
+				</li>
+				<li>
+						<a href="http://www.stfm.org/about/history/cosponsored.cfm">Cosponsored Meetings</a>
+				</li>
+				<li>
+						<a href="http://www.stfm.org/about/history/CME.cfm">Continuing Medical Education Credits (CME)</a>
+						<br />
+				</li>
+				<li>
+						<a href="http://www.stfm.org/about/history/adminofficers.cfm#honorary">Honorary Members</a>
+				</li>
+				<li>
+						<a href="http://www.stfm.org/about/history/sigevents.cfm">Significant Events in STFM History</a>
+						<br />
+						<br />
+				</li>
+		</ul>
+		<h3>STFM Foundation</h3>
+		<ul>
+				<li>
+						<a href="http://www.stfm.org/fnd/PastTrustees.cfm">Past Foundation Trustees and Officers</a>
+						<br />
+				</li>
+				<li>
+						<a href="http://www.stfm.org/fnd/leadership/fac-details.cfm#Recipients">Faculty Enhancement Program Recipients</a>
+				</li>
+				<li>
+						<a href="http://www.stfm.org/fnd/recognition/blanchard.cfm">Leland Blanchard Memorial Lecture</a>
+				</li>
+				<li>
+						<a href="http://www.stfm.org/fnd/leadership/nfsawardees.cfm">New Faculty Scholar Award Recipients</a>
+				</li>
+				<li>
+						<a href="http://www.stfm.org/Foundation%20History.doc">The Foundation - A Chronological History</a>
+						<br />
+				</li>
+		</ul>
+		<h3>
+				<br />STFM Projects Supported Through Contracts</h3>
+		<ul>
+				<li>CDC Cooperative Agreement on Immunizations 
+</li>
+				<li>
+						<a href="http://genes-r-us.uthscsa.edu/resources/genetics/primary_care.htm">Genetics in Primary Care</a>
+				</li>
+				<li>
+						<a href="http://www.fmdrl.org/index.cfm?event=c.AccessResource&amp;rid=156">Family Medicine Curriculum Resource Project</a>
+				</li>
+				<li>
+						<a href="http://www.fmdrl.org/">Family Medicine Digital Resources Library</a>
+				</li>
+				<li>
+						<a href="http://www.stfm.org/about/contracts/ffi.cfm">Faculty Futures Initiative</a>
+				</li>
+				<li>
+						<a href="http://www.stfm.org/about/contracts/igc.cfm">Interdisciplinary Generalist Curriculum Project</a>
+				</li>
+		</ul>
+		<p>
+				<br />
+		</p>
+		<p align="left">
+				<font color="#000000">
+						<strong>For additional information, visit the <a href="http://www.aafpfoundation.org/x563.xml">Center for the History of Family Medicine </a></strong>
+				</font>
+		</p>
+		<!-- InstanceEndEditable -->', '', '9/14/2012 2:22:42 PM')
+SUCCESS - 9/14/2012 2:23:39 PM Method: CheckLoginCredentials. System.Security.Principal.WindowsPrincipal successfully authenticated: 9/14/2012 2:23:39 PM
+Oh Yes!  SUCCESS - 9/14/2012 2:24:02 PM Method: SavePageContent. History.aspx content was successfully saved: 9/14/2012 2:24:02 PM SQL: insert into STFMContentHistory (ContentMetaID, Section, Page, Placement, Content, UserID, DateCreated) Values (263, 'About Us', 'History', '2', '<h2>STFM History</h2>
+		<p>This section recounts how STFM started, major activities, and accomplishments over the years, and the names of the individuals who have led the society since its inception in 1967. As this is an historical account, this section is always being updated, be sure to visit often to learn more about the history of the Society and those that came before.</p>
+		<h3>STFM</h3>
+		<ul>
+				<li>
+						<a href="http://www.stfm.org/about/history/adminofficers.cfm#admin">Administrative Officers</a>
+				</li>
+				<li>
+						<a href="http://www.stfm.org/about/history/awardrecipients.cfm">Award Recipients</a>
+				</li>
+				<li>
+						<a href="http://www.stfm.org/about/history/pastpresidents.cfm">Past STFM Presidents</a>
+				</li>
+				<li>
+						<a href="http://www.stfm.org/about/history/BOD.cfm">Past Board of Directors<br /></a>
+				</li>
+				<li>
+						<a href="http://www.stfm.org/about/History/pastconferences.cfm">Past Conferences</a>
+				</li>
+				<li>
+						<a href="http://www.stfm.org/conferences/pastbrochures.cfm">Conference Brochures, Handouts, and Proceedings (prior 4 years)<br /></a>
+				</li>
+				<li>
+						<a href="http://www.stfm.org/about/history/cosponsored.cfm">Cosponsored Meetings</a>
+				</li>
+				<li>
+						<a href="http://www.stfm.org/about/history/CME.cfm">Continuing Medical Education Credits (CME)</a>
+						<br />
+				</li>
+				<li>
+						<a href="http://www.stfm.org/about/history/adminofficers.cfm#honorary">Honorary Members</a>
+				</li>
+				<li>
+						<a href="http://www.stfm.org/about/history/sigevents.cfm">Significant Events in STFM History</a>
+						<br />
+						<br />
+				</li>
+		</ul>
+		<h3>STFM Foundation</h3>
+		<ul>
+				<li>
+						<a href="http://www.stfm.org/fnd/PastTrustees.cfm">Past Foundation Trustees and Officers</a>
+						<br />
+				</li>
+				<li>
+						<a href="http://www.stfm.org/fnd/leadership/fac-details.cfm#Recipients">Faculty Enhancement Program Recipients</a>
+				</li>
+				<li>
+						<a href="http://www.stfm.org/fnd/recognition/blanchard.cfm">Leland Blanchard Memorial Lecture</a>
+				</li>
+				<li>
+						<a href="http://www.stfm.org/fnd/leadership/nfsawardees.cfm">New Faculty Scholar Award Recipients</a>
+				</li>
+				<li>
+						<a href="http://www.stfm.org/Foundation%20History.doc">The Foundation - A Chronological History</a>
+						<br />
+				</li>
+		</ul>
+		<h3>
+				<br />STFM Projects Supported Through Contracts</h3>
+		<ul>
+				<li>CDC Cooperative Agreement on Immunizations 
+</li>
+				<li>
+						<a href="http://genes-r-us.uthscsa.edu/resources/genetics/primary_care.htm">Genetics in Primary Care</a>
+				</li>
+				<li>
+						<a href="http://www.fmdrl.org/index.cfm?event=c.AccessResource&amp;rid=156">Family Medicine Curriculum Resource Project</a>
+				</li>
+				<li>
+						<a href="http://www.fmdrl.org/">Family Medicine Digital Resources Library</a>
+				</li>
+				<li>
+						<a href="http://www.stfm.org/about/contracts/ffi.cfm">Faculty Futures Initiative</a>
+				</li>
+				<li>
+						<a href="http://www.stfm.org/about/contracts/igc.cfm">Interdisciplinary Generalist Curriculum Project</a>
+				</li>
+		</ul>
+		<p>
+				<br />
+		</p>
+		<p align="left">
+				<font color="#000000">
+						<strong>For additional information, visit the <a href="http://www.aafpfoundation.org/x563.xml">Center for the History of Family Medicine </a></strong>
+				</font>
+		</p>
+		<!-- InstanceEndEditable -->', '', '9/14/2012 2:24:02 PM')
+Oh Yes!  SUCCESS - 9/14/2012 2:25:22 PM Method: SavePageContent. History.aspx content was successfully saved: 9/14/2012 2:25:22 PM SQL: insert into STFMContentHistory (ContentMetaID, Section, Page, Placement, Content, UserID, DateCreated) Values (264, 'About Us', 'History', '2', '<h2>STFM History</h2>This section recounts how STFM started, major activities, and accomplishments over the years, and the names of the individuals who have led the society since its inception in 1967. As this is an historical account, this section is always being updated, be sure to visit often to learn more about the history of the Society and those that came before. 
+<h3>STFM</h3><ul><li><a href="http://www.stfm.org/about/history/adminofficers.cfm#admin">Administrative Officers</a></li><li><a href="http://www.stfm.org/about/history/awardrecipients.cfm">Award Recipients</a></li><li><a href="http://www.stfm.org/about/history/pastpresidents.cfm">Past STFM Presidents</a></li><li><a href="http://www.stfm.org/about/history/BOD.cfm">Past Board of Directors<br /></a></li><li><a href="http://www.stfm.org/about/History/pastconferences.cfm">Past Conferences</a></li><li><a href="http://www.stfm.org/conferences/pastbrochures.cfm">Conference Brochures, Handouts, and Proceedings (prior 4 years)<br /></a></li><li><a href="http://www.stfm.org/about/history/cosponsored.cfm">Cosponsored Meetings</a></li><li><a href="http://www.stfm.org/about/history/CME.cfm">Continuing Medical Education Credits (CME)</a><br /></li><li><a href="http://www.stfm.org/about/history/adminofficers.cfm#honorary">Honorary Members</a></li><li><a href="http://www.stfm.org/about/history/sigevents.cfm">Significant Events in STFM History</a><br /><br /></li></ul><h3>STFM Foundation</h3><ul><li><a href="http://www.stfm.org/fnd/PastTrustees.cfm">Past Foundation Trustees and Officers</a><br /></li><li><a href="http://www.stfm.org/fnd/leadership/fac-details.cfm#Recipients">Faculty Enhancement Program Recipients</a></li><li><a href="http://www.stfm.org/fnd/recognition/blanchard.cfm">Leland Blanchard Memorial Lecture</a></li><li><a href="http://www.stfm.org/fnd/leadership/nfsawardees.cfm">New Faculty Scholar Award Recipients</a></li><li><a href="http://www.stfm.org/Foundation%20History.doc">The Foundation - A Chronological History</a><br /></li></ul><h3><br />STFM Projects Supported Through Contracts</h3><ul><li>CDC Cooperative Agreement on Immunizations 
+</li><li><a href="http://genes-r-us.uthscsa.edu/resources/genetics/primary_care.htm">Genetics in Primary Care</a></li><li><a href="http://www.fmdrl.org/index.cfm?event=c.AccessResource&amp;rid=156">Family Medicine Curriculum Resource Project</a></li><li><a href="http://www.fmdrl.org/">Family Medicine Digital Resources Library</a></li><li><a href="http://www.stfm.org/about/contracts/ffi.cfm">Faculty Futures Initiative</a></li><li><a href="http://www.stfm.org/about/contracts/igc.cfm">Interdisciplinary Generalist Curriculum Project</a></li></ul><p><br /></p><p align="left"><font color="#000000"><strong>For additional information, visit the <a href="http://www.aafpfoundation.org/x563.xml">Center for the History of Family Medicine </a></strong></font></p><!-- InstanceEndEditable -->', '', '9/14/2012 2:25:22 PM')
+Oh Yes!  SUCCESS - 9/14/2012 2:26:36 PM Method: SavePageContent. History.aspx content was successfully saved: 9/14/2012 2:26:36 PM SQL: insert into STFMContentHistory (ContentMetaID, Section, Page, Placement, Content, UserID, DateCreated) Values (265, 'About Us', 'History', '2', '<h2>STFM History</h2>
+		<p>This section recounts how STFM started, major activities, and accomplishments over the years, and the names of the individuals who have led the society since its inception in 1967. As this is an historical account, this section is always being updated, be sure to visit often to learn more about the history of the Society and those that came before.</p>
+		<h3>STFM</h3>
+		<ul>
+				<li>
+						<a href="http://www.stfm.org/about/history/adminofficers.cfm#admin">Administrative Officers</a>
+				</li>
+				<li>
+						<a href="http://www.stfm.org/about/history/awardrecipients.cfm">Award Recipients</a>
+				</li>
+				<li>
+						<a href="http://www.stfm.org/about/history/pastpresidents.cfm">Past STFM Presidents</a>
+				</li>
+				<li>
+						<a href="http://www.stfm.org/about/history/BOD.cfm">Past Board of Directors<br /></a>
+				</li>
+				<li>
+						<a href="http://www.stfm.org/about/History/pastconferences.cfm">Past Conferences</a>
+				</li>
+				<li>
+						<a href="http://www.stfm.org/conferences/pastbrochures.cfm">Conference Brochures, Handouts, and Proceedings (prior 4 years)<br /></a>
+				</li>
+				<li>
+						<a href="http://www.stfm.org/about/history/cosponsored.cfm">Cosponsored Meetings</a>
+				</li>
+				<li>
+						<a href="http://www.stfm.org/about/history/CME.cfm">Continuing Medical Education Credits (CME)</a>
+						<br />
+				</li>
+				<li>
+						<a href="http://www.stfm.org/about/history/adminofficers.cfm#honorary">Honorary Members</a>
+				</li>
+				<li>
+						<a href="http://www.stfm.org/about/history/sigevents.cfm">Significant Events in STFM History</a>
+						<br />
+						<br />
+				</li>
+		</ul>
+		<h3>STFM Foundation</h3>
+		<ul>
+				<li>
+						<a href="http://www.stfm.org/fnd/PastTrustees.cfm">Past Foundation Trustees and Officers</a>
+						<br />
+				</li>
+				<li>
+						<a href="http://www.stfm.org/fnd/leadership/fac-details.cfm#Recipients">Faculty Enhancement Program Recipients</a>
+				</li>
+				<li>
+						<a href="http://www.stfm.org/fnd/recognition/blanchard.cfm">Leland Blanchard Memorial Lecture</a>
+				</li>
+				<li>
+						<a href="http://www.stfm.org/fnd/leadership/nfsawardees.cfm">New Faculty Scholar Award Recipients</a>
+				</li>
+				<li>
+						<a href="http://www.stfm.org/Foundation%20History.doc">The Foundation - A Chronological History</a>
+						<br />
+				</li>
+		</ul>
+		<h3>
+				<br />STFM Projects Supported Through Contracts</h3>
+		<ul>
+				<li>CDC Cooperative Agreement on Immunizations 
+</li>
+				<li>
+						<a href="http://genes-r-us.uthscsa.edu/resources/genetics/primary_care.htm">Genetics in Primary Care</a>
+				</li>
+				<li>
+						<a href="http://www.fmdrl.org/index.cfm?event=c.AccessResource&amp;rid=156">Family Medicine Curriculum Resource Project</a>
+				</li>
+				<li>
+						<a href="http://www.fmdrl.org/">Family Medicine Digital Resources Library</a>
+				</li>
+				<li>
+						<a href="http://www.stfm.org/about/contracts/ffi.cfm">Faculty Futures Initiative</a>
+				</li>
+				<li>
+						<a href="http://www.stfm.org/about/contracts/igc.cfm">Interdisciplinary Generalist Curriculum Project</a>
+				</li>
+		</ul>
+		<p>
+				<br />
+		</p>
+		<p align="left">
+				<font color="#000000">
+						<strong>For additional information, visit the <a href="http://www.aafpfoundation.org/x563.xml">Center for the History of Family Medicine </a></strong>
+				</font>
+		</p>
+		<!-- InstanceEndEditable -->', '', '9/14/2012 2:26:36 PM')
+SUCCESS - 9/14/2012 2:31:33 PM Method: CheckLoginCredentials. System.Security.Principal.WindowsPrincipal successfully authenticated: 9/14/2012 2:31:33 PM
+Oh Yes!  SUCCESS - 9/14/2012 2:31:51 PM Method: SavePageContent. AboutUs.aspx content was successfully saved: 9/14/2012 2:31:51 PM SQL: insert into STFMContentHistory (ContentMetaID, Section, Page, Placement, Content, UserID, DateCreated) Values (266, 'About Us', 'AboutUs', '1', '<p>Become A Member</p>
+		<p>About Family Medicine Education</p>
+		<p>Governance</p>
+		<p>
+				<a href="History.aspx">History</a>
+		</p>', '', '9/14/2012 2:31:51 PM')
+SUCCESS - 9/14/2012 2:36:27 PM Method: CheckLoginCredentials. System.Security.Principal.WindowsPrincipal successfully authenticated: 9/14/2012 2:36:27 PM
+SUCCESS - 9/14/2012 3:02:21 PM Method: CheckLoginCredentials. System.Security.Principal.WindowsPrincipal successfully authenticated: 9/14/2012 3:02:21 PM
+Oh Yes!  SUCCESS - 9/14/2012 3:02:36 PM Method: SavePageContent. History.aspx content was successfully saved: 9/14/2012 3:02:36 PM SQL: insert into STFMContentHistory (ContentMetaID, Section, Page, Placement, Content, UserID, DateCreated) Values (267, 'About Us', 'History', '2', '<h2>STFM History</h2>
+		<p class="bodytext">This section recounts how STFM started, major activities, and accomplishments over the years, and the names of the individuals who have led the society since its inception in 1967. As this is an historical account, this section is always being updated, be sure to visit often to learn more about the history of the Society and those that came before.</p>
+		<h3>STFM</h3>
+		<ul>
+				<li>
+						<a href="http://www.stfm.org/about/history/adminofficers.cfm#admin">Administrative Officers</a>
+				</li>
+				<li>
+						<a href="http://www.stfm.org/about/history/awardrecipients.cfm">Award Recipients</a>
+				</li>
+				<li>
+						<a href="http://www.stfm.org/about/history/pastpresidents.cfm">Past STFM Presidents</a>
+				</li>
+				<li>
+						<a href="http://www.stfm.org/about/history/BOD.cfm">Past Board of Directors<br /></a>
+				</li>
+				<li>
+						<a href="http://www.stfm.org/about/History/pastconferences.cfm">Past Conferences</a>
+				</li>
+				<li>
+						<a href="http://www.stfm.org/conferences/pastbrochures.cfm">Conference Brochures, Handouts, and Proceedings (prior 4 years)<br /></a>
+				</li>
+				<li>
+						<a href="http://www.stfm.org/about/history/cosponsored.cfm">Cosponsored Meetings</a>
+				</li>
+				<li>
+						<a href="http://www.stfm.org/about/history/CME.cfm">Continuing Medical Education Credits (CME)</a>
+						<br />
+				</li>
+				<li>
+						<a href="http://www.stfm.org/about/history/adminofficers.cfm#honorary">Honorary Members</a>
+				</li>
+				<li>
+						<a href="http://www.stfm.org/about/history/sigevents.cfm">Significant Events in STFM History</a>
+						<br />
+						<br />
+				</li>
+		</ul>
+		<h3>STFM Foundation</h3>
+		<ul>
+				<li>
+						<a href="http://www.stfm.org/fnd/PastTrustees.cfm">Past Foundation Trustees and Officers</a>
+						<br />
+				</li>
+				<li>
+						<a href="http://www.stfm.org/fnd/leadership/fac-details.cfm#Recipients">Faculty Enhancement Program Recipients</a>
+				</li>
+				<li>
+						<a href="http://www.stfm.org/fnd/recognition/blanchard.cfm">Leland Blanchard Memorial Lecture</a>
+				</li>
+				<li>
+						<a href="http://www.stfm.org/fnd/leadership/nfsawardees.cfm">New Faculty Scholar Award Recipients</a>
+				</li>
+				<li>
+						<a href="http://www.stfm.org/Foundation%20History.doc">The Foundation - A Chronological History</a>
+						<br />
+				</li>
+		</ul>
+		<h3>
+				<br />STFM Projects Supported Through Contracts</h3>
+		<ul>
+				<li>CDC Cooperative Agreement on Immunizations 
+</li>
+				<li>
+						<a href="http://genes-r-us.uthscsa.edu/resources/genetics/primary_care.htm">Genetics in Primary Care</a>
+				</li>
+				<li>
+						<a href="http://www.fmdrl.org/index.cfm?event=c.AccessResource&amp;rid=156">Family Medicine Curriculum Resource Project</a>
+				</li>
+				<li>
+						<a href="http://www.fmdrl.org/">Family Medicine Digital Resources Library</a>
+				</li>
+				<li>
+						<a href="http://www.stfm.org/about/contracts/ffi.cfm">Faculty Futures Initiative</a>
+				</li>
+				<li>
+						<a href="http://www.stfm.org/about/contracts/igc.cfm">Interdisciplinary Generalist Curriculum Project</a>
+				</li>
+		</ul>
+		<p>
+				<br />
+		</p>
+		<p align="left">
+				<font color="#000000">
+						<strong>For additional information, visit the <a href="http://www.aafpfoundation.org/x563.xml">Center for the History of Family Medicine </a></strong>
+				</font>
+		</p>
+		<!-- InstanceEndEditable -->', '', '9/14/2012 3:02:36 PM')

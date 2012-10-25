@@ -1,0 +1,38 @@
+﻿body 
+{
+    font-family: Helvetica, Verdana, Arial;
+    font-size: 1em;
+}
+
+.lblrow
+{
+    width: 165px;
+}
+
+.celllblrow
+{
+    width:210px;
+    height:120px;
+}
+
+.textboxes
+{
+    width: 98%;
+}
+
+.textboxrowpinfo
+{
+    width: 180px;
+}
+
+.req
+{
+    color:Red;
+}
+
+.EditHeader
+{
+    display:inline;
+}
+
+

@@ -1,0 +1,11 @@
+c:\users\gil\documents\visual studio 2010\Projects\STFMPlatformTransition\STFMPlatformTransition\bin\STFMPlatformTransition.dll
+c:\users\gil\documents\visual studio 2010\Projects\STFMPlatformTransition\STFMPlatformTransition\bin\STFMPlatformTransition.pdb
+c:\users\gil\documents\visual studio 2010\Projects\STFMPlatformTransition\STFMPlatformTransition\obj\Debug\ResolveAssemblyReference.cache
+c:\users\gil\documents\visual studio 2010\Projects\STFMPlatformTransition\STFMPlatformTransition\obj\Debug\STFMPlatformTransition.dll
+c:\users\gil\documents\visual studio 2010\Projects\STFMPlatformTransition\STFMPlatformTransition\obj\Debug\STFMPlatformTransition.pdb
+C:\Users\Gil\Documents\Visual Studio 2010\Projects\STFMPlatformTransition\STFMPlatformTransition\bin\FreeTextBox.dll
+C:\webredesign\STFMPlatformTransition\bin\STFMPlatformTransition.dll
+C:\webredesign\STFMPlatformTransition\bin\STFMPlatformTransition.pdb
+C:\webredesign\STFMPlatformTransition\obj\Debug\ResolveAssemblyReference.cache
+C:\webredesign\STFMPlatformTransition\obj\Debug\STFMPlatformTransition.dll
+C:\webredesign\STFMPlatformTransition\obj\Debug\STFMPlatformTransition.pdb

@@ -1,0 +1,12 @@
+SUCCESS - 9/24/2012 8:02:27 AM Method: CheckLoginCredentials. System.Security.Principal.WindowsPrincipal successfully authenticated: 9/24/2012 8:02:27 AM
+SUCCESS - 9/24/2012 8:05:58 AM Method: CheckLoginCredentials. System.Security.Principal.WindowsPrincipal successfully authenticated: 9/24/2012 8:05:58 AM
+Oh Yes!  SUCCESS - 9/24/2012 8:07:30 AM Method: SavePageContent. AboutUs.aspx content was successfully saved: 9/24/2012 8:07:30 AM SQL: insert into STFMContentHistory (ContentMetaID, Section, Page, Placement, Content, UserID, DateCreated) Values (345, 'About Us', 'AboutUs', '3', '<img border="0" alt="Middle_Image4.gif" src="/images/Middle_Image4.gif" width="241" height="160" />', '', '9/24/2012 8:07:29 AM')
+SUCCESS - 9/24/2012 9:46:35 AM Method: CheckLoginCredentials. System.Security.Principal.WindowsPrincipal successfully authenticated: 9/24/2012 9:46:35 AM
+SUCCESS - 9/24/2012 9:46:58 AM Method: CreateContentPageMeta. C:\Users\Gil\Documents\Visual Studio 2010\Projects\STFMPlatformTransition\STFMPlatformTransition\Content\AdminOfficers.aspx successfully created: 9/24/2012 9:46:58 AM
+SUCCESS - 9/24/2012 9:46:58 AM Method: CreateContentPage. AdminOfficers.aspx successfully created: 9/24/2012 9:46:58 AM
+SUCCESS - 9/24/2012 9:46:58 AM Method: FillContentObject. System.Security.Principal.WindowsPrincipal successfully completed: 9/24/2012 9:46:58 AM
+Oh Yes!  SUCCESS - 9/24/2012 9:47:11 AM Method: SavePageContent. AdminOfficers.aspx content was successfully saved: 9/24/2012 9:47:11 AM SQL: insert into ContentMeta (ContentID, DateCreated, CreatedBy, MetaDescriptorID) Values (43, '9/24/2012 9:47:11 AM', 'admin', '1')
+SUCCESS - 9/24/2012 9:47:12 AM Method: PublishContent. 43 successfully published: 9/24/2012 9:47:12 AM
+SUCCESS - 9/24/2012 9:47:14 AM Method: PublishContent. 38 successfully published: 9/24/2012 9:47:14 AM
+SUCCESS - 9/24/2012 9:47:16 AM Method: PublishPage. AdminOfficers.aspx successfully published: 9/24/2012 9:47:16 AM
+SUCCESS - 9/24/2012 11:22:24 AM Method: CheckLoginCredentials. System.Security.Principal.WindowsPrincipal successfully authenticated: 9/24/2012 11:22:24 AM

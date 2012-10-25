@@ -1,0 +1,79 @@
+SUCCESS - 8/24/2012 7:20:47 AM Method: CheckLoginCredentials. System.Security.Principal.WindowsPrincipal successfully authenticated: 8/24/2012 7:20:47 AM
+Oh Yes!  SUCCESS - 8/24/2012 7:21:55 AM Method: SavePageContent. AboutUs.aspx content was successfully saved: 8/24/2012 7:21:55 AM SQL: insert into STFMContentHistory (ContentMetaID, Section, Page, Placement, Content, UserID, DateCreated) Values (88, 'About Us', 'AboutUs', '1', '<a href="AboutUs.aspx">About Us</a>', '', '8/24/2012 7:21:55 AM')
+SUCCESS - 8/24/2012 7:25:55 AM Method: CheckLoginCredentials. System.Security.Principal.WindowsPrincipal successfully authenticated: 8/24/2012 7:25:55 AM
+Oh Yes!  SUCCESS - 8/24/2012 7:50:47 AM Method: SavePageContent. AboutUs.aspx content was successfully saved: 8/24/2012 7:50:47 AM SQL: insert into STFMContentHistory (ContentMetaID, Section, Page, Placement, Content, UserID, DateCreated) Values (89, 'About Us', 'AboutUs', '1', '<a href="AboutUs.aspx">About Us</a>', '', '8/24/2012 7:50:47 AM')
+SUCCESS - 8/24/2012 8:08:43 AM Method: CheckLoginCredentials. System.Security.Principal.WindowsPrincipal successfully authenticated: 8/24/2012 8:08:43 AM
+Oh Yes!  SUCCESS - 8/24/2012 8:11:44 AM Method: SavePageContent. AboutUs.aspx content was successfully saved: 8/24/2012 8:11:44 AM SQL: insert into STFMContentHistory (ContentMetaID, Section, Page, Placement, Content, UserID, DateCreated) Values (90, 'About Us', 'AboutUs', '1', '<a href="AboutUs.aspx">About Us</a>', '', '8/24/2012 8:11:40 AM')
+SUCCESS - 8/24/2012 8:18:39 AM Method: CheckLoginCredentials. System.Security.Principal.WindowsPrincipal successfully authenticated: 8/24/2012 8:18:39 AM
+Oh Yes!  SUCCESS - 8/24/2012 8:19:08 AM Method: SavePageContent. AboutUs.aspx content was successfully saved: 8/24/2012 8:19:08 AM SQL: insert into STFMContentHistory (ContentMetaID, Section, Page, Placement, Content, UserID, DateCreated) Values (91, 'About Us', 'AboutUs', '1', '<p>
+				<a href="AboutUs.aspx">About Us</a>
+		</p>
+		<p>
+				<a href="History.aspx">History</a>
+		</p>', '', '8/24/2012 8:19:08 AM')
+SUCCESS - 8/24/2012 8:20:08 AM Method: CheckLoginCredentials. System.Security.Principal.WindowsPrincipal successfully authenticated: 8/24/2012 8:20:08 AM
+Oh Yes!  SUCCESS - 8/24/2012 8:20:34 AM Method: SavePageContent. AboutUs.aspx content was successfully saved: 8/24/2012 8:20:34 AM SQL: insert into STFMContentHistory (ContentMetaID, Section, Page, Placement, Content, UserID, DateCreated) Values (92, 'About Us', 'AboutUs', '1', '<p>
+				<a href="AboutUs.aspx">About Us</a>
+		</p>
+		<p>
+				<a href="History.aspx">History</a>
+		</p>
+		<p>
+				<a href="http://www.stfm.org">Link2</a>
+		</p>', '', '8/24/2012 8:20:34 AM')
+SUCCESS - 8/24/2012 9:24:48 AM Method: CheckLoginCredentials. System.Security.Principal.WindowsPrincipal successfully authenticated: 8/24/2012 9:24:48 AM
+SUCCESS - 8/24/2012 9:25:32 AM Method: CreateContentPageMeta. C:\Users\Gil\Documents\Visual Studio 2010\Projects\STFMPlatformTransition\STFMPlatformTransition\Content\History.aspx successfully created: 8/24/2012 9:25:32 AM
+SUCCESS - 8/24/2012 9:25:32 AM Method: CreateContentPage. History.aspx successfully created: 8/24/2012 9:25:32 AM
+SUCCESS - 8/24/2012 9:25:32 AM Method: FillContentObject. System.Security.Principal.WindowsPrincipal successfully completed: 8/24/2012 9:25:32 AM
+SUCCESS - 8/24/2012 9:27:25 AM Method: CreateContentPageMeta. C:\Users\Gil\Documents\Visual Studio 2010\Projects\STFMPlatformTransition\STFMPlatformTransition\Content\AboutUs.aspx successfully created: 8/24/2012 9:27:25 AM
+SUCCESS - 8/24/2012 9:27:25 AM Method: CreateContentPage. AboutUs.aspx successfully created: 8/24/2012 9:27:25 AM
+SUCCESS - 8/24/2012 9:27:25 AM Method: FillContentObject. System.Security.Principal.WindowsPrincipal successfully completed: 8/24/2012 9:27:25 AM
+Oh Yes!  SUCCESS - 8/24/2012 9:31:55 AM Method: SavePageContent. AboutUs.aspx content was successfully saved: 8/24/2012 9:31:55 AM SQL: insert into ContentMeta (ContentID, DateCreated, CreatedBy, MetaDescriptorID) Values (5, '8/24/2012 9:31:55 AM', 'admin', '1')
+SUCCESS - 8/24/2012 2:05:05 PM Method: CheckLoginCredentials. System.Security.Principal.WindowsPrincipal successfully authenticated: 8/24/2012 2:05:05 PM
+SUCCESS - 8/24/2012 2:05:17 PM Method: PublishPage. AboutUs.aspx successfully published: 8/24/2012 2:05:17 PM
+SUCCESS - 8/24/2012 2:07:01 PM Method: CheckLoginCredentials. System.Security.Principal.WindowsPrincipal successfully authenticated: 8/24/2012 2:07:01 PM
+SUCCESS - 8/24/2012 2:07:07 PM Method: PublishPage. History.aspx successfully published: 8/24/2012 2:07:07 PM
+SUCCESS - 8/24/2012 2:09:15 PM Method: CheckLoginCredentials. System.Security.Principal.WindowsPrincipal successfully authenticated: 8/24/2012 2:09:15 PM
+ERROR - 8/24/2012 2:09:25 PM Method: FindPage. Failed: 8/24/2012 2:09:25 PM Error: Invalid column name 'Section'.
+ERROR - 8/24/2012 2:09:28 PM Method: FindPage. Failed: 8/24/2012 2:09:28 PM Error: Invalid column name 'Page'.
+ERROR - 8/24/2012 2:09:33 PM Method: FindPage. Failed: 8/24/2012 2:09:33 PM Error: Section
+SUCCESS - 8/24/2012 2:11:24 PM Method: CheckLoginCredentials. System.Security.Principal.WindowsPrincipal successfully authenticated: 8/24/2012 2:11:24 PM
+ERROR - 8/24/2012 2:13:43 PM Method: FindPage. Failed: 8/24/2012 2:13:43 PM Error: Invalid column name 'Section'.
+SUCCESS - 8/24/2012 2:19:01 PM Method: CheckLoginCredentials. System.Security.Principal.WindowsPrincipal successfully authenticated: 8/24/2012 2:19:01 PM
+ERROR - 8/24/2012 2:20:28 PM Method: FindPage. Failed: 8/24/2012 2:20:28 PM Error: Invalid column name 'Section'.
+The multi-part identifier "cp.id" could not be bound.
+The multi-part identifier "cp.section" could not be bound.
+The multi-part identifier "cp.page" could not be bound.
+SUCCESS - 8/24/2012 2:21:10 PM Method: CheckLoginCredentials. System.Security.Principal.WindowsPrincipal successfully authenticated: 8/24/2012 2:21:10 PM
+SUCCESS - 8/24/2012 2:21:24 PM Method: FindPage. Successfully completed: 8/24/2012 2:21:24 PM
+SUCCESS - 8/24/2012 2:21:37 PM Method: FindPage. Successfully completed: 8/24/2012 2:21:37 PM
+SUCCESS - 8/24/2012 2:23:08 PM Method: FindPage. Successfully completed: 8/24/2012 2:23:08 PM
+SUCCESS - 8/24/2012 2:27:26 PM Method: FindPage. Successfully completed: 8/24/2012 2:27:26 PM
+SUCCESS - 8/24/2012 2:31:48 PM Method: CheckLoginCredentials. System.Security.Principal.WindowsPrincipal successfully authenticated: 8/24/2012 2:31:48 PM
+SUCCESS - 8/24/2012 2:49:29 PM Method: CheckLoginCredentials. System.Security.Principal.WindowsPrincipal successfully authenticated: 8/24/2012 2:49:29 PM
+SUCCESS - 8/24/2012 5:03:01 PM Method: CheckLoginCredentials. System.Security.Principal.WindowsPrincipal successfully authenticated: 8/24/2012 5:03:01 PM
+SUCCESS - 8/24/2012 5:03:17 PM Method: RenamePage. Page successfully renamed from AboutUs to STFMHistory: 8/24/2012 5:03:17 PM
+Oh Yes!  SUCCESS - 8/24/2012 5:04:00 PM Method: SavePageContent. STFMHistory.aspx content was successfully saved: 8/24/2012 5:04:00 PM SQL: insert into STFMContentHistory (ContentMetaID, Section, Page, Placement, Content, UserID, DateCreated) Values (94, 'About Us', 'STFMHistory', '1', '<p>
+				<a href="AboutUs.aspx">About Us</a>
+		</p>
+		<p>
+				<a href="Join.aspx">Become a Member</a>
+		</p>
+		<p>
+				<a href="AboutFamilyMedicineEducation.aspx">About Family Medicine Education</a>
+		</p>
+		<p>
+				<a href="Governance.aspx">Governance</a>
+		</p>
+		<p>
+				<a href="StrategicPlan.aspx">Strategic Plan</a>
+		</p>
+		<p>
+				<a href="History.aspx">History</a>
+		</p>
+		<p>
+				<a href="CAFM.aspx">CAFM</a>
+		</p>
+		<p>
+				<a href="STFMMerchandise.aspx">STFM Merchandise</a>
+		</p>', '', '8/24/2012 5:04:00 PM')

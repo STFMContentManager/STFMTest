@@ -1,0 +1,11 @@
+SUCCESS - 8/21/2012 1:56:38 PM Method: CheckLoginCredentials. System.Security.Principal.WindowsPrincipal successfully authenticated: 8/21/2012 1:56:38 PM
+SUCCESS - 8/21/2012 1:59:02 PM Method: CheckLoginCredentials. System.Security.Principal.WindowsPrincipal successfully authenticated: 8/21/2012 1:59:02 PM
+SUCCESS - 8/21/2012 1:59:12 PM Method: CheckLoginCredentials. System.Security.Principal.WindowsPrincipal successfully authenticated: 8/21/2012 1:59:12 PM
+SUCCESS - 8/21/2012 1:59:40 PM Method: CreateContentPageMeta. D:\hosting\9498653\html\deepcleansing\Content\AboutUs.aspx successfully created: 8/21/2012 1:59:40 PM
+SUCCESS - 8/21/2012 1:59:40 PM Method: CreateContentPage. AboutUs.aspx successfully created: 8/21/2012 1:59:40 PM
+SUCCESS - 8/21/2012 1:59:40 PM Method: FillContentObject. System.Security.Principal.WindowsPrincipal successfully completed: 8/21/2012 1:59:40 PM
+ERROR - 8/21/2012 2:01:04 PM Method: CreateContentPage. D:\hosting\9498653\html\deepcleansing\Content\adm\n.aspx failed: 8/21/2012 2:01:04 PM Error: Could not find a part of the path 'D:\hosting\9498653\html\deepcleansing\Content\adm\n.aspx'.
+SUCCESS - 8/21/2012 2:01:04 PM Method: DeleteContentPage. D:\hosting\9498653\html\deepcleansing\Content\adm\n.aspx successfully deleted: 8/21/2012 2:01:04 PM
+SUCCESS - 8/21/2012 2:01:04 PM Method: CreateContentPage=>DeleteContentPage. D:\hosting\9498653\html\deepcleansing\Content\adm\n.aspx successfully deleted: 8/21/2012 2:01:04 PM
+SUCCESS - 8/21/2012 2:01:04 PM Method: CreateContentPage. adm\n.aspx successfully created: 8/21/2012 2:01:04 PM
+SUCCESS - 8/21/2012 2:01:04 PM Method: FillContentObject. System.Security.Principal.WindowsPrincipal successfully completed: 8/21/2012 2:01:04 PM

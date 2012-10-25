@@ -1,0 +1,850 @@
+SUCCESS - 10/2/2012 11:23:54 AM Method: CheckLoginCredentials. System.Security.Principal.WindowsPrincipal successfully authenticated: 10/2/2012 11:23:54 AM
+Oh Yes!  SUCCESS - 10/2/2012 11:25:02 AM Method: SavePageContent. AboutUs.aspx content was successfully saved: 10/2/2012 11:25:02 AM SQL: insert into STFMContentHistory (ContentMetaID, Section, Page, Placement, Content, UserID, DateCreated) Values (404, 'About Us', 'AboutUs', '2', '<P>The Society was founded in 1967 to respond to the needs of family medicine educators. From a small beginning of 105 founding members, we have grown to a membership of nearly 5,000 teachers of family medicine. These teachers include medical school professors, preceptors, residency program faculty, residency program directors and all involved in family medicine education.</P>
+<P>The administrative offices are housed with the American Academy of Family Physicians in Leawood, Kansas, enhancing the close relationship between the two organizations. The Society has a 16-person staff in Leawood, Kansas, and two part-time staff members in Washington, DC.<BR></P>
+<H3 align=left>
+<H1>Mission</H1></H3>
+<P align=left>Advancing Family Medicine to Improve Health Through a Community of Teachers and Scholars.</P>
+<H2 align=left>Core Values</H2>
+<UL>
+<LI><FONT color=#000000>Diversity</FONT> 
+<LI><FONT color=#000000>Excellence</FONT> 
+<LI><FONT color=#000000>Integrity</FONT> 
+<LI><FONT color=#000000>Learning</FONT> 
+<LI><FONT color=#000000>Nurturing</FONT> 
+<LI><FONT color=#000000>Openness</FONT> 
+<LI><FONT color=#000000>Relationship-centered </FONT></LI></UL>
+<H3 align=left>Vision</H3>
+<P align=left>To become the indispensable academic home for every family medicine educator</P>
+<H3><A name=StrategicPlan></A>Strategic Plan<BR></H3>
+<P></P>
+<STYLE><![CDATA[
+&amp;amp;amp;amp;amp;amp;amp;lt;!--
+ /* Font Definitions */
+@font-face
+	{font-family:Arial;
+	panose-1:2 11 6 4 2 2 2 2 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 0 0 0 1 0;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 0 0 0 1 0;}
+ /* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:&amp;amp;amp;amp;amp;amp;amp;quot;&amp;amp;amp;amp;amp;amp;amp;quot;;
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:&amp;amp;amp;amp;amp;amp;amp;quot;Times New Roman&amp;amp;amp;amp;amp;amp;amp;quot;;
+	mso-ascii-font-family:Calibri;
+	mso-fareast-font-family:Calibri;
+	mso-hansi-font-family:Calibri;
+	mso-bidi-font-family:&amp;amp;amp;amp;amp;amp;amp;quot;Times New Roman&amp;amp;amp;amp;amp;amp;amp;quot;;}
+@page Section1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.25in 1.0in 1.25in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+--&amp;amp;amp;amp;amp;amp;amp;gt;
+]]></STYLE>
+
+<P></P>
+<STYLE><![CDATA[
+&lt;!--
+ /* Font Definitions */
+@font-face
+	{font-family:Arial;
+	panose-1:2 11 6 4 2 2 2 2 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 0 0 0 1 0;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 0 0 0 1 0;}
+ /* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:&quot;&quot;;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:10.0pt;
+	margin-left:0in;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:&quot;Times New Roman&quot;;
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:&quot;Times New Roman&quot;;
+	mso-bidi-theme-font:minor-bidi;}
+@page Section1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.25in 1.0in 1.25in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+--&gt;]]></STYLE>
+The STFM Board of Directors implemented a strategic planning process in 2011 to develop a 3-year plan and a process for utilization, measurement, updating, adding new and sun setting old programs. This was developed through extensive discussions by the Strategic Planning Committee, interviews of the Committee members, non-members and members-at-large; focus groups conducted at the annual meeting; and a member needs survey. 
+<P>This research resulted in five key priority areas for the STFM over the next 3 years. The plan should not and will not outline every tactic but will provide broad goals and strategies in which the programs of the organization will be considered. It is essential to the success of this plan that the organization has a strong infrastructure – governance, staff, communications plan, and facilities – in place to implement the plan. Also inherent in this plan is the belief that the Society supports diversity of faculty, including discipline, race, gender, and sexual orientation in the strategies we will use to address these priorities. While infrastructure and diversity are not listed as separate goals, it is recognized that they are major components for operationalizing this plan. </P>
+<H4><A href="StrategicPlan.aspx">View the Strategic Plan</A></H4>', '', '10/2/2012 11:25:02 AM')
+Oh Yes!  SUCCESS - 10/2/2012 11:25:25 AM Method: SavePageContent. AboutUs.aspx content was successfully saved: 10/2/2012 11:25:25 AM SQL: insert into STFMContentHistory (ContentMetaID, Section, Page, Placement, Content, UserID, DateCreated) Values (405, 'About Us', 'AboutUs', '2', '<P>The Society was founded in 1967 to respond to the needs of family medicine educators. From a small beginning of 105 founding members, we have grown to a membership of nearly 5,000 teachers of family medicine. These teachers include medical school professors, preceptors, residency program faculty, residency program directors and all involved in family medicine education.</P>
+<P>The administrative offices are housed with the American Academy of Family Physicians in Leawood, Kansas, enhancing the close relationship between the two organizations. The Society has a 16-person staff in Leawood, Kansas, and two part-time staff members in Washington, DC.<BR></P>
+<H1>Mission</H1>
+<P align=left>Advancing Family Medicine to Improve Health Through a Community of Teachers and Scholars.</P>
+<H2 align=left>Core Values</H2>
+<UL>
+<LI><FONT color=#000000>Diversity</FONT> 
+<LI><FONT color=#000000>Excellence</FONT> 
+<LI><FONT color=#000000>Integrity</FONT> 
+<LI><FONT color=#000000>Learning</FONT> 
+<LI><FONT color=#000000>Nurturing</FONT> 
+<LI><FONT color=#000000>Openness</FONT> 
+<LI><FONT color=#000000>Relationship-centered </FONT></LI></UL>
+<H3 align=left>Vision</H3>
+<P align=left>To become the indispensable academic home for every family medicine educator</P>
+<H3><A name=StrategicPlan></A>Strategic Plan<BR></H3>
+<P></P>
+<STYLE><![CDATA[
+&amp;amp;amp;amp;amp;amp;amp;lt;!--
+ /* Font Definitions */
+@font-face
+	{font-family:Arial;
+	panose-1:2 11 6 4 2 2 2 2 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 0 0 0 1 0;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 0 0 0 1 0;}
+ /* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:&amp;amp;amp;amp;amp;amp;amp;quot;&amp;amp;amp;amp;amp;amp;amp;quot;;
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:&amp;amp;amp;amp;amp;amp;amp;quot;Times New Roman&amp;amp;amp;amp;amp;amp;amp;quot;;
+	mso-ascii-font-family:Calibri;
+	mso-fareast-font-family:Calibri;
+	mso-hansi-font-family:Calibri;
+	mso-bidi-font-family:&amp;amp;amp;amp;amp;amp;amp;quot;Times New Roman&amp;amp;amp;amp;amp;amp;amp;quot;;}
+@page Section1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.25in 1.0in 1.25in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+--&amp;amp;amp;amp;amp;amp;amp;gt;
+]]></STYLE>
+
+<P></P>
+<STYLE><![CDATA[
+&lt;!--
+ /* Font Definitions */
+@font-face
+	{font-family:Arial;
+	panose-1:2 11 6 4 2 2 2 2 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 0 0 0 1 0;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 0 0 0 1 0;}
+ /* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:&quot;&quot;;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:10.0pt;
+	margin-left:0in;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:&quot;Times New Roman&quot;;
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:&quot;Times New Roman&quot;;
+	mso-bidi-theme-font:minor-bidi;}
+@page Section1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.25in 1.0in 1.25in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+--&gt;]]></STYLE>
+The STFM Board of Directors implemented a strategic planning process in 2011 to develop a 3-year plan and a process for utilization, measurement, updating, adding new and sun setting old programs. This was developed through extensive discussions by the Strategic Planning Committee, interviews of the Committee members, non-members and members-at-large; focus groups conducted at the annual meeting; and a member needs survey. 
+<P>This research resulted in five key priority areas for the STFM over the next 3 years. The plan should not and will not outline every tactic but will provide broad goals and strategies in which the programs of the organization will be considered. It is essential to the success of this plan that the organization has a strong infrastructure – governance, staff, communications plan, and facilities – in place to implement the plan. Also inherent in this plan is the belief that the Society supports diversity of faculty, including discipline, race, gender, and sexual orientation in the strategies we will use to address these priorities. While infrastructure and diversity are not listed as separate goals, it is recognized that they are major components for operationalizing this plan. </P>
+<H4><A href="StrategicPlan.aspx">View the Strategic Plan</A></H4>', '', '10/2/2012 11:25:25 AM')
+Oh Yes!  SUCCESS - 10/2/2012 11:26:20 AM Method: SavePageContent. AboutUs.aspx content was successfully saved: 10/2/2012 11:26:20 AM SQL: insert into STFMContentHistory (ContentMetaID, Section, Page, Placement, Content, UserID, DateCreated) Values (406, 'About Us', 'AboutUs', '2', '<P>The Society was founded in 1967 to respond to the needs of family medicine educators. From a small beginning of 105 founding members, we have grown to a membership of nearly 5,000 teachers of family medicine. These teachers include medical school professors, preceptors, residency program faculty, residency program directors and all involved in family medicine education.</P>
+<P>The administrative offices are housed with the American Academy of Family Physicians in Leawood, Kansas, enhancing the close relationship between the two organizations. The Society has a 16-person staff in Leawood, Kansas, and two part-time staff members in Washington, DC.<BR></P>
+<H3>Mission</H3>
+<P align=left>Advancing Family Medicine to Improve Health Through a Community of Teachers and Scholars.</P>
+<H2 align=left>Core Values</H2>
+<UL>
+<LI><FONT color=#000000>Diversity</FONT> 
+<LI><FONT color=#000000>Excellence</FONT> 
+<LI><FONT color=#000000>Integrity</FONT> 
+<LI><FONT color=#000000>Learning</FONT> 
+<LI><FONT color=#000000>Nurturing</FONT> 
+<LI><FONT color=#000000>Openness</FONT> 
+<LI><FONT color=#000000>Relationship-centered </FONT></LI></UL>
+<H3 align=left>Vision</H3>
+<P align=left>To become the indispensable academic home for every family medicine educator</P>
+<H3><A name=StrategicPlan></A>Strategic Plan<BR></H3>
+<P></P>
+<STYLE><![CDATA[
+&amp;amp;amp;amp;amp;amp;amp;lt;!--
+ /* Font Definitions */
+@font-face
+	{font-family:Arial;
+	panose-1:2 11 6 4 2 2 2 2 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 0 0 0 1 0;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 0 0 0 1 0;}
+ /* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:&amp;amp;amp;amp;amp;amp;amp;quot;&amp;amp;amp;amp;amp;amp;amp;quot;;
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:&amp;amp;amp;amp;amp;amp;amp;quot;Times New Roman&amp;amp;amp;amp;amp;amp;amp;quot;;
+	mso-ascii-font-family:Calibri;
+	mso-fareast-font-family:Calibri;
+	mso-hansi-font-family:Calibri;
+	mso-bidi-font-family:&amp;amp;amp;amp;amp;amp;amp;quot;Times New Roman&amp;amp;amp;amp;amp;amp;amp;quot;;}
+@page Section1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.25in 1.0in 1.25in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+--&amp;amp;amp;amp;amp;amp;amp;gt;
+]]></STYLE>
+
+<P></P>
+<STYLE><![CDATA[
+&lt;!--
+ /* Font Definitions */
+@font-face
+	{font-family:Arial;
+	panose-1:2 11 6 4 2 2 2 2 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 0 0 0 1 0;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 0 0 0 1 0;}
+ /* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:&quot;&quot;;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:10.0pt;
+	margin-left:0in;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:&quot;Times New Roman&quot;;
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:&quot;Times New Roman&quot;;
+	mso-bidi-theme-font:minor-bidi;}
+@page Section1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.25in 1.0in 1.25in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+--&gt;]]></STYLE>
+The STFM Board of Directors implemented a strategic planning process in 2011 to develop a 3-year plan and a process for utilization, measurement, updating, adding new and sun setting old programs. This was developed through extensive discussions by the Strategic Planning Committee, interviews of the Committee members, non-members and members-at-large; focus groups conducted at the annual meeting; and a member needs survey. 
+<P>This research resulted in five key priority areas for the STFM over the next 3 years. The plan should not and will not outline every tactic but will provide broad goals and strategies in which the programs of the organization will be considered. It is essential to the success of this plan that the organization has a strong infrastructure – governance, staff, communications plan, and facilities – in place to implement the plan. Also inherent in this plan is the belief that the Society supports diversity of faculty, including discipline, race, gender, and sexual orientation in the strategies we will use to address these priorities. While infrastructure and diversity are not listed as separate goals, it is recognized that they are major components for operationalizing this plan. </P>
+<H4><A href="StrategicPlan.aspx">View the Strategic Plan</A></H4>', '', '10/2/2012 11:26:20 AM')
+Oh Yes!  SUCCESS - 10/2/2012 11:26:45 AM Method: SavePageContent. AboutUs.aspx content was successfully saved: 10/2/2012 11:26:45 AM SQL: insert into STFMContentHistory (ContentMetaID, Section, Page, Placement, Content, UserID, DateCreated) Values (407, 'About Us', 'AboutUs', '2', '<P>The Society was founded in 1967 to respond to the needs of family medicine educators. From a small beginning of 105 founding members, we have grown to a membership of nearly 5,000 teachers of family medicine. These teachers include medical school professors, preceptors, residency program faculty, residency program directors and all involved in family medicine education.</P>
+<P>The administrative offices are housed with the American Academy of Family Physicians in Leawood, Kansas, enhancing the close relationship between the two organizations. The Society has a 16-person staff in Leawood, Kansas, and two part-time staff members in Washington, DC.<BR></P>
+<H2>Mission</H2>
+<P align=left>Advancing Family Medicine to Improve Health Through a Community of Teachers and Scholars.</P>
+<H2 align=left>Core Values</H2>
+<UL>
+<LI><FONT color=#000000>Diversity</FONT> 
+<LI><FONT color=#000000>Excellence</FONT> 
+<LI><FONT color=#000000>Integrity</FONT> 
+<LI><FONT color=#000000>Learning</FONT> 
+<LI><FONT color=#000000>Nurturing</FONT> 
+<LI><FONT color=#000000>Openness</FONT> 
+<LI><FONT color=#000000>Relationship-centered </FONT></LI></UL>
+<H3 align=left>Vision</H3>
+<P align=left>To become the indispensable academic home for every family medicine educator</P>
+<H3><A name=StrategicPlan></A>Strategic Plan<BR></H3>
+<P></P>
+<STYLE><![CDATA[
+&amp;amp;amp;amp;amp;amp;amp;lt;!--
+ /* Font Definitions */
+@font-face
+	{font-family:Arial;
+	panose-1:2 11 6 4 2 2 2 2 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 0 0 0 1 0;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 0 0 0 1 0;}
+ /* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:&amp;amp;amp;amp;amp;amp;amp;quot;&amp;amp;amp;amp;amp;amp;amp;quot;;
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:&amp;amp;amp;amp;amp;amp;amp;quot;Times New Roman&amp;amp;amp;amp;amp;amp;amp;quot;;
+	mso-ascii-font-family:Calibri;
+	mso-fareast-font-family:Calibri;
+	mso-hansi-font-family:Calibri;
+	mso-bidi-font-family:&amp;amp;amp;amp;amp;amp;amp;quot;Times New Roman&amp;amp;amp;amp;amp;amp;amp;quot;;}
+@page Section1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.25in 1.0in 1.25in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+--&amp;amp;amp;amp;amp;amp;amp;gt;
+]]></STYLE>
+
+<P></P>
+<STYLE><![CDATA[
+&lt;!--
+ /* Font Definitions */
+@font-face
+	{font-family:Arial;
+	panose-1:2 11 6 4 2 2 2 2 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 0 0 0 1 0;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 0 0 0 1 0;}
+ /* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:&quot;&quot;;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:10.0pt;
+	margin-left:0in;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:&quot;Times New Roman&quot;;
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:&quot;Times New Roman&quot;;
+	mso-bidi-theme-font:minor-bidi;}
+@page Section1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.25in 1.0in 1.25in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+--&gt;]]></STYLE>
+The STFM Board of Directors implemented a strategic planning process in 2011 to develop a 3-year plan and a process for utilization, measurement, updating, adding new and sun setting old programs. This was developed through extensive discussions by the Strategic Planning Committee, interviews of the Committee members, non-members and members-at-large; focus groups conducted at the annual meeting; and a member needs survey. 
+<P>This research resulted in five key priority areas for the STFM over the next 3 years. The plan should not and will not outline every tactic but will provide broad goals and strategies in which the programs of the organization will be considered. It is essential to the success of this plan that the organization has a strong infrastructure – governance, staff, communications plan, and facilities – in place to implement the plan. Also inherent in this plan is the belief that the Society supports diversity of faculty, including discipline, race, gender, and sexual orientation in the strategies we will use to address these priorities. While infrastructure and diversity are not listed as separate goals, it is recognized that they are major components for operationalizing this plan. </P>
+<H4><A href="StrategicPlan.aspx">View the Strategic Plan</A></H4>', '', '10/2/2012 11:26:45 AM')
+Oh Yes!  SUCCESS - 10/2/2012 11:27:16 AM Method: SavePageContent. AboutUs.aspx content was successfully saved: 10/2/2012 11:27:16 AM SQL: insert into STFMContentHistory (ContentMetaID, Section, Page, Placement, Content, UserID, DateCreated) Values (408, 'About Us', 'AboutUs', '2', '<P>The Society was founded in 1967 to respond to the needs of family medicine educators. From a small beginning of 105 founding members, we have grown to a membership of nearly 5,000 teachers of family medicine. These teachers include medical school professors, preceptors, residency program faculty, residency program directors and all involved in family medicine education.</P>
+<P>The administrative offices are housed with the American Academy of Family Physicians in Leawood, Kansas, enhancing the close relationship between the two organizations. The Society has a 16-person staff in Leawood, Kansas, and two part-time staff members in Washington, DC.<BR></P>
+<H2>Mission</H2>
+Advancing Family Medicine to Improve Health Through a Community of Teachers and Scholars.
+<H2 align=left>Core Values</H2>
+<UL>
+<LI><FONT color=#000000>Diversity</FONT> 
+<LI><FONT color=#000000>Excellence</FONT> 
+<LI><FONT color=#000000>Integrity</FONT> 
+<LI><FONT color=#000000>Learning</FONT> 
+<LI><FONT color=#000000>Nurturing</FONT> 
+<LI><FONT color=#000000>Openness</FONT> 
+<LI><FONT color=#000000>Relationship-centered </FONT></LI></UL>
+<H3 align=left>Vision</H3>
+<P align=left>To become the indispensable academic home for every family medicine educator</P>
+<H3><A name=StrategicPlan></A>Strategic Plan<BR></H3>
+<P></P>
+<STYLE><![CDATA[
+&amp;amp;amp;amp;amp;amp;amp;lt;!--
+ /* Font Definitions */
+@font-face
+	{font-family:Arial;
+	panose-1:2 11 6 4 2 2 2 2 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 0 0 0 1 0;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 0 0 0 1 0;}
+ /* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:&amp;amp;amp;amp;amp;amp;amp;quot;&amp;amp;amp;amp;amp;amp;amp;quot;;
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:&amp;amp;amp;amp;amp;amp;amp;quot;Times New Roman&amp;amp;amp;amp;amp;amp;amp;quot;;
+	mso-ascii-font-family:Calibri;
+	mso-fareast-font-family:Calibri;
+	mso-hansi-font-family:Calibri;
+	mso-bidi-font-family:&amp;amp;amp;amp;amp;amp;amp;quot;Times New Roman&amp;amp;amp;amp;amp;amp;amp;quot;;}
+@page Section1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.25in 1.0in 1.25in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+--&amp;amp;amp;amp;amp;amp;amp;gt;
+]]></STYLE>
+
+<P></P>
+<STYLE><![CDATA[
+&lt;!--
+ /* Font Definitions */
+@font-face
+	{font-family:Arial;
+	panose-1:2 11 6 4 2 2 2 2 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 0 0 0 1 0;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 0 0 0 1 0;}
+ /* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:&quot;&quot;;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:10.0pt;
+	margin-left:0in;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:&quot;Times New Roman&quot;;
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:&quot;Times New Roman&quot;;
+	mso-bidi-theme-font:minor-bidi;}
+@page Section1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.25in 1.0in 1.25in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+--&gt;]]></STYLE>
+The STFM Board of Directors implemented a strategic planning process in 2011 to develop a 3-year plan and a process for utilization, measurement, updating, adding new and sun setting old programs. This was developed through extensive discussions by the Strategic Planning Committee, interviews of the Committee members, non-members and members-at-large; focus groups conducted at the annual meeting; and a member needs survey. 
+<P>This research resulted in five key priority areas for the STFM over the next 3 years. The plan should not and will not outline every tactic but will provide broad goals and strategies in which the programs of the organization will be considered. It is essential to the success of this plan that the organization has a strong infrastructure – governance, staff, communications plan, and facilities – in place to implement the plan. Also inherent in this plan is the belief that the Society supports diversity of faculty, including discipline, race, gender, and sexual orientation in the strategies we will use to address these priorities. While infrastructure and diversity are not listed as separate goals, it is recognized that they are major components for operationalizing this plan. </P>
+<H4><A href="StrategicPlan.aspx">View the Strategic Plan</A></H4>', '', '10/2/2012 11:27:16 AM')
+Oh Yes!  SUCCESS - 10/2/2012 11:27:46 AM Method: SavePageContent. AboutUs.aspx content was successfully saved: 10/2/2012 11:27:46 AM SQL: insert into STFMContentHistory (ContentMetaID, Section, Page, Placement, Content, UserID, DateCreated) Values (409, 'About Us', 'AboutUs', '2', '<P>The Society was founded in 1967 to respond to the needs of family medicine educators. From a small beginning of 105 founding members, we have grown to a membership of nearly 5,000 teachers of family medicine. These teachers include medical school professors, preceptors, residency program faculty, residency program directors and all involved in family medicine education.</P>
+<P>The administrative offices are housed with the American Academy of Family Physicians in Leawood, Kansas, enhancing the close relationship between the two organizations. The Society has a 16-person staff in Leawood, Kansas, and two part-time staff members in Washington, DC.<BR></P>
+<H2>Mission</H2>Advancing Family Medicine to Improve Health Through a Community of Teachers and Scholars.
+<H2 align=left>&nbsp;</H2>
+<H2 align=left>Core Values</H2>
+<UL>
+<LI><FONT color=#000000>Diversity</FONT> 
+<LI><FONT color=#000000>Excellence</FONT> 
+<LI><FONT color=#000000>Integrity</FONT> 
+<LI><FONT color=#000000>Learning</FONT> 
+<LI><FONT color=#000000>Nurturing</FONT> 
+<LI><FONT color=#000000>Openness</FONT> 
+<LI><FONT color=#000000>Relationship-centered </FONT></LI></UL>
+<H3 align=left>Vision</H3>
+<P align=left>To become the indispensable academic home for every family medicine educator</P>
+<H3><A name=StrategicPlan></A>Strategic Plan<BR></H3>
+<P></P>
+<STYLE><![CDATA[
+&amp;amp;amp;amp;amp;amp;amp;lt;!--
+ /* Font Definitions */
+@font-face
+	{font-family:Arial;
+	panose-1:2 11 6 4 2 2 2 2 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 0 0 0 1 0;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 0 0 0 1 0;}
+ /* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:&amp;amp;amp;amp;amp;amp;amp;quot;&amp;amp;amp;amp;amp;amp;amp;quot;;
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:&amp;amp;amp;amp;amp;amp;amp;quot;Times New Roman&amp;amp;amp;amp;amp;amp;amp;quot;;
+	mso-ascii-font-family:Calibri;
+	mso-fareast-font-family:Calibri;
+	mso-hansi-font-family:Calibri;
+	mso-bidi-font-family:&amp;amp;amp;amp;amp;amp;amp;quot;Times New Roman&amp;amp;amp;amp;amp;amp;amp;quot;;}
+@page Section1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.25in 1.0in 1.25in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+--&amp;amp;amp;amp;amp;amp;amp;gt;
+]]></STYLE>
+
+<P></P>
+<STYLE><![CDATA[
+&lt;!--
+ /* Font Definitions */
+@font-face
+	{font-family:Arial;
+	panose-1:2 11 6 4 2 2 2 2 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 0 0 0 1 0;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 0 0 0 1 0;}
+ /* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:&quot;&quot;;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:10.0pt;
+	margin-left:0in;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:&quot;Times New Roman&quot;;
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:&quot;Times New Roman&quot;;
+	mso-bidi-theme-font:minor-bidi;}
+@page Section1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.25in 1.0in 1.25in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+--&gt;]]></STYLE>
+The STFM Board of Directors implemented a strategic planning process in 2011 to develop a 3-year plan and a process for utilization, measurement, updating, adding new and sun setting old programs. This was developed through extensive discussions by the Strategic Planning Committee, interviews of the Committee members, non-members and members-at-large; focus groups conducted at the annual meeting; and a member needs survey. 
+<P>This research resulted in five key priority areas for the STFM over the next 3 years. The plan should not and will not outline every tactic but will provide broad goals and strategies in which the programs of the organization will be considered. It is essential to the success of this plan that the organization has a strong infrastructure – governance, staff, communications plan, and facilities – in place to implement the plan. Also inherent in this plan is the belief that the Society supports diversity of faculty, including discipline, race, gender, and sexual orientation in the strategies we will use to address these priorities. While infrastructure and diversity are not listed as separate goals, it is recognized that they are major components for operationalizing this plan. </P>
+<H4><A href="StrategicPlan.aspx">View the Strategic Plan</A></H4>', '', '10/2/2012 11:27:46 AM')
+Oh Yes!  SUCCESS - 10/2/2012 11:28:09 AM Method: SavePageContent. AboutUs.aspx content was successfully saved: 10/2/2012 11:28:09 AM SQL: insert into STFMContentHistory (ContentMetaID, Section, Page, Placement, Content, UserID, DateCreated) Values (410, 'About Us', 'AboutUs', '2', '<P>The Society was founded in 1967 to respond to the needs of family medicine educators. From a small beginning of 105 founding members, we have grown to a membership of nearly 5,000 teachers of family medicine. These teachers include medical school professors, preceptors, residency program faculty, residency program directors and all involved in family medicine education.</P>
+<P>The administrative offices are housed with the American Academy of Family Physicians in Leawood, Kansas, enhancing the close relationship between the two organizations. The Society has a 16-person staff in Leawood, Kansas, and two part-time staff members in Washington, DC.<BR></P>
+<H2>Mission</H2>
+<P>Advancing Family Medicine to Improve Health Through a Community of Teachers and Scholars. </P>
+<H2>Core Values</H2>
+<UL>
+<LI><FONT color=#000000>Diversity</FONT> 
+<LI><FONT color=#000000>Excellence</FONT> 
+<LI><FONT color=#000000>Integrity</FONT> 
+<LI><FONT color=#000000>Learning</FONT> 
+<LI><FONT color=#000000>Nurturing</FONT> 
+<LI><FONT color=#000000>Openness</FONT> 
+<LI><FONT color=#000000>Relationship-centered </FONT></LI></UL>
+<H3 align=left>Vision</H3>
+<P align=left>To become the indispensable academic home for every family medicine educator</P>
+<H3><A name=StrategicPlan></A>Strategic Plan<BR></H3>
+<P></P>
+<STYLE><![CDATA[
+&amp;amp;amp;amp;amp;amp;amp;lt;!--
+ /* Font Definitions */
+@font-face
+	{font-family:Arial;
+	panose-1:2 11 6 4 2 2 2 2 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 0 0 0 1 0;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 0 0 0 1 0;}
+ /* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:&amp;amp;amp;amp;amp;amp;amp;quot;&amp;amp;amp;amp;amp;amp;amp;quot;;
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:&amp;amp;amp;amp;amp;amp;amp;quot;Times New Roman&amp;amp;amp;amp;amp;amp;amp;quot;;
+	mso-ascii-font-family:Calibri;
+	mso-fareast-font-family:Calibri;
+	mso-hansi-font-family:Calibri;
+	mso-bidi-font-family:&amp;amp;amp;amp;amp;amp;amp;quot;Times New Roman&amp;amp;amp;amp;amp;amp;amp;quot;;}
+@page Section1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.25in 1.0in 1.25in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+--&amp;amp;amp;amp;amp;amp;amp;gt;
+]]></STYLE>
+
+<P></P>
+<STYLE><![CDATA[
+&lt;!--
+ /* Font Definitions */
+@font-face
+	{font-family:Arial;
+	panose-1:2 11 6 4 2 2 2 2 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 0 0 0 1 0;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 0 0 0 1 0;}
+ /* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:&quot;&quot;;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:10.0pt;
+	margin-left:0in;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:&quot;Times New Roman&quot;;
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:&quot;Times New Roman&quot;;
+	mso-bidi-theme-font:minor-bidi;}
+@page Section1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.25in 1.0in 1.25in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+--&gt;]]></STYLE>
+The STFM Board of Directors implemented a strategic planning process in 2011 to develop a 3-year plan and a process for utilization, measurement, updating, adding new and sun setting old programs. This was developed through extensive discussions by the Strategic Planning Committee, interviews of the Committee members, non-members and members-at-large; focus groups conducted at the annual meeting; and a member needs survey. 
+<P>This research resulted in five key priority areas for the STFM over the next 3 years. The plan should not and will not outline every tactic but will provide broad goals and strategies in which the programs of the organization will be considered. It is essential to the success of this plan that the organization has a strong infrastructure – governance, staff, communications plan, and facilities – in place to implement the plan. Also inherent in this plan is the belief that the Society supports diversity of faculty, including discipline, race, gender, and sexual orientation in the strategies we will use to address these priorities. While infrastructure and diversity are not listed as separate goals, it is recognized that they are major components for operationalizing this plan. </P>
+<H4><A href="StrategicPlan.aspx">View the Strategic Plan</A></H4>', '', '10/2/2012 11:28:09 AM')
+Oh Yes!  SUCCESS - 10/2/2012 11:28:39 AM Method: SavePageContent. AboutUs.aspx content was successfully saved: 10/2/2012 11:28:39 AM SQL: insert into STFMContentHistory (ContentMetaID, Section, Page, Placement, Content, UserID, DateCreated) Values (411, 'About Us', 'AboutUs', '2', '<P>The Society was founded in 1967 to respond to the needs of family medicine educators. From a small beginning of 105 founding members, we have grown to a membership of nearly 5,000 teachers of family medicine. These teachers include medical school professors, preceptors, residency program faculty, residency program directors and all involved in family medicine education.</P>
+<P>The administrative offices are housed with the American Academy of Family Physicians in Leawood, Kansas, enhancing the close relationship between the two organizations. The Society has a 16-person staff in Leawood, Kansas, and two part-time staff members in Washington, DC.<BR></P>
+<H2>Mission</H2>
+<P>Advancing Family Medicine to Improve Health Through a Community of Teachers and Scholars. </P>
+<H2>Core Values</H2>
+<UL>
+<LI><FONT color=#000000>Diversity</FONT> 
+<LI><FONT color=#000000>Excellence</FONT> 
+<LI><FONT color=#000000>Integrity</FONT> 
+<LI><FONT color=#000000>Learning</FONT> 
+<LI><FONT color=#000000>Nurturing</FONT> 
+<LI><FONT color=#000000>Openness</FONT> 
+<LI><FONT color=#000000>Relationship-centered </FONT></LI></UL>
+<H3 align=left>Vision</H3>
+<P align=left>To become the indispensable academic home for every family medicine educator</P>
+<H3><A name=StrategicPlan></A>Strategic Plan<BR></H3>
+<P></P>
+<STYLE><![CDATA[
+&amp;amp;amp;amp;amp;amp;amp;lt;!--
+ /* Font Definitions */
+@font-face
+	{font-family:Arial;
+	panose-1:2 11 6 4 2 2 2 2 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 0 0 0 1 0;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 0 0 0 1 0;}
+ /* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:&amp;amp;amp;amp;amp;amp;amp;quot;&amp;amp;amp;amp;amp;amp;amp;quot;;
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:&amp;amp;amp;amp;amp;amp;amp;quot;Times New Roman&amp;amp;amp;amp;amp;amp;amp;quot;;
+	mso-ascii-font-family:Calibri;
+	mso-fareast-font-family:Calibri;
+	mso-hansi-font-family:Calibri;
+	mso-bidi-font-family:&amp;amp;amp;amp;amp;amp;amp;quot;Times New Roman&amp;amp;amp;amp;amp;amp;amp;quot;;}
+@page Section1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.25in 1.0in 1.25in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+--&amp;amp;amp;amp;amp;amp;amp;gt;
+]]></STYLE>
+
+<P></P>
+<STYLE><![CDATA[
+&lt;!--
+ /* Font Definitions */
+@font-face
+	{font-family:Arial;
+	panose-1:2 11 6 4 2 2 2 2 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 0 0 0 1 0;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 0 0 0 1 0;}
+ /* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:&quot;&quot;;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:10.0pt;
+	margin-left:0in;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:&quot;Times New Roman&quot;;
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:&quot;Times New Roman&quot;;
+	mso-bidi-theme-font:minor-bidi;}
+@page Section1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.25in 1.0in 1.25in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+--&gt;]]></STYLE>
+The STFM Board of Directors implemented a strategic planning process in 2011 to develop a 3-year plan and a process for utilization, measurement, updating, adding new and sun setting old programs. This was developed through extensive discussions by the Strategic Planning Committee, interviews of the Committee members, non-members and members-at-large; focus groups conducted at the annual meeting; and a member needs survey. 
+<P>This research resulted in five key priority areas for the STFM over the next 3 years. The plan should not and will not outline every tactic but will provide broad goals and strategies in which the programs of the organization will be considered. It is essential to the success of this plan that the organization has a strong infrastructure – governance, staff, communications plan, and facilities – in place to implement the plan. Also inherent in this plan is the belief that the Society supports diversity of faculty, including discipline, race, gender, and sexual orientation in the strategies we will use to address these priorities. While infrastructure and diversity are not listed as separate goals, it is recognized that they are major components for operationalizing this plan. </P>
+<H4><A href="StrategicPlan.aspx">View the Strategic Plan</A></H4>', '', '10/2/2012 11:28:39 AM')

@@ -1,0 +1,253 @@
+SUCCESS - 8/28/2012 9:29:13 AM Method: CheckLoginCredentials. System.Security.Principal.WindowsPrincipal successfully authenticated: 8/28/2012 9:29:13 AM
+Oh Yes!  SUCCESS - 8/28/2012 9:29:58 AM Method: SavePageContent. AboutUs.aspx content was successfully saved: 8/28/2012 9:29:58 AM SQL: insert into STFMContentHistory (ContentMetaID, Section, Page, Placement, Content, UserID, DateCreated) Values (107, 'About Us', 'AboutUs', '1', '<p>About Us </p>
+		<p>History</p>
+		<p>CAFM</p>', '', '8/28/2012 9:29:58 AM')
+SUCCESS - 8/28/2012 10:38:11 AM Method: CheckLoginCredentials. System.Security.Principal.WindowsPrincipal successfully authenticated: 8/28/2012 10:38:11 AM
+SUCCESS - 8/28/2012 10:38:38 AM Method: CreateContentPageMeta. C:\Users\Gil\Documents\Visual Studio 2010\Projects\STFMPlatformTransition\STFMPlatformTransition\Content\CAFM.aspx successfully created: 8/28/2012 10:38:38 AM
+SUCCESS - 8/28/2012 10:38:38 AM Method: CreateContentPage. CAFM.aspx successfully created: 8/28/2012 10:38:38 AM
+SUCCESS - 8/28/2012 10:38:38 AM Method: FillContentObject. System.Security.Principal.WindowsPrincipal successfully completed: 8/28/2012 10:38:38 AM
+Oh Yes!  SUCCESS - 8/28/2012 10:39:17 AM Method: SavePageContent. CAFM.aspx content was successfully saved: 8/28/2012 10:39:17 AM SQL: insert into ContentMeta (ContentID, DateCreated, CreatedBy, MetaDescriptorID) Values (11, '8/28/2012 10:39:17 AM', 'admin', '1')
+Oh Yes!  SUCCESS - 8/28/2012 10:39:20 AM Method: SavePageContent. AboutUs.aspx content was successfully saved: 8/28/2012 10:39:20 AM SQL: insert into STFMContentHistory (ContentMetaID, Section, Page, Placement, Content, UserID, DateCreated) Values (109, 'About Us', 'AboutUs', '1', '<p>About Us </p>
+		<p>
+				<a href="http://www.stfm.org/about/history.cfm">History</a>
+		</p>
+		<p>CAFM</p>', '', '8/28/2012 10:39:20 AM')
+SUCCESS - 8/28/2012 10:39:23 AM Method: PublishContent. 11 successfully published: 8/28/2012 10:39:23 AM
+SUCCESS - 8/28/2012 10:39:25 AM Method: PublishContent. 10 successfully published: 8/28/2012 10:39:25 AM
+SUCCESS - 8/28/2012 10:39:28 AM Method: PublishPage. CAFM.aspx successfully published: 8/28/2012 10:39:28 AM
+SUCCESS - 8/28/2012 10:39:44 AM Method: CheckLoginCredentials. System.Security.Principal.WindowsPrincipal successfully authenticated: 8/28/2012 10:39:44 AM
+Oh Yes!  SUCCESS - 8/28/2012 10:40:00 AM Method: SavePageContent. AboutUs.aspx content was successfully saved: 8/28/2012 10:40:00 AM SQL: insert into STFMContentHistory (ContentMetaID, Section, Page, Placement, Content, UserID, DateCreated) Values (112, 'About Us', 'AboutUs', '1', '<p>About Us </p>
+		<p>
+				<a href="http://www.stfm.org/about/history.cfm">History</a>
+		</p>
+		<p>CAFM</p>', '', '8/28/2012 10:40:00 AM')
+SUCCESS - 8/28/2012 10:40:01 AM Method: PublishContent. 10 successfully published: 8/28/2012 10:40:01 AM
+SUCCESS - 8/28/2012 10:40:49 AM Method: CheckLoginCredentials. System.Security.Principal.WindowsPrincipal successfully authenticated: 8/28/2012 10:40:49 AM
+Oh Yes!  SUCCESS - 8/28/2012 10:41:26 AM Method: SavePageContent. CAFM.aspx content was successfully saved: 8/28/2012 10:41:26 AM SQL: insert into STFMContentHistory (ContentMetaID, Section, Page, Placement, Content, UserID, DateCreated) Values (114, 'About Us', 'AboutUs', '1', '<p>About Us </p>
+		<p>
+				<a href="http://www.stfm.org/about/history.cfm">History</a>
+		</p>
+		<p>
+				<a href="CAFM.aspx">CAFM</a>
+		</p>', '', '8/28/2012 10:41:26 AM')
+SUCCESS - 8/28/2012 10:43:45 AM Method: CheckLoginCredentials. System.Security.Principal.WindowsPrincipal successfully authenticated: 8/28/2012 10:43:45 AM
+Oh Yes!  SUCCESS - 8/28/2012 10:44:22 AM Method: SavePageContent. AboutUs.aspx content was successfully saved: 8/28/2012 10:44:22 AM SQL: insert into STFMContentHistory (ContentMetaID, Section, Page, Placement, Content, UserID, DateCreated) Values (115, 'About Us', 'AboutUs', '1', '<p>About Us </p>
+		<p>
+				<a href="http://www.stfm.org/about/history.cfm">History</a>
+		</p>
+		<p>
+				<a href="CAFM.aspx">CAFM</a>
+		</p>', '', '8/28/2012 10:44:22 AM')
+SUCCESS - 8/28/2012 10:44:29 AM Method: PublishContent. 10 successfully published: 8/28/2012 10:44:29 AM
+SUCCESS - 8/28/2012 10:44:30 AM Method: PublishPage. History.aspx successfully published: 8/28/2012 10:44:30 AM
+SUCCESS - 8/28/2012 10:50:35 AM Method: CheckLoginCredentials. System.Security.Principal.WindowsPrincipal successfully authenticated: 8/28/2012 10:50:35 AM
+Oh Yes!  SUCCESS - 8/28/2012 10:55:35 AM Method: SavePageContent. AboutUs.aspx content was successfully saved: 8/28/2012 10:55:35 AM SQL: insert into STFMContentHistory (ContentMetaID, Section, Page, Placement, Content, UserID, DateCreated) Values (117, 'About Us', 'AboutUs', '1', '<p style="BACKGROUND-COLOR: #cccccc; WIDTH: 100px">Conferences</p>
+		<div id="menu">
+				<div id="mainmenu">
+						<a onclick="toggle(''submenu1'')" href="#">CPI</a>
+				</div>
+				<div style="DISPLAY: none" id="submenu1">
+						<div id="submenu">
+								<a href="#">Register Online</a>
+						</div>
+						<div id="submenu">
+								<a href="#">Registration Form</a>
+						</div>
+						<div id="submenu">
+								<a href="#">Hotel and Travel Information</a>
+						</div>
+						<div id="submainmenu">
+								<a onclick="toggle(''submenusub1'')" href="#">Conference Brochure</a>
+						</div>
+						<div style="DISPLAY: none" id="submenusub1">
+								<div id="subsubmenu">
+										<a href="#">Schedule at a Glance</a>
+								</div>
+						</div>
+				</div>
+				<div id="mainmenu">
+						<a onclick="toggle(''submenu2'')" href="#">Annual</a>
+				</div>
+				<div style="DISPLAY: none" id="submenu2">
+						<div id="submenu2">
+								<a href="#">President''s Message</a>
+						</div>
+						<div id="submenu2">
+								<a href="#">Call for Presentations</a>
+						</div>
+						<div id="submenu2">
+								<a href="#">Host City Highlights</a>
+						</div>
+				</div>
+				<div id="mainmenu">
+						<a onclick="toggle(''submenu3'')" href="#">MSE</a>
+				</div>
+				<div style="DISPLAY: none" id="submenu3">
+						<div id="submenu3">
+								<a href="#">Registration</a>
+						</div>
+						<div id="submenu3">
+								<a href="#">Hotel Information</a>
+						</div>
+				</div>
+		</div>', '', '8/28/2012 10:55:35 AM')
+SUCCESS - 8/28/2012 10:55:39 AM Method: PublishContent. 10 successfully published: 8/28/2012 10:55:39 AM
+SUCCESS - 8/28/2012 10:56:05 AM Method: CheckLoginCredentials. System.Security.Principal.WindowsPrincipal successfully authenticated: 8/28/2012 10:56:05 AM
+Oh Yes!  SUCCESS - 8/28/2012 10:56:52 AM Method: SavePageContent. AboutUs.aspx content was successfully saved: 8/28/2012 10:56:52 AM SQL: insert into STFMContentHistory (ContentMetaID, Section, Page, Placement, Content, UserID, DateCreated) Values (119, 'About Us', 'AboutUs', '1', '<p style="BACKGROUND-COLOR: #cccccc; WIDTH: 100px">Conferences</p>
+		<div id="menu">
+				<div id="mainmenu">
+						<a onclick="toggle(''submenu1'')" href="#">CPI</a>
+				</div>
+				<div style="DISPLAY: none" id="submenu1">
+						<div id="submenu">
+								<a href="#">Register Online</a>
+						</div>
+						<div id="submenu">
+								<a href="#">Registration Form</a>
+						</div>
+						<div id="submenu">
+								<a href="#">Hotel and Travel Information</a>
+						</div>
+						<div id="submainmenu">
+								<a onclick="toggle(''submenusub1'')" href="#">Conference Brochure</a>
+						</div>
+						<div style="DISPLAY: none" id="submenusub1">
+								<div id="subsubmenu">
+										<a href="#">Schedule at a Glance</a>
+								</div>
+						</div>
+				</div>
+				<div id="mainmenu">
+						<a onclick="toggle(''submenu2'')" href="#">Annual</a>
+				</div>
+				<div style="DISPLAY: none" id="submenu2">
+						<div id="submenu2">
+								<a href="#">President''s Message</a>
+						</div>
+						<div id="submenu2">
+								<a href="#">Call for Presentations</a>
+						</div>
+						<div id="submenu2">
+								<a href="#">Host City Highlights</a>
+						</div>
+				</div>
+				<div id="submenu2">
+						<a href="#">Host City Highlights2</a>
+				</div>
+		</div>
+		<div id="mainmenu">
+				<a onclick="toggle(''submenu3'')" href="#">MSE</a>
+		</div>
+		<div style="DISPLAY: none" id="submenu3">
+				<div id="submenu3">
+						<a href="#">Registration</a>
+				</div>
+				<div id="submenu3">
+						<a href="#">Hotel Information</a>
+				</div>
+		</div>
+		<div>
+		</div>', '', '8/28/2012 10:56:52 AM')
+SUCCESS - 8/28/2012 11:19:01 AM Method: CheckLoginCredentials. System.Security.Principal.WindowsPrincipal successfully authenticated: 8/28/2012 11:19:01 AM
+SUCCESS - 8/28/2012 11:19:18 AM Method: CreateContentPageMeta. C:\Users\Gil\Documents\Visual Studio 2010\Projects\STFMPlatformTransition\STFMPlatformTransition\Content\AboutUs.aspx successfully created: 8/28/2012 11:19:18 AM
+SUCCESS - 8/28/2012 11:19:18 AM Method: CreateContentPage. AboutUs.aspx successfully created: 8/28/2012 11:19:18 AM
+SUCCESS - 8/28/2012 11:19:18 AM Method: FillContentObject. System.Security.Principal.WindowsPrincipal successfully completed: 8/28/2012 11:19:18 AM
+Oh Yes!  SUCCESS - 8/28/2012 11:20:02 AM Method: SavePageContent. AboutUs.aspx content was successfully saved: 8/28/2012 11:20:02 AM SQL: insert into ContentMeta (ContentID, DateCreated, CreatedBy, MetaDescriptorID) Values (12, '8/28/2012 11:20:02 AM', 'admin', '1')
+SUCCESS - 8/28/2012 11:20:08 AM Method: PublishPage. AboutUs.aspx successfully published: 8/28/2012 11:20:08 AM
+SUCCESS - 8/28/2012 11:20:33 AM Method: CreateContentPageMeta. C:\Users\Gil\Documents\Visual Studio 2010\Projects\STFMPlatformTransition\STFMPlatformTransition\Content\NewsJournals.aspx successfully created: 8/28/2012 11:20:33 AM
+SUCCESS - 8/28/2012 11:20:33 AM Method: CreateContentPage. NewsJournals.aspx successfully created: 8/28/2012 11:20:33 AM
+SUCCESS - 8/28/2012 11:20:33 AM Method: FillContentObject. System.Security.Principal.WindowsPrincipal successfully completed: 8/28/2012 11:20:33 AM
+Oh Yes!  SUCCESS - 8/28/2012 11:20:56 AM Method: SavePageContent. NewsJournals.aspx content was successfully saved: 8/28/2012 11:20:56 AM SQL: insert into ContentMeta (ContentID, DateCreated, CreatedBy, MetaDescriptorID) Values (13, '8/28/2012 11:20:56 AM', 'admin', '1')
+SUCCESS - 8/28/2012 11:21:00 AM Method: PublishPage. NewsJournals.aspx successfully published: 8/28/2012 11:21:00 AM
+SUCCESS - 8/28/2012 11:21:12 AM Method: CreateContentPageMeta. C:\Users\Gil\Documents\Visual Studio 2010\Projects\STFMPlatformTransition\STFMPlatformTransition\Content\Conferences.aspx successfully created: 8/28/2012 11:21:12 AM
+SUCCESS - 8/28/2012 11:21:12 AM Method: CreateContentPage. Conferences.aspx successfully created: 8/28/2012 11:21:12 AM
+SUCCESS - 8/28/2012 11:21:12 AM Method: FillContentObject. System.Security.Principal.WindowsPrincipal successfully completed: 8/28/2012 11:21:12 AM
+SUCCESS - 8/28/2012 11:21:22 AM Method: PublishPage. Conferences.aspx successfully published: 8/28/2012 11:21:22 AM
+SUCCESS - 8/28/2012 11:39:37 AM Method: CheckLoginCredentials. System.Security.Principal.WindowsPrincipal successfully authenticated: 8/28/2012 11:39:37 AM
+SUCCESS - 8/28/2012 11:39:51 AM Method: DeactivatePage. AboutUs successfully deactivated: 8/28/2012 11:39:51 AM
+SUCCESS - 8/28/2012 11:40:15 AM Method: CheckLoginCredentials. System.Security.Principal.WindowsPrincipal successfully authenticated: 8/28/2012 11:40:15 AM
+Oh Yes!  SUCCESS - 8/28/2012 11:40:59 AM Method: SavePageContent. AboutUs.aspx content was successfully saved: 8/28/2012 11:40:59 AM SQL: insert into ContentMeta (ContentID, DateCreated, CreatedBy, MetaDescriptorID) Values (14, '8/28/2012 11:40:59 AM', 'admin', '1')
+SUCCESS - 8/28/2012 11:41:01 AM Method: PublishContent. 14 successfully published: 8/28/2012 11:41:01 AM
+SUCCESS - 8/28/2012 11:41:03 AM Method: PublishPage. AboutUs.aspx successfully published: 8/28/2012 11:41:03 AM
+SUCCESS - 8/28/2012 11:41:25 AM Method: CheckLoginCredentials. System.Security.Principal.WindowsPrincipal successfully authenticated: 8/28/2012 11:41:25 AM
+Oh Yes!  SUCCESS - 8/28/2012 11:41:30 AM Method: SavePageContent. NewsJournals.aspx content was successfully saved: 8/28/2012 11:41:30 AM SQL: insert into ContentMeta (ContentID, DateCreated, CreatedBy, MetaDescriptorID) Values (15, '8/28/2012 11:41:30 AM', 'admin', '1')
+SUCCESS - 8/28/2012 11:41:31 AM Method: PublishContent. 15 successfully published: 8/28/2012 11:41:31 AM
+Oh Yes!  SUCCESS - 8/28/2012 11:42:07 AM Method: SavePageContent. Conferences.aspx content was successfully saved: 8/28/2012 11:42:07 AM SQL: insert into ContentMeta (ContentID, DateCreated, CreatedBy, MetaDescriptorID) Values (16, '8/28/2012 11:42:07 AM', 'admin', '1')
+SUCCESS - 8/28/2012 11:42:09 AM Method: PublishContent. 16 successfully published: 8/28/2012 11:42:09 AM
+Oh Yes!  SUCCESS - 8/28/2012 11:42:10 AM Method: SavePageContent. Conferences.aspx content was successfully saved: 8/28/2012 11:42:10 AM SQL: insert into ContentMeta (ContentID, DateCreated, CreatedBy, MetaDescriptorID) Values (17, '8/28/2012 11:42:10 AM', 'admin', '1')
+SUCCESS - 8/28/2012 11:42:11 AM Method: PublishContent. 17 successfully published: 8/28/2012 11:42:11 AM
+SUCCESS - 8/28/2012 11:42:40 AM Method: CheckLoginCredentials. System.Security.Principal.WindowsPrincipal successfully authenticated: 8/28/2012 11:42:40 AM
+Oh Yes!  SUCCESS - 8/28/2012 11:45:00 AM Method: SavePageContent. Conferences.aspx content was successfully saved: 8/28/2012 11:45:00 AM SQL: insert into STFMContentHistory (ContentMetaID, Section, Page, Placement, Content, UserID, DateCreated) Values (130, 'Conferences', 'Conferences', '2', '', '', '8/28/2012 11:45:00 AM')
+SUCCESS - 8/28/2012 1:08:34 PM Method: CheckLoginCredentials. System.Security.Principal.WindowsPrincipal successfully authenticated: 8/28/2012 1:08:34 PM
+SUCCESS - 8/28/2012 1:08:40 PM Method: PublishContent. 13 successfully published: 8/28/2012 1:08:40 PM
+SUCCESS - 8/28/2012 1:09:23 PM Method: CheckLoginCredentials. System.Security.Principal.WindowsPrincipal successfully authenticated: 8/28/2012 1:09:23 PM
+SUCCESS - 8/28/2012 1:13:27 PM Method: CheckLoginCredentials. System.Security.Principal.WindowsPrincipal successfully authenticated: 8/28/2012 1:13:27 PM
+SUCCESS - 8/28/2012 1:33:32 PM Method: CheckLoginCredentials. System.Security.Principal.WindowsPrincipal successfully authenticated: 8/28/2012 1:33:32 PM
+SUCCESS - 8/28/2012 1:35:02 PM Method: CheckLoginCredentials. System.Security.Principal.WindowsPrincipal successfully authenticated: 8/28/2012 1:35:02 PM
+Oh Yes!  SUCCESS - 8/28/2012 1:36:49 PM Method: SavePageContent. Conferences.aspx content was successfully saved: 8/28/2012 1:36:49 PM SQL: insert into STFMContentHistory (ContentMetaID, Section, Page, Placement, Content, UserID, DateCreated) Values (132, 'Conferences', 'Conferences', '2', '', '', '8/28/2012 1:36:49 PM')
+SUCCESS - 8/28/2012 1:37:23 PM Method: CheckLoginCredentials. System.Security.Principal.WindowsPrincipal successfully authenticated: 8/28/2012 1:37:23 PM
+Oh Yes!  SUCCESS - 8/28/2012 1:38:14 PM Method: SavePageContent. Conferences.aspx content was successfully saved: 8/28/2012 1:38:14 PM SQL: insert into STFMContentHistory (ContentMetaID, Section, Page, Placement, Content, UserID, DateCreated) Values (133, 'Conferences', 'Conferences', '2', '', '', '8/28/2012 1:38:14 PM')
+Oh Yes!  SUCCESS - 8/28/2012 1:39:01 PM Method: SavePageContent. Conferences.aspx content was successfully saved: 8/28/2012 1:39:01 PM SQL: insert into STFMContentHistory (ContentMetaID, Section, Page, Placement, Content, UserID, DateCreated) Values (134, 'Conferences', 'Conferences', '2', '', '', '8/28/2012 1:39:01 PM')
+Oh Yes!  SUCCESS - 8/28/2012 1:39:22 PM Method: SavePageContent. Conferences.aspx content was successfully saved: 8/28/2012 1:39:22 PM SQL: insert into STFMContentHistory (ContentMetaID, Section, Page, Placement, Content, UserID, DateCreated) Values (135, 'Conferences', 'Conferences', '2', '', '', '8/28/2012 1:39:22 PM')
+Oh Yes!  SUCCESS - 8/28/2012 1:39:46 PM Method: SavePageContent. Conferences.aspx content was successfully saved: 8/28/2012 1:39:46 PM SQL: insert into STFMContentHistory (ContentMetaID, Section, Page, Placement, Content, UserID, DateCreated) Values (136, 'Conferences', 'Conferences', '2', '', '', '8/28/2012 1:39:46 PM')
+Oh Yes!  SUCCESS - 8/28/2012 1:40:13 PM Method: SavePageContent. Conferences.aspx content was successfully saved: 8/28/2012 1:40:13 PM SQL: insert into STFMContentHistory (ContentMetaID, Section, Page, Placement, Content, UserID, DateCreated) Values (137, 'Conferences', 'Conferences', '2', '', '', '8/28/2012 1:40:13 PM')
+Oh Yes!  SUCCESS - 8/28/2012 1:40:40 PM Method: SavePageContent. Conferences.aspx content was successfully saved: 8/28/2012 1:40:40 PM SQL: insert into STFMContentHistory (ContentMetaID, Section, Page, Placement, Content, UserID, DateCreated) Values (138, 'Conferences', 'Conferences', '2', '', '', '8/28/2012 1:40:40 PM')
+Oh Yes!  SUCCESS - 8/28/2012 1:41:07 PM Method: SavePageContent. Conferences.aspx content was successfully saved: 8/28/2012 1:41:07 PM SQL: insert into STFMContentHistory (ContentMetaID, Section, Page, Placement, Content, UserID, DateCreated) Values (139, 'Conferences', 'Conferences', '2', '', '', '8/28/2012 1:41:07 PM')
+Oh Yes!  SUCCESS - 8/28/2012 1:43:55 PM Method: SavePageContent. Conferences.aspx content was successfully saved: 8/28/2012 1:43:55 PM SQL: insert into STFMContentHistory (ContentMetaID, Section, Page, Placement, Content, UserID, DateCreated) Values (140, 'Conferences', 'Conferences', '2', '', '', '8/28/2012 1:43:55 PM')
+Oh Yes!  SUCCESS - 8/28/2012 1:44:01 PM Method: SavePageContent. Conferences.aspx content was successfully saved: 8/28/2012 1:44:01 PM SQL: insert into STFMContentHistory (ContentMetaID, Section, Page, Placement, Content, UserID, DateCreated) Values (141, 'Conferences', 'Conferences', '2', '', '', '8/28/2012 1:44:01 PM')
+Oh Yes!  SUCCESS - 8/28/2012 1:44:33 PM Method: SavePageContent. Conferences.aspx content was successfully saved: 8/28/2012 1:44:33 PM SQL: insert into STFMContentHistory (ContentMetaID, Section, Page, Placement, Content, UserID, DateCreated) Values (142, 'Conferences', 'Conferences', '2', '', '', '8/28/2012 1:44:33 PM')
+Oh Yes!  SUCCESS - 8/28/2012 1:45:03 PM Method: SavePageContent. Conferences.aspx content was successfully saved: 8/28/2012 1:45:03 PM SQL: insert into STFMContentHistory (ContentMetaID, Section, Page, Placement, Content, UserID, DateCreated) Values (143, 'Conferences', 'Conferences', '2', '', '', '8/28/2012 1:45:03 PM')
+Oh Yes!  SUCCESS - 8/28/2012 1:45:48 PM Method: SavePageContent. Conferences.aspx content was successfully saved: 8/28/2012 1:45:48 PM SQL: insert into STFMContentHistory (ContentMetaID, Section, Page, Placement, Content, UserID, DateCreated) Values (144, 'Conferences', 'Conferences', '2', '', '', '8/28/2012 1:45:48 PM')
+Oh Yes!  SUCCESS - 8/28/2012 1:46:31 PM Method: SavePageContent. Conferences.aspx content was successfully saved: 8/28/2012 1:46:31 PM SQL: insert into STFMContentHistory (ContentMetaID, Section, Page, Placement, Content, UserID, DateCreated) Values (145, 'Conferences', 'Conferences', '2', '', '', '8/28/2012 1:46:31 PM')
+Oh Yes!  SUCCESS - 8/28/2012 1:47:06 PM Method: SavePageContent. Conferences.aspx content was successfully saved: 8/28/2012 1:47:06 PM SQL: insert into STFMContentHistory (ContentMetaID, Section, Page, Placement, Content, UserID, DateCreated) Values (146, 'Conferences', 'Conferences', '2', '', '', '8/28/2012 1:47:06 PM')
+Oh Yes!  SUCCESS - 8/28/2012 1:50:52 PM Method: SavePageContent. Conferences.aspx content was successfully saved: 8/28/2012 1:50:52 PM SQL: insert into STFMContentHistory (ContentMetaID, Section, Page, Placement, Content, UserID, DateCreated) Values (147, 'Conferences', 'Conferences', '2', '', '', '8/28/2012 1:50:52 PM')
+Oh Yes!  SUCCESS - 8/28/2012 1:51:45 PM Method: SavePageContent. Conferences.aspx content was successfully saved: 8/28/2012 1:51:45 PM SQL: insert into STFMContentHistory (ContentMetaID, Section, Page, Placement, Content, UserID, DateCreated) Values (148, 'Conferences', 'Conferences', '2', '', '', '8/28/2012 1:51:45 PM')
+Oh Yes!  SUCCESS - 8/28/2012 1:52:52 PM Method: SavePageContent. Conferences.aspx content was successfully saved: 8/28/2012 1:52:52 PM SQL: insert into STFMContentHistory (ContentMetaID, Section, Page, Placement, Content, UserID, DateCreated) Values (149, 'Conferences', 'Conferences', '2', '', '', '8/28/2012 1:52:52 PM')
+Oh Yes!  SUCCESS - 8/28/2012 1:53:58 PM Method: SavePageContent. Conferences.aspx content was successfully saved: 8/28/2012 1:53:58 PM SQL: insert into STFMContentHistory (ContentMetaID, Section, Page, Placement, Content, UserID, DateCreated) Values (150, 'Conferences', 'Conferences', '2', '', '', '8/28/2012 1:53:58 PM')
+Oh Yes!  SUCCESS - 8/28/2012 1:57:43 PM Method: SavePageContent. Conferences.aspx content was successfully saved: 8/28/2012 1:57:43 PM SQL: insert into STFMContentHistory (ContentMetaID, Section, Page, Placement, Content, UserID, DateCreated) Values (151, 'Conferences', 'Conferences', '2', '', '', '8/28/2012 1:57:43 PM')
+Oh Yes!  SUCCESS - 8/28/2012 1:59:02 PM Method: SavePageContent. Conferences.aspx content was successfully saved: 8/28/2012 1:59:02 PM SQL: insert into STFMContentHistory (ContentMetaID, Section, Page, Placement, Content, UserID, DateCreated) Values (152, 'Conferences', 'Conferences', '2', '', '', '8/28/2012 1:59:02 PM')
+Oh Yes!  SUCCESS - 8/28/2012 1:59:06 PM Method: SavePageContent. Conferences.aspx content was successfully saved: 8/28/2012 1:59:06 PM SQL: insert into STFMContentHistory (ContentMetaID, Section, Page, Placement, Content, UserID, DateCreated) Values (153, 'Conferences', 'Conferences', '2', '', '', '8/28/2012 1:59:06 PM')
+Oh Yes!  SUCCESS - 8/28/2012 2:00:02 PM Method: SavePageContent. Conferences.aspx content was successfully saved: 8/28/2012 2:00:02 PM SQL: insert into STFMContentHistory (ContentMetaID, Section, Page, Placement, Content, UserID, DateCreated) Values (154, 'Conferences', 'Conferences', '2', '', '', '8/28/2012 2:00:02 PM')
+SUCCESS - 8/28/2012 2:40:42 PM Method: CheckLoginCredentials. System.Security.Principal.WindowsPrincipal successfully authenticated: 8/28/2012 2:40:42 PM
+Oh Yes!  SUCCESS - 8/28/2012 2:47:22 PM Method: SavePageContent. Conferences.aspx content was successfully saved: 8/28/2012 2:47:22 PM SQL: insert into STFMContentHistory (ContentMetaID, Section, Page, Placement, Content, UserID, DateCreated) Values (155, 'Conferences', 'Conferences', '2', '', '', '8/28/2012 2:47:22 PM')
+Oh Yes!  SUCCESS - 8/28/2012 2:49:00 PM Method: SavePageContent. Conferences.aspx content was successfully saved: 8/28/2012 2:49:00 PM SQL: insert into STFMContentHistory (ContentMetaID, Section, Page, Placement, Content, UserID, DateCreated) Values (156, 'Conferences', 'Conferences', '2', '', '', '8/28/2012 2:49:00 PM')
+Oh Yes!  SUCCESS - 8/28/2012 2:50:25 PM Method: SavePageContent. Conferences.aspx content was successfully saved: 8/28/2012 2:50:25 PM SQL: insert into STFMContentHistory (ContentMetaID, Section, Page, Placement, Content, UserID, DateCreated) Values (157, 'Conferences', 'Conferences', '2', '', '', '8/28/2012 2:50:25 PM')
+SUCCESS - 8/28/2012 2:57:24 PM Method: CheckLoginCredentials. System.Security.Principal.WindowsPrincipal successfully authenticated: 8/28/2012 2:57:24 PM
+Oh Yes!  SUCCESS - 8/28/2012 2:59:57 PM Method: SavePageContent. Conferences.aspx content was successfully saved: 8/28/2012 2:59:57 PM SQL: insert into STFMContentHistory (ContentMetaID, Section, Page, Placement, Content, UserID, DateCreated) Values (158, 'Conferences', 'Conferences', '2', '', '', '8/28/2012 2:59:57 PM')
+Oh Yes!  SUCCESS - 8/28/2012 3:03:39 PM Method: SavePageContent. Conferences.aspx content was successfully saved: 8/28/2012 3:03:39 PM SQL: insert into STFMContentHistory (ContentMetaID, Section, Page, Placement, Content, UserID, DateCreated) Values (159, 'Conferences', 'Conferences', '2', '', '', '8/28/2012 3:03:39 PM')
+Oh Yes!  SUCCESS - 8/28/2012 3:04:44 PM Method: SavePageContent. Conferences.aspx content was successfully saved: 8/28/2012 3:04:44 PM SQL: insert into STFMContentHistory (ContentMetaID, Section, Page, Placement, Content, UserID, DateCreated) Values (160, 'Conferences', 'Conferences', '2', '', '', '8/28/2012 3:04:44 PM')
+Oh Yes!  SUCCESS - 8/28/2012 3:05:29 PM Method: SavePageContent. Conferences.aspx content was successfully saved: 8/28/2012 3:05:29 PM SQL: insert into STFMContentHistory (ContentMetaID, Section, Page, Placement, Content, UserID, DateCreated) Values (161, 'Conferences', 'Conferences', '2', '', '', '8/28/2012 3:05:29 PM')
+Oh Yes!  SUCCESS - 8/28/2012 3:07:05 PM Method: SavePageContent. Conferences.aspx content was successfully saved: 8/28/2012 3:07:05 PM SQL: insert into STFMContentHistory (ContentMetaID, Section, Page, Placement, Content, UserID, DateCreated) Values (162, 'Conferences', 'Conferences', '2', '', '', '8/28/2012 3:07:05 PM')
+Oh Yes!  SUCCESS - 8/28/2012 3:07:43 PM Method: SavePageContent. Conferences.aspx content was successfully saved: 8/28/2012 3:07:43 PM SQL: insert into STFMContentHistory (ContentMetaID, Section, Page, Placement, Content, UserID, DateCreated) Values (163, 'Conferences', 'Conferences', '2', '', '', '8/28/2012 3:07:43 PM')
+Oh Yes!  SUCCESS - 8/28/2012 3:08:28 PM Method: SavePageContent. Conferences.aspx content was successfully saved: 8/28/2012 3:08:28 PM SQL: insert into STFMContentHistory (ContentMetaID, Section, Page, Placement, Content, UserID, DateCreated) Values (164, 'Conferences', 'Conferences', '2', '', '', '8/28/2012 3:08:28 PM')
+Oh Yes!  SUCCESS - 8/28/2012 3:08:50 PM Method: SavePageContent. Conferences.aspx content was successfully saved: 8/28/2012 3:08:50 PM SQL: insert into STFMContentHistory (ContentMetaID, Section, Page, Placement, Content, UserID, DateCreated) Values (165, 'Conferences', 'Conferences', '2', '', '', '8/28/2012 3:08:50 PM')
+SUCCESS - 8/28/2012 3:50:38 PM Method: CheckLoginCredentials. System.Security.Principal.WindowsPrincipal successfully authenticated: 8/28/2012 3:50:38 PM
+Oh Yes!  SUCCESS - 8/28/2012 3:52:30 PM Method: SavePageContent. Conferences.aspx content was successfully saved: 8/28/2012 3:52:30 PM SQL: insert into STFMContentHistory (ContentMetaID, Section, Page, Placement, Content, UserID, DateCreated) Values (166, 'Conferences', 'Conferences', '2', '', '', '8/28/2012 3:52:30 PM')
+Oh Yes!  SUCCESS - 8/28/2012 3:55:32 PM Method: SavePageContent. Conferences.aspx content was successfully saved: 8/28/2012 3:55:32 PM SQL: insert into STFMContentHistory (ContentMetaID, Section, Page, Placement, Content, UserID, DateCreated) Values (167, 'Conferences', 'Conferences', '2', '', '', '8/28/2012 3:55:32 PM')
+Oh Yes!  SUCCESS - 8/28/2012 3:57:50 PM Method: SavePageContent. Conferences.aspx content was successfully saved: 8/28/2012 3:57:50 PM SQL: insert into STFMContentHistory (ContentMetaID, Section, Page, Placement, Content, UserID, DateCreated) Values (168, 'Conferences', 'Conferences', '2', '', '', '8/28/2012 3:57:50 PM')
+Oh Yes!  SUCCESS - 8/28/2012 4:00:56 PM Method: SavePageContent. Conferences.aspx content was successfully saved: 8/28/2012 4:00:56 PM SQL: insert into STFMContentHistory (ContentMetaID, Section, Page, Placement, Content, UserID, DateCreated) Values (169, 'Conferences', 'Conferences', '2', '', '', '8/28/2012 4:00:56 PM')
+Oh Yes!  SUCCESS - 8/28/2012 4:01:24 PM Method: SavePageContent. Conferences.aspx content was successfully saved: 8/28/2012 4:01:24 PM SQL: insert into STFMContentHistory (ContentMetaID, Section, Page, Placement, Content, UserID, DateCreated) Values (170, 'Conferences', 'Conferences', '2', '', '', '8/28/2012 4:01:24 PM')
+Oh Yes!  SUCCESS - 8/28/2012 4:01:49 PM Method: SavePageContent. Conferences.aspx content was successfully saved: 8/28/2012 4:01:49 PM SQL: insert into STFMContentHistory (ContentMetaID, Section, Page, Placement, Content, UserID, DateCreated) Values (171, 'Conferences', 'Conferences', '2', '', '', '8/28/2012 4:01:49 PM')
+Oh Yes!  SUCCESS - 8/28/2012 4:02:07 PM Method: SavePageContent. Conferences.aspx content was successfully saved: 8/28/2012 4:02:07 PM SQL: insert into STFMContentHistory (ContentMetaID, Section, Page, Placement, Content, UserID, DateCreated) Values (172, 'Conferences', 'Conferences', '2', '', '', '8/28/2012 4:02:07 PM')
+Oh Yes!  SUCCESS - 8/28/2012 4:06:57 PM Method: SavePageContent. Conferences.aspx content was successfully saved: 8/28/2012 4:06:57 PM SQL: insert into STFMContentHistory (ContentMetaID, Section, Page, Placement, Content, UserID, DateCreated) Values (173, 'Conferences', 'Conferences', '2', '', '', '8/28/2012 4:06:57 PM')
+Oh Yes!  SUCCESS - 8/28/2012 4:07:56 PM Method: SavePageContent. Conferences.aspx content was successfully saved: 8/28/2012 4:07:56 PM SQL: insert into STFMContentHistory (ContentMetaID, Section, Page, Placement, Content, UserID, DateCreated) Values (174, 'Conferences', 'Conferences', '2', '', '', '8/28/2012 4:07:56 PM')
+Oh Yes!  SUCCESS - 8/28/2012 4:09:06 PM Method: SavePageContent. Conferences.aspx content was successfully saved: 8/28/2012 4:09:06 PM SQL: insert into STFMContentHistory (ContentMetaID, Section, Page, Placement, Content, UserID, DateCreated) Values (175, 'Conferences', 'Conferences', '2', '', '', '8/28/2012 4:09:06 PM')
+Oh Yes!  SUCCESS - 8/28/2012 4:11:54 PM Method: SavePageContent. Conferences.aspx content was successfully saved: 8/28/2012 4:11:54 PM SQL: insert into STFMContentHistory (ContentMetaID, Section, Page, Placement, Content, UserID, DateCreated) Values (176, 'Conferences', 'Conferences', '2', '', '', '8/28/2012 4:11:54 PM')
+SUCCESS - 8/28/2012 4:24:32 PM Method: CheckLoginCredentials. System.Security.Principal.WindowsPrincipal successfully authenticated: 8/28/2012 4:24:32 PM
+Oh Yes!  SUCCESS - 8/28/2012 4:26:03 PM Method: SavePageContent. Conferences.aspx content was successfully saved: 8/28/2012 4:26:03 PM SQL: insert into STFMContentHistory (ContentMetaID, Section, Page, Placement, Content, UserID, DateCreated) Values (177, 'Conferences', 'Conferences', '2', '', '', '8/28/2012 4:26:03 PM')
+Oh Yes!  SUCCESS - 8/28/2012 4:26:40 PM Method: SavePageContent. Conferences.aspx content was successfully saved: 8/28/2012 4:26:40 PM SQL: insert into STFMContentHistory (ContentMetaID, Section, Page, Placement, Content, UserID, DateCreated) Values (178, 'Conferences', 'Conferences', '2', '', '', '8/28/2012 4:26:40 PM')
+Oh Yes!  SUCCESS - 8/28/2012 4:27:26 PM Method: SavePageContent. Conferences.aspx content was successfully saved: 8/28/2012 4:27:26 PM SQL: insert into STFMContentHistory (ContentMetaID, Section, Page, Placement, Content, UserID, DateCreated) Values (179, 'Conferences', 'Conferences', '2', '', '', '8/28/2012 4:27:26 PM')
+Oh Yes!  SUCCESS - 8/28/2012 4:27:57 PM Method: SavePageContent. Conferences.aspx content was successfully saved: 8/28/2012 4:27:57 PM SQL: insert into STFMContentHistory (ContentMetaID, Section, Page, Placement, Content, UserID, DateCreated) Values (180, 'Conferences', 'Conferences', '2', '', '', '8/28/2012 4:27:57 PM')
+Oh Yes!  SUCCESS - 8/28/2012 4:29:17 PM Method: SavePageContent. Conferences.aspx content was successfully saved: 8/28/2012 4:29:17 PM SQL: insert into STFMContentHistory (ContentMetaID, Section, Page, Placement, Content, UserID, DateCreated) Values (181, 'Conferences', 'Conferences', '2', '', '', '8/28/2012 4:29:17 PM')
+Oh Yes!  SUCCESS - 8/28/2012 4:30:04 PM Method: SavePageContent. Conferences.aspx content was successfully saved: 8/28/2012 4:30:04 PM SQL: insert into STFMContentHistory (ContentMetaID, Section, Page, Placement, Content, UserID, DateCreated) Values (182, 'Conferences', 'Conferences', '2', '', '', '8/28/2012 4:30:04 PM')
+SUCCESS - 8/28/2012 4:30:48 PM Method: CheckLoginCredentials. System.Security.Principal.WindowsPrincipal successfully authenticated: 8/28/2012 4:30:48 PM
+Oh Yes!  SUCCESS - 8/28/2012 4:32:29 PM Method: SavePageContent. Conferences.aspx content was successfully saved: 8/28/2012 4:32:29 PM SQL: insert into STFMContentHistory (ContentMetaID, Section, Page, Placement, Content, UserID, DateCreated) Values (183, 'Conferences', 'Conferences', '2', '', '', '8/28/2012 4:32:29 PM')
+SUCCESS - 8/28/2012 4:38:03 PM Method: CheckLoginCredentials. System.Security.Principal.WindowsPrincipal successfully authenticated: 8/28/2012 4:38:03 PM
+Oh Yes!  SUCCESS - 8/28/2012 4:39:59 PM Method: SavePageContent. Conferences.aspx content was successfully saved: 8/28/2012 4:39:59 PM SQL: insert into STFMContentHistory (ContentMetaID, Section, Page, Placement, Content, UserID, DateCreated) Values (184, 'Conferences', 'Conferences', '2', '', '', '8/28/2012 4:39:59 PM')
+Oh Yes!  SUCCESS - 8/28/2012 4:42:01 PM Method: SavePageContent. Conferences.aspx content was successfully saved: 8/28/2012 4:42:01 PM SQL: insert into STFMContentHistory (ContentMetaID, Section, Page, Placement, Content, UserID, DateCreated) Values (185, 'Conferences', 'Conferences', '2', '', '', '8/28/2012 4:42:01 PM')
+Oh Yes!  SUCCESS - 8/28/2012 4:43:07 PM Method: SavePageContent. Conferences.aspx content was successfully saved: 8/28/2012 4:43:07 PM SQL: insert into STFMContentHistory (ContentMetaID, Section, Page, Placement, Content, UserID, DateCreated) Values (186, 'Conferences', 'Conferences', '2', '', '', '8/28/2012 4:43:07 PM')
+Oh Yes!  SUCCESS - 8/28/2012 4:46:56 PM Method: SavePageContent. Conferences.aspx content was successfully saved: 8/28/2012 4:46:56 PM SQL: insert into STFMContentHistory (ContentMetaID, Section, Page, Placement, Content, UserID, DateCreated) Values (187, 'Conferences', 'Conferences', '2', '', '', '8/28/2012 4:46:56 PM')
+SUCCESS - 8/28/2012 4:52:34 PM Method: CheckLoginCredentials. System.Security.Principal.WindowsPrincipal successfully authenticated: 8/28/2012 4:52:34 PM
+SUCCESS - 8/28/2012 5:06:14 PM Method: CheckLoginCredentials. System.Security.Principal.WindowsPrincipal successfully authenticated: 8/28/2012 5:06:14 PM
+SUCCESS - 8/28/2012 5:06:33 PM Method: CheckLoginCredentials. System.Security.Principal.WindowsPrincipal successfully authenticated: 8/28/2012 5:06:33 PM
+Oh Yes!  SUCCESS - 8/28/2012 5:07:57 PM Method: SavePageContent. Conferences.aspx content was successfully saved: 8/28/2012 5:07:57 PM SQL: insert into STFMContentHistory (ContentMetaID, Section, Page, Placement, Content, UserID, DateCreated) Values (188, 'Conferences', 'Conferences', '2', '', '', '8/28/2012 5:07:57 PM')

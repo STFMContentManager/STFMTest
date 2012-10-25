@@ -1,0 +1,12 @@
+SUCCESS - 9/21/2012 6:53:40 AM Method: CheckLoginCredentials. System.Security.Principal.WindowsPrincipal successfully authenticated: 9/21/2012 6:53:40 AM
+SUCCESS - 9/21/2012 6:54:38 AM Method: CheckLoginCredentials. System.Security.Principal.WindowsPrincipal successfully authenticated: 9/21/2012 6:54:38 AM
+Oh Yes!  SUCCESS - 9/21/2012 7:00:27 AM Method: SavePageContent. Research.aspx content was successfully saved: 9/21/2012 7:00:27 AM SQL: insert into STFMContentHistory (ContentMetaID, Section, Page, Placement, Content, UserID, DateCreated) Values (851, 'Research', 'Research', '2', '', '', '9/21/2012 7:00:27 AM')
+SUCCESS - 9/21/2012 7:29:54 AM Method: CheckLoginCredentials. System.Security.Principal.WindowsPrincipal successfully authenticated: 9/21/2012 7:29:54 AM
+Oh Yes!  SUCCESS - 9/21/2012 7:30:15 AM Method: SavePageContent. Research.aspx content was successfully saved: 9/21/2012 7:30:15 AM SQL: insert into STFMContentHistory (ContentMetaID, Section, Page, Placement, Content, UserID, DateCreated) Values (852, 'Research', 'Research', '2', '<P><A title="CAFM Educational Research Alliance" href="CAFMEdResAlliance.aspx">CERA (CAFM Educational Research Alliance)</A></P>
+<P>Meet scholarly activity requirements through CERA, a free resource medical educal research. With CERA you can survey family medicine educators, receive help from an experineced researcher, and access a clearinghouse of data that your faculty and learners can use to meet scholarly activity requirements.</P>', '', '9/21/2012 7:30:15 AM')
+SUCCESS - 9/21/2012 7:31:45 AM Method: CheckLoginCredentials. System.Security.Principal.WindowsPrincipal successfully authenticated: 9/21/2012 7:31:45 AM
+Oh Yes!  SUCCESS - 9/21/2012 7:32:52 AM Method: SavePageContent. Research.aspx content was successfully saved: 9/21/2012 7:32:52 AM SQL: insert into STFMContentHistory (ContentMetaID, Section, Page, Placement, Content, UserID, DateCreated) Values (853, 'Research', 'Research', '2', '<P><A title="CAFM Educational Research Alliance" href="CAFMEdResAlliance.aspx">CERA (CAFM Educational Research Alliance)</A></P>
+<P>Meet scholarly activity requirements through CERA, a free resource medical educal research. With CERA you can survey family medicine educators, receive help from an experineced researcher, and access a clearinghouse of data that your faculty and learners can use to meet scholarly activity requirements.</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>content here</P>', '', '9/21/2012 7:32:52 AM')

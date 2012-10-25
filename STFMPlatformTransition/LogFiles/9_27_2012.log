@@ -1,0 +1,71 @@
+SUCCESS - 9/27/2012 9:58:31 AM Method: CheckLoginCredentials. System.Security.Principal.WindowsPrincipal successfully authenticated: 9/27/2012 9:58:31 AM
+SUCCESS - 9/27/2012 11:34:31 AM Method: CheckLoginCredentials. System.Security.Principal.WindowsPrincipal successfully authenticated: 9/27/2012 11:34:31 AM
+SUCCESS - 9/27/2012 11:35:55 AM Method: CheckLoginCredentials. System.Security.Principal.WindowsPrincipal successfully authenticated: 9/27/2012 11:35:55 AM
+SUCCESS - 9/27/2012 11:36:48 AM Method: CreateContentPage. Join.aspx successfully created: 9/27/2012 11:36:48 AM
+SUCCESS - 9/27/2012 11:36:56 AM Method: FillContentObject. System.Security.Principal.WindowsPrincipal successfully completed: 9/27/2012 11:36:56 AM
+SUCCESS - 9/27/2012 11:37:07 AM Method: PublishPage. Join.aspx successfully published: 9/27/2012 11:37:07 AM
+SUCCESS - 9/27/2012 1:41:27 PM Method: CheckLoginCredentials. System.Security.Principal.WindowsPrincipal successfully authenticated: 9/27/2012 1:41:27 PM
+SUCCESS - 9/27/2012 1:41:47 PM Method: CreateContentPageMeta. C:\Users\Gil\Documents\Visual Studio 2010\Projects\STFMPlatformTransition\STFMPlatformTransition\Content\Join.aspx successfully created: 9/27/2012 1:41:47 PM
+SUCCESS - 9/27/2012 1:41:54 PM Method: CreateContentPage. Join.aspx successfully created: 9/27/2012 1:41:54 PM
+SUCCESS - 9/27/2012 1:41:55 PM Method: FillContentObject. System.Security.Principal.WindowsPrincipal successfully completed: 9/27/2012 1:41:55 PM
+SUCCESS - 9/27/2012 1:42:07 PM Method: PublishPage. Join.aspx successfully published: 9/27/2012 1:42:07 PM
+SUCCESS - 9/27/2012 1:49:04 PM Method: CheckLoginCredentials. System.Security.Principal.WindowsPrincipal successfully authenticated: 9/27/2012 1:49:04 PM
+SUCCESS - 9/27/2012 1:49:10 PM Method: PublishContent. -1 successfully published: 9/27/2012 1:49:10 PM
+SUCCESS - 9/27/2012 1:56:06 PM Method: CheckLoginCredentials. System.Security.Principal.WindowsPrincipal successfully authenticated: 9/27/2012 1:56:06 PM
+Oh Yes!  SUCCESS - 9/27/2012 1:56:23 PM Method: SavePageContent. Join.aspx content was successfully saved: 9/27/2012 1:56:23 PM SQL: insert into ContentMeta (ContentID, DateCreated, CreatedBy, MetaDescriptorID) Values (45, '9/27/2012 1:56:23 PM', 'admin', '1')
+SUCCESS - 9/27/2012 1:56:36 PM Method: PublishContent. 45 successfully published: 9/27/2012 1:56:36 PM
+SUCCESS - 9/27/2012 2:21:19 PM Method: CheckLoginCredentials. System.Security.Principal.WindowsPrincipal successfully authenticated: 9/27/2012 2:21:19 PM
+SUCCESS - 9/27/2012 2:21:27 PM Method: DeletePage. Page Join successfully deleted: 9/27/2012 2:21:27 PM
+SUCCESS - 9/27/2012 2:23:07 PM Method: CheckLoginCredentials. System.Security.Principal.WindowsPrincipal successfully authenticated: 9/27/2012 2:23:07 PM
+SUCCESS - 9/27/2012 2:23:28 PM Method: CreateContentPageMeta. C:\Users\Gil\Documents\Visual Studio 2010\Projects\STFMPlatformTransition\STFMPlatformTransition\Content\Join.aspx successfully created: 9/27/2012 2:23:28 PM
+SUCCESS - 9/27/2012 2:23:28 PM Method: CreateContentPage. Join.aspx successfully created: 9/27/2012 2:23:28 PM
+SUCCESS - 9/27/2012 2:23:28 PM Method: FillContentObject. System.Security.Principal.WindowsPrincipal successfully completed: 9/27/2012 2:23:28 PM
+SUCCESS - 9/27/2012 2:23:33 PM Method: PublishContent. 0 successfully published: 9/27/2012 2:23:33 PM
+SUCCESS - 9/27/2012 2:23:35 PM Method: PublishContent. 38 successfully published: 9/27/2012 2:23:35 PM
+SUCCESS - 9/27/2012 2:23:37 PM Method: PublishPage. Join.aspx successfully published: 9/27/2012 2:23:37 PM
+SUCCESS - 9/27/2012 2:23:58 PM Method: CheckLoginCredentials. System.Security.Principal.WindowsPrincipal successfully authenticated: 9/27/2012 2:23:58 PM
+Oh Yes!  SUCCESS - 9/27/2012 2:24:10 PM Method: SavePageContent. Join.aspx content was successfully saved: 9/27/2012 2:24:10 PM SQL: insert into ContentMeta (ContentID, DateCreated, CreatedBy, MetaDescriptorID) Values (46, '9/27/2012 2:24:10 PM', 'admin', '1')
+SUCCESS - 9/27/2012 2:24:12 PM Method: PublishContent. 46 successfully published: 9/27/2012 2:24:12 PM
+SUCCESS - 9/27/2012 3:04:54 PM Method: CheckLoginCredentials. System.Security.Principal.WindowsPrincipal successfully authenticated: 9/27/2012 3:04:54 PM
+SUCCESS - 9/27/2012 3:11:01 PM Method: CheckLoginCredentials. System.Security.Principal.WindowsPrincipal successfully authenticated: 9/27/2012 3:11:01 PM
+SUCCESS - 9/27/2012 3:22:27 PM Method: CheckLoginCredentials. System.Security.Principal.WindowsPrincipal successfully authenticated: 9/27/2012 3:22:27 PM
+SUCCESS - 9/27/2012 3:25:27 PM Method: CheckLoginCredentials. System.Security.Principal.WindowsPrincipal successfully authenticated: 9/27/2012 3:25:27 PM
+SUCCESS - 9/27/2012 3:27:48 PM Method: CheckLoginCredentials. System.Security.Principal.WindowsPrincipal successfully authenticated: 9/27/2012 3:27:48 PM
+SUCCESS - 9/27/2012 3:55:43 PM Method: CheckLoginCredentials. System.Security.Principal.WindowsPrincipal successfully authenticated: 9/27/2012 3:55:43 PM
+SUCCESS - 9/27/2012 3:56:34 PM Method: RenamePageTitle. Page title successfully renamed from  to Historical STFM!: 9/27/2012 3:56:34 PM
+SUCCESS - 9/27/2012 3:57:00 PM Method: CheckLoginCredentials. System.Security.Principal.WindowsPrincipal successfully authenticated: 9/27/2012 3:57:00 PM
+ERROR - 9/27/2012 3:57:19 PM Method: RenamePageTitle from  to It's all about . . . . US! failed: 9/27/2012 3:57:19 PM Error: Incorrect syntax near 's'.
+Unclosed quotation mark after the character string ''.
+SUCCESS - 9/27/2012 3:57:42 PM Method: CheckLoginCredentials. System.Security.Principal.WindowsPrincipal successfully authenticated: 9/27/2012 3:57:42 PM
+ERROR - 9/27/2012 3:58:16 PM Method: RenamePageTitle from  to It's all about . . . . US! failed: 9/27/2012 3:58:16 PM Error: Incorrect syntax near 's'.
+Unclosed quotation mark after the character string ''.
+SUCCESS - 9/27/2012 3:59:03 PM Method: CheckLoginCredentials. System.Security.Principal.WindowsPrincipal successfully authenticated: 9/27/2012 3:59:03 PM
+SUCCESS - 9/27/2012 3:59:33 PM Method: RenamePageTitle. Page title successfully renamed from  to It's all about . . . . US!: 9/27/2012 3:59:33 PM
+SUCCESS - 9/27/2012 4:46:12 PM Method: CheckLoginCredentials. System.Security.Principal.WindowsPrincipal successfully authenticated: 9/27/2012 4:46:12 PM
+Oh Yes!  SUCCESS - 9/27/2012 4:46:57 PM Method: SavePageContent. AboutUs.aspx content was successfully saved: 9/27/2012 4:46:57 PM SQL: insert into STFMContentHistory (ContentMetaID, Section, Page, Placement, Content, UserID, DateCreated) Values (365, 'About Us', 'AboutUs', '1', '<p>Become A Member</p>
+		<p>About Family Medicine Education</p>
+		<p>Governance</p>
+		<p>
+				<a href="History.aspx">History</a>
+		</p>
+		<p>We Rock</p>', '', '9/27/2012 4:46:57 PM')
+SUCCESS - 9/27/2012 4:51:34 PM Method: CheckLoginCredentials. System.Security.Principal.WindowsPrincipal successfully authenticated: 9/27/2012 4:51:34 PM
+SUCCESS - 9/27/2012 4:52:30 PM Method: CheckLoginCredentials. System.Security.Principal.WindowsPrincipal successfully authenticated: 9/27/2012 4:52:30 PM
+SUCCESS - 9/27/2012 4:52:59 PM Method: CheckLoginCredentials. System.Security.Principal.WindowsPrincipal successfully authenticated: 9/27/2012 4:52:59 PM
+Oh Yes!  SUCCESS - 9/27/2012 4:53:25 PM Method: SavePageContent. AboutUs.aspx content was successfully saved: 9/27/2012 4:53:25 PM SQL: insert into STFMContentHistory (ContentMetaID, Section, Page, Placement, Content, UserID, DateCreated) Values (366, 'About Us', 'AboutUs', '1', '<P>Become A Member</P>
+<P>About Family Medicine Education</P>
+<P>Governance</P>
+<P><A onclick="javascript:alert(''Hey, Hey, Hey'')" href="History.aspx">History</A></P>
+<P>We Rock</P>', '', '9/27/2012 4:53:25 PM')
+SUCCESS - 9/27/2012 4:53:43 PM Method: CheckLoginCredentials. System.Security.Principal.WindowsPrincipal successfully authenticated: 9/27/2012 4:53:43 PM
+Oh Yes!  SUCCESS - 9/27/2012 4:54:39 PM Method: SavePageContent. AboutUs.aspx content was successfully saved: 9/27/2012 4:54:39 PM SQL: insert into STFMContentHistory (ContentMetaID, Section, Page, Placement, Content, UserID, DateCreated) Values (367, 'About Us', 'AboutUs', '1', '<P>Become A Member</P>
+<P>About Family Medicine Education</P>
+<P>Governance</P>
+<P><A OnClick=javascript:alert(''Hey, Hey, Hey'') href="History.aspx">History</A></P>
+<P>We Rock</P>', '', '9/27/2012 4:54:39 PM')
+SUCCESS - 9/27/2012 4:54:59 PM Method: CheckLoginCredentials. System.Security.Principal.WindowsPrincipal successfully authenticated: 9/27/2012 4:54:59 PM
+Oh Yes!  SUCCESS - 9/27/2012 4:55:16 PM Method: SavePageContent. AboutUs.aspx content was successfully saved: 9/27/2012 4:55:16 PM SQL: insert into STFMContentHistory (ContentMetaID, Section, Page, Placement, Content, UserID, DateCreated) Values (368, 'About Us', 'AboutUs', '1', '<P>Become A Member</P>
+<P>About Family Medicine Education</P>
+<P>Governance</P>
+<P><A onclick="javascript:alert(''Hey,Hey, Hey'')" href="History.aspx" >History</A></P>
+<P>We Rock</P>', '', '9/27/2012 4:55:16 PM')
