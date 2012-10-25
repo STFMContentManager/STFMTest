@@ -2,7 +2,5 @@
 <%@ Register TagName="OneColumnTemplate" TagPrefix="UC" Src="~/Controls/OneColumnTemplate.ascx" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
-<!--Test Comment Here-->
-
  <UC:OneColumnTemplate ID="OneColumnTemplate1" runat="server"></UC:OneColumnTemplate>
 </asp:Content>
